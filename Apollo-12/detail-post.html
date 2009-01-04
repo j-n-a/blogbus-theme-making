@@ -1,0 +1,18 @@
+<div id="navigation">
+   <span class="pre">{#pre}</span> | <span class="home"><a href="http://{#domain}" title="{#blog_name}">Home</a></span> | <span class="next">{#next}</span>
+</div>
+<!--list-->
+<div class="entry">
+   <div class="entryhead">
+      <h2 class="entrytitle"><a href="{#url}" title="{#title}">{#title}</a></h2>
+      <p class="metadata">Posted at: <span class="date">{#date}, {#time}</span>Author: <a href="{#profile_url}" class="author" title={#author}">{#author}</a></p>
+   </div>
+   <div class="entrybody clearfix">
+      {#content}
+   </div>
+   <div class="entryfoot">
+      <span class="tags">Tags: {#tags}</span><br />
+      <span class="category">Category: {#cat}</span> | <span class="trackback"><a href="{#tb_url}" title="Trackback URI">Trackback URI</a></span> | <span class="menubar">{#menubar}</span>
+   </div>
+</div>
+<!--/list-->
