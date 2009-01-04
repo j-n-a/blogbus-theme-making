@@ -1,0 +1,22 @@
+<div id="navigation"><span class="pre">{#pre}</span> | <span class="home"><a href="http://{#domain}" title="{#blog_name}">首页</a></span> | <span class="next">{#next}</span></div>
+
+<!--list-->
+<div class="entry">
+
+	<div class="entryhead">
+	<h2 class="entrytitle"><a href="{#url}" title="{#title}">{#title}</a></h2>
+	<p class="metadata">发表于: <span class="date">{#date}, {#time}</span> 作者: <a href="{#profile_url}" class="author" title={#author}">{#author}</a></p>
+	</div>
+
+	<div class="entrybody clearfix"> <!-- 用clearfix清除潜在的浮动 -->
+		{#content}
+	</div>	
+
+	<div class="entryfoot">
+		<span class="tags">标签 : {#tags}</span><br />
+		<span class="category">分类: {#cat}</span> | <span class="trackback"><a href="{#tb_url}" title="Trackback URI">引用地址</a></span> | <span class="menubar">{#menubar}</span>
+	</div>
+
+</div>
+<!--/list-->
+

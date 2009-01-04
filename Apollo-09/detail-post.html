@@ -1,0 +1,20 @@
+<!--list-->
+<div class="entry">
+
+	<div class="entryhead">
+		<h2 class="entrytitle"><a href="{#url}" title="{#title}">{#title}</a></h2>
+	</div>
+	<div id="navigation"><span class="pre">{#pre}</span> | <span class="home"><a href="http://{#domain}" title="{#blog_name}">Home</a></span> | <span class="next">{#next}</span></div>
+	<div class="entrybody clearfix"> <!-- 用clearfix清除潜在的浮动 -->
+		{#content}
+	</div>
+
+	<div class="entryfoot">
+		<p class="metadata">Posted at <span class="date">{#date}, {#time}</span> by <a href="{#profile_url}" class="author" title={#author}">{#author}</a></p>
+		<p class="tags">Tags: {#tags}</p>
+		<p><span class="category">Category: {#cat}</span> |  <span class="menubar">{#menubar}</span></p>
+	</div>
+
+</div>
+<!--/list-->
+

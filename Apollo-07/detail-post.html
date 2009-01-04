@@ -1,0 +1,21 @@
+<ul id="posts">
+	<div id="pageNavi">
+		{#pre} | <a href="http://{#domain}">Index</a> | {#next}
+	</div><br>
+	<!--list-->
+	<li>
+		<div id="entryHeader">
+			<div class="entryTitle"><a href="{#url}">{#title}</a></div>
+			<div class="time">Date: {#date} | Time: {#time} | Category: {#cat}</div>
+		</div>
+		<div id="entryContent">
+			{#content}
+			Trackback:<input type="text" value="{#tb_url}"/>
+		</div>
+		<div id="entryFooter">
+			<img src="http://files.blogbus.com/apollo-skin7.blogbus.com/files/12029772180.gif">  {#tags} 
+			| <img src="http://files.blogbus.com/apollo-skin7.blogbus.com/files/12029772181.gif">  <a href="{#url}#cmt">Comment</a>
+		</div>
+	</li>
+	<!--/list-->
+</ul>

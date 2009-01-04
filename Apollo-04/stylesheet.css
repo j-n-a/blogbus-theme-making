@@ -1,0 +1,463 @@
+/* 
+	Style: Greens
+	Version: 1.0, build/20071124
+	Author: Apollo
+	Author eMail: ze.apollo[at]gmail.com
+        Blog: imapollo.blogbus.com
+
+	Optimal Configuation: Best view in at least 1024*768 dpi, Ture color, Javascript Enabled.
+	Browser Support: MS-IE 5.5+/Mozilla FireFox 1.5+/Netscape Navigator 8.1/Opera 8.5+
+	(c) Copyright 2002-2006 Blogbus Web Team. All Rights Reserved.
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 75%;
+	color: #999;
+	background: #000 url(http://apollo_skin4.blogbus.com/files/11959052230.jpg) no-repeat top center;
+}
+li {
+	list-style: none;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+a:hover {
+	color: #999;
+	text-decoration: none;
+	border-bottom: 1px dotted #999;
+}
+img {
+	border: none;
+}
+input {
+	padding: 1px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	color: #999;
+	border: 1px solid #DDD;
+	background: none;
+}
+#detail input {
+	color: #999;
+	border: 1px solid #CCC;
+	background: #FFF;
+}
+textarea {
+	padding: 2px 3px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	color: #555;
+	border: 1px solid #DDD;
+	background: none;
+	overflow: auto;
+}
+#detail textarea {
+	border: 1px solid #CCC;
+	background: #FFF;
+}
+.button {
+	width: 48px;
+	height: 19px;
+	padding: 0 0 2px 7px;
+	*padding: 2px 0 2px 3px;
+	font-size: 100%;
+	font-weight: bold;
+	letter-spacing: 0.5em;
+	line-height: 20px;
+	text-align: center;
+	color: #666;
+	border: 1px solid #DDD;
+	background: #999;
+	cursor: pointer;
+}
+.time {
+	font-size: 90%;
+}
+.clear {
+	clear: both;
+}
+#index {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+#detail {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+#container {
+	width: 746px;
+	margin: 0 auto;
+}
+#header {
+	width: 746px;
+	height: 208px;
+	overflow: hidden;
+}
+.blogName {
+	padding: 25px 30px 5px 23px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 250%;
+	font-weight: bold;
+	text-align: left;
+	color: #FFF;
+	line-height: 140%;
+}
+.blogName a {
+	color: #FFF;
+	text-decoration: none;
+}
+.description {
+	padding: 0 30px 10px 23px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	text-align: left;
+	color: #FFF;
+	line-height: 150%;
+}
+.indexbar{
+        font-family: Georgia, "Times New Roman", Times, serif;
+        padding-top: 50px;
+        padding-left: 23px;
+        color: #FFF;
+	text-align: left;
+        font-size: 120%;
+        font-weight: bold;
+}
+#innerContainer {
+}
+.innerTop {
+        color:#999;
+}
+.innerBottom {
+}
+#outerContent {
+	float: left;
+	width: 533px;
+	padding-top: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+	line-height: 160%;
+	color: #999;
+	overflow: hidden;
+}
+#content {
+}
+.contentTop {
+}
+.contentBottom {
+}
+#posts {
+	width: 510px;
+	margin-left: 13px;
+}
+.postsTop {
+}
+.postsBottom {
+}
+#posts li {
+	margin: 0 0 20px 0;
+}
+.postHeader {
+}
+.postHeader h2 {
+	display: inline;
+	margin-bottom: 8px;
+	color: #fff;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 120%;
+	font-weight: bold;
+	text-align: left;
+	line-height: 120%;
+	overflow: hidden;
+}
+.postHeader h2 a {
+	color: #fff;
+}
+.postHeader h2 a:hover {
+	color: #999;
+	border: none;
+}
+.category {
+	font-size: 85%;
+	font-weight: normal;
+	color: #999;
+}
+.postHeader h3 {
+	margin-bottom: 15px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	font-weight: bold;
+	text-align: left;
+	color: #fff;
+}
+.postBody {
+	width: 490px;
+	margin: 10px 0 20px;
+	padding: 0 5px;
+}
+.postBody img{
+        border: 1px #aaa solid;
+        padding: 3px;
+}
+.postBody p {
+	margin: 10px auto;
+}
+.postBody table {
+	margin: 0 auto;
+}
+.postBody table a:hover {
+	border: none;
+}
+.postFooter {
+	margin: 0 5px 17px 0;
+	padding-bottom: 3px;
+	color: #999;
+	border-bottom: 1px #CCC solid;
+}
+.postFooter a {
+	color: #fff;
+}
+.tags {
+}
+.menubar {
+}
+.pageNavi {
+	margin-left: 12px;
+}
+.pageNavi a {
+	color: #555;
+}
+#outerSidebar {
+	float: right;
+	width: 175px;
+	padding: 0 13px 0 25px;
+	text-align: left;
+	line-height: 160%;
+	color: #999;
+	overflow: hidden;
+	table-layout: fixed;
+	word-break: break-all;
+}
+#outerSidebar .count{
+	margin-left: 5px;
+}
+#outerSidebar a{
+	color: #999;
+	border-bottom: none;
+}
+#outerSidebar a:hover {
+	color: #eee;
+	border-bottom: 1px dotted #eee;
+}
+#outerSidebar h2 {
+	margin-bottom: 10px;
+	padding-bottom: 1px;
+	font-size: 100%;
+	color: #eee;
+}
+#sidebar {
+}
+.sidebarTop {
+}
+.sidebarBottom {
+}
+.module {
+	margin-bottom: 20px;
+}
+.modTop {
+}
+.modBottom {
+}
+.modBody {
+}
+#profile img {
+	width: 96px;
+	height: 96px;
+	padding: 2px;
+	border: 1px dotted #999;
+	overflow: hidden;
+}
+#profile h3 {
+	margin: 5px 0;
+	font-size: 100%;
+}
+.about {
+	color: 3777;
+}
+#calendar table {
+	width: 100%;
+	margin: 0; 
+	padding: 0; 
+}
+#calendar a {
+	border: none;
+}
+#calendar td { 
+	font-size: 90%; 
+	text-align: center; 
+	line-height: 150%; 
+	word-break: keep-all; 
+	text-transform: lowercase; 
+}
+#calendar td a { 
+	font-weight: bold; 
+	text-decoration: none;
+	background: none; 
+}
+#calendar td a:hover {
+	border: none;
+}
+#calendar .calendarHead td {
+	font-size: 110%;
+	font-weight: bold;
+}
+#calendar .week {
+	padding: 2px;
+	font-size: 90%;
+	text-align: center;
+	white-space: nowrap;
+}
+.day {
+	text-align: center;
+	white-space: nowrap;
+}
+#calendar td.today {
+	background: #279c8a;
+}
+#calendar td.today a { 
+}
+#login .modBody {
+	text-align: right;
+}
+#login .uid {
+	margin-bottom: 5px;
+}
+.uid #username,.pwd #password {
+	margin-left: 5px;
+}
+.uid input,.pwd input {
+	width: 130px;
+}
+#login .button {
+	margin-top: 5px;
+}
+#search .textField {
+	width: 115px;
+}
+#custom {
+	margin-bottom: 20px;
+}
+.statistics {
+	margin-bottom: 20px;
+}
+.subscribe {
+	margin-bottom: 20px;
+}
+.poweredBy {
+	font-size: 80%;
+}
+#footer {
+	margin: 30px 0 0;
+}
+.copyright {
+        text-align: center;
+	padding-bottom: 20px;
+	font-size: 80%;
+}
+.tb_url {
+	margin: 5px 0;
+}
+.tb_url input {
+	width: 280px;
+	color: #555;
+	border: 1px solid #CCC;
+}
+#trackbacks {
+	width: 540px;
+	margin: 0 0 30px 13px;
+}
+#trackbacks .desc {
+	margin: 0 0 15px 0;
+}
+#trackbacks h2 {
+	font-size: 110%;
+	margin-bottom: 20px;
+}
+#trackbacks h3 {
+	font-size: 100%;
+	font-weight: normal;
+}
+#trackbacks .blogName {
+	margin: 2px 0;
+	padding: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	font-weight: normal;
+	color: #555;
+}
+#trackbacks .blogName span {
+	font-weight: bold;
+}
+#trackbacks .time {
+	font-size: 80%;
+}
+#trackbacks li {
+	margin: 0 5px 10px 0;
+	border-bottom: 1px solid #CCC;
+}
+.context {
+	margin: 0 0 20px 0;
+	font-size: 100%;
+	text-align: left;
+	color: #999;
+}
+#comments {
+	width: 540px;
+	margin: 0 0 30px 13px;
+}
+#comments h2 {
+	font-size: 110%;
+	margin-bottom: 20px;
+}
+#comments li {
+	margin: 0 5px 25px 0;
+	border-bottom: 1px solid #CCC;
+}
+#comments .menubar {
+	color: #fff;
+}
+.reCmtBody {
+	margin: 5px 0;
+	padding: 5px;
+	border: 1px dotted #333;
+	background: #333;
+        color: #fff;
+}
+.cmtBody p {
+	margin: 10px 0;
+}
+.reply {
+}
+#commentForm {
+	margin: 0 0 30px 13px;
+}
+#commentForm h2 {
+	font-size: 110%;
+	margin-bottom: 20px;
+}
+#commentForm form {
+}
+#commentForm label {
+	display: block;
+}
+#commentForm textarea {
+	width: 400px;
+	margin: 5px 0;
+}
