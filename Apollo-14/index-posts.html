@@ -1,0 +1,21 @@
+<!--list-->
+<div class="clear"></div>
+<div class="entry">
+    <div class="entryleft">
+        <span class="date">{#date}</span>
+        <div class="tags">{#tags}</div>
+    </div>
+    <div class="entryright">
+        <div class="entryhead">
+            <div class="entrytitle"><a href="{#url}" title="{#title}">{#title}</a></div>
+        </div>
+        <div class="entrybody clearfix">
+            {#content}
+        </div>
+        <div class="entryfoot">
+            <div><span>By <a href="{#profile_url}" class="author" title={#author}">{#author}</a></span> | <span class="category">{#cat}</span> | <span class="menubar">{#menubar}</span></div>
+        </div>
+    </div>
+</div>
+<!--/list-->
+<div id="pagenavi" class="clear">{#pagenav}</div>
