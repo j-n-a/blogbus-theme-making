@@ -1,15 +1,18 @@
 /*
- * Theme Name: Apollo Skin
+ * Theme Name: Sandbox
  * Theme Author: Apollo Coleone (Minjie Zhang)
  * Theme URI: http://apollo-skin.blogbus.com/
  * Author Email: Ze.Apollo[at]Gmail.com
  * Author Blog: http://imapollo.blogbus.com
- * Version: 1.0
+ * Version: 1.1
  * Description:
- * Last Modified:
- *
+ * Last Modified: Jan 15, 2009
  * Encoding: UTF-8
- * Special thanks to Punkid
+ *
+ * $Revision 1.0, Created:  Punkid, 2008
+ * $Revision 1.1, Modified: Apollo, Jan 15, 2009
+ *
+ * Based on Punkid's BlogBus Sandbox
  * (http://blog.punkid.cn/)
  */
 
@@ -75,40 +78,35 @@ table {
  * ------------------------------------------------------------------*/
 
 body {
-    font: 62.5%/1.6 Verdana,'Helvetica Neue',Helvetica,Sans-Serif;
+    font: 12px Verdana,'Helvetica Neue',Helvetica,Sans-Serif;
     background: #FFF;
     color: #000;
     text-align: left;
 }
 
 p {
-    margin: 0 0 1.2em;
+    margin: 0 0 15px;
 }
 
 h1, h2, h3, h4 {
-    margin: 0.5em 0;
+    margin: 7px 0;
     font-weight: bold;
 }
 
     h2 {
-        font-size: 1.3em;
+        font-size: 20px;
     }
 
     h3 {
-        font-size: 1.25em;
+        font-size: 18px;
     }
 
     h4 {
-        font-size: 1.1em;
+        font-size: 16px;
     }
 
-a:link {
+a {
     color: #317B9E;
-    text-decoration: none;
-}
-
-a:visited {
-    color: #104C68;
     text-decoration: none;
 }
 
@@ -117,26 +115,21 @@ a:hover {
     text-decoration: underline;
 }
 
-a:active {
-    color: #408DB4;
-    text-decoration: none;
-}
-
 acronym, abbr {
     border-bottom: 1px dotted;
     cursor: help;
-    letter-spacing: .07em;
+    letter-spacing: 1px;
 }
 
 input, textarea, select {
-    font: 1em Verdana,'Lucida Grande',Helvetica,Sans-Serif;
+    font: 16px Verdana,'Lucida Grande',Helvetica,Sans-Serif;
     background: #FFF;
 }
 
     input:focus, textarea:focus, input:hover, textarea:hover { }
 
 code, var, pre {
-    font: .9em 'Bitstream Vera Sans Mono',Monospace,Monaco,Consolas,Courier;
+    font: 15px 'Bitstream Vera Sans Mono',Monospace,Monaco,Consolas,Courier;
     color: #555;
 }
 
@@ -145,7 +138,7 @@ pre {
 }
 
 blockquote {
-    margin: 2em 0 2em 2em;
+    margin: 32px 0 32px 32px;
 }
 
 .center {
@@ -191,7 +184,7 @@ blockquote {
 #wrapper {
     width: 780px;
     margin: 0 auto;
-    font-size: 1.2em;
+    font-size: 12px;
 }
 
 #header {
@@ -199,10 +192,10 @@ blockquote {
 }
 
     h1#blogname {
-        font: 3em Baskerville,'Palatino Linotype',Georgia,Serif; /* 10px * 1.2 * 3 = 36px */
+        font: 20px Baskerville,'Palatino Linotype',Georgia,Serif; /* 10px * 1.2 * 3 = 36px */
     }
 
-    p#description { }
+    div#description { }
 
 #content {
     margin: 20px 0;
@@ -225,7 +218,7 @@ blockquote {
     clear: both;
 }
 
-    p#copyright {
+    div#copyright {
         text-align: center;
     }
 
@@ -258,16 +251,16 @@ div.entry {
 
         h2.entrytitle { }
 
-        p.metadata { }
+        div.metadata { }
 
-            p.metadata span.date { }
+            div.metadata span.date { }
 
-            p.metadata a.author { }
+            div.metadata a.author { }
 
         div.entrybody { }
 
         div.entrybody ul, div.entrybody ol {
-            margin: 2em 0 2em 2em;
+            margin: 32px 0 32px 32px;
         }
 
         div.entrybody ul li {
