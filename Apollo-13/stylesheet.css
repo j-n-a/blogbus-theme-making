@@ -1,16 +1,15 @@
 /*
- * Theme Name: Sandbox
+ * Theme Name: Apollo's Skin 13 
  * Theme Author: Apollo Coleone (Minjie Zhang)
- * Theme URI: http://apollo-skin.blogbus.com/
+ * Theme URI: http://apollo-skin13.blogbus.com/
  * Author Email: Ze.Apollo[at]Gmail.com
  * Author Blog: http://imapollo.blogbus.com
- * Version: 1.1
- * Description:
- * Last Modified: Jan 15, 2009
+ * Version: 1.0
+ * Description: http://www.kineda.com/
+ * Last Modified: Jan 29, 2009
  * Encoding: UTF-8
  *
- * $Revision 1.0, Created:  Punkid, 2008
- * $Revision 1.1, Modified: Apollo, Jan 15, 2009
+ * $Revision 1.0, Created: Apollo, Date :Jan 29, 2009
  *
  * Based on Punkid's BlogBus Sandbox
  * (http://blog.punkid.cn/)
@@ -40,6 +39,10 @@ body {
 
 ol, ul {
     list-style: none;
+}
+
+li {
+    margin-bottom: 3px;
 }
 
 blockquote, q {
@@ -79,8 +82,8 @@ table {
 
 body {
     font: 12px Verdana,'Helvetica Neue',Helvetica,Sans-Serif;
-    background: #FFF;
-    color: #000;
+    background: #121212 ;
+    color: #A2A2A2;
     text-align: left;
 }
 
@@ -106,13 +109,13 @@ h1, h2, h3, h4 {
     }
 
 a {
-    color: #317B9E;
+    color: #FFF;
     text-decoration: none;
 }
 
 a:hover {
-    color: #408DB4;
-    text-decoration: underline;
+    color: #999;
+    text-decoration: none;
 }
 
 acronym, abbr {
@@ -176,46 +179,108 @@ blockquote {
     clear: both;
 }
 
+.bluehead {
+    font-size: 12px;
+    color: #FF0066;
+    margin-top: 3px;
+    text-align: right;
+}
+
 
 
 /* Layout and Structure
  * ------------------------------------------------------------------*/
 
 #wrapper {
-    width: 780px;
+    width: 960px;
     margin: 0 auto;
     font-size: 12px;
 }
 
 #header {
-    padding: 20px;
 }
 
     h1#blogname {
-        font: 20px Baskerville,'Palatino Linotype',Georgia,Serif; /* 10px * 1.2 * 3 = 36px */
+        font: 30px Verdana,'Palatino Linotype',Georgia,Serif;
+        float: left;
     }
 
-    div#description { }
+    h1#blogname a {
+        color: #FFF;
+    }
+
+    h1#blogname a:hover {
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    #headSearch {
+        float: right;
+        margin-top: 20px;
+    }
+
+    #headSearch h2 {
+        display: none;
+    }
+
+    #headSearch input.textField {
+        border: 1px dotted #555;
+        font-size: 12px;
+        background: #222;
+        color: #FFF;
+    }
+
+    #headSearch input.button {
+        border: 1px dotted #555;
+        font-size: 12px;
+        background: #222;
+        color: #FF0066;
+    }
+
+    div#description {
+        display: none;
+    }
+
+#navibar {
+    border-top: dotted 1px #444;
+    line-height: 35px;
+}
+    #navibar a {
+        font-weight: bold;
+        line-height: 35px;
+        padding-right: 12px;
+        margin-right: 5px;
+        background: url(http://apollo-skin13.blogbus.com/files/12331986130.gif) no-repeat top right;
+    }
+
+    #navibar a:hover {
+        border-top: 1px dotted #FF0066;
+        padding-top: 10px;
+        background-image: none;
+    }
 
 #content {
-    margin: 20px 0;
+    margin: 0;
 }
 
     #primary {
         float: left;
-        padding-left: 20px;
-        width: 500px;
+        width: 640px;
+        border-top: 1px dotted #999;
     }
 
     #secondary {
         float: right;
-        padding-right: 20px;
-        width: 220px;
+        width: 310px;
+        padding: 0;
+        margin: 0;
     }
 
 #footer {
-    padding: 20px;
+    padding: 10px;
     clear: both;
+    border-top: 1px dotted #999;
+    background: #000;
 }
 
     div#copyright {
@@ -228,13 +293,20 @@ blockquote {
  * ------------------------------------------------------------------*/
 
 #pagenavi {
-    text-align: center;
+    text-align: right;
+    padding: 5px 10px 5px 0;
+    border-top: 1px dotted #444;
+    border-bottom: 1px dotted #444;
+    margin-bottom: 15px;
 }
 
     #pagenavi span { }
 
 #navigation {
-    text-align: center;
+    margin: 10px 0 10px 0;
+    padding: 7px 0 7px 0;
+    border-top: 1px dotted #444;
+    border-bottom: 1px dotted #444;
 }
 
     span.pre { }
@@ -244,12 +316,24 @@ blockquote {
     span.next { }
 
 div.entry {
-    margin: 0 0 20px 0;
+    margin: 5px 0 15px 0;
+    border: 1px solid #000;
 }
 
-    div.entryhead { }
+    div.entry div.innerEntry {
+        border: 1px solid #2B2B2B;
+        background: #0A0A0A;
+    }
 
-        h2.entrytitle { }
+    div.entryhead {
+        padding: 10px 10px 0 10px;
+        margin-bottom: 10px;
+    }
+
+        h2.entrytitle {
+            font-size: 13px;
+            font-weight: bold;
+        }
 
         div.metadata { }
 
@@ -257,7 +341,9 @@ div.entry {
 
             div.metadata a.author { }
 
-        div.entrybody { }
+        div.entrybody {
+            padding: 0 10px 0 10px;
+        }
 
         div.entrybody ul, div.entrybody ol {
             margin: 32px 0 32px 32px;
@@ -271,17 +357,39 @@ div.entry {
             list-style: outside decimal;
         }
 
-        div.entryfoot { }
+        div.entrybody img {
+            border: 1px dotted #444;
+            padding: 2px;
+        }
 
-        div.entryfoot span.tags { }
+        div.entrybody h3 {
+            font-size: 13px;
+        }
 
-        div.entryfoot span.category { }
+        div.entryfoot {
+            padding: 10px;
+            background: url(http://apollo-skin13.blogbus.com/files/12332063090.jpg) repeat;
+        }
+
+        div.entryfoot span.tags {
+            background: url(http://apollo-skin13.blogbus.com/files/12331986130.gif) no-repeat left top;
+            padding-left: 7px;
+        }
+
+        div.entryfoot span.category {
+            background: url(http://apollo-skin13.blogbus.com/files/12331986130.gif) no-repeat left top;
+            padding-left: 7px;
+        }
 
         div.entryfoot span.trackback { }
 
         div.entryfoot span.menubar { }
 
-        p.cc-lisence { }
+        p.cc-lisence {
+            border: 1px dotted #444;
+            padding: 5px;
+            background: #0F0F0F;
+        }
 
         div.relpost { }
 
@@ -292,23 +400,46 @@ div.entry {
 /* Commentfield
  * ------------------------------------------------------------------*/
 
-    #comments { }
+    #comments {
+        margin: 1px;
+        background: #0A0A0A;
+        border: 1px solid #2B2B2B;
+    }
+
+    #comments h2 {
+        font-weight: normal;
+        font-size: 12px;
+        color: #FF0066;
+        padding: 3px 0 0 10px;
+    }
 
     #comments li {
-        margin: 0 0 20px;
+        margin: 10px;
+        padding-bottom: 5px;
+        border-bottom: 1px dotted #444;
     }
 
         #comments li div.cmtBody { }
 
-        #comments li div.menubar { }
+        #comments li div.menubar {
+            margin-top: 5px;
+        }
 
-            #comments li span.author { }
+            #comments li span.author {
+                background: url(http://apollo-skin13.blogbus.com/files/12331986130.gif) no-repeat top left;
+                padding-left: 7px;
+            }
 
             #comments li span.time { }
 
             #comments li span.reply { }
 
-            #comments li div.reCmtBody { }
+            #comments li div.reCmtBody {
+                border: 1px dotted #444;
+                background: #0F0F0F;
+                padding: 10px;
+                margin: 5px;
+            }
 
             #comments li div.reCmtBody span.author { }
 
@@ -319,7 +450,17 @@ div.entry {
             #comments li div.cmtPagenav { }
 
     #commentForm {
-        margin: 20px 0;
+        margin: 15px 1px 20px 1px;
+        background: #0A0A0A;
+        border: 1px solid #2B2B2B;
+        padding: 10px;
+    }
+
+    #commentForm h2 {
+        font-weight: normal;
+        font-size: 12px;
+        color: #FF0066;
+        padding-top: 3px;
     }
 
     #commentForm form {
@@ -332,7 +473,10 @@ div.entry {
 
     #commentForm form div input.textField {
         width: 200px;
-        border: 1px solid #555;
+        border: 1px dotted #555;
+        font-size: 12px;
+        background: #222;
+        color: #FFF;
     }
 
     #commentForm form div label {
@@ -342,13 +486,20 @@ div.entry {
 
     #commentForm form div textarea {
         width: 400px;
-        border: 1px solid #555;
+        border: 1px dotted #555;
+        font-size: 12px;
+        background: #222;
+        color: #FFF;
     }
 
     #commentForm form div span.emailnotice { }
 
     #commentForm form div.submit input.button {
         padding: 3px 8px;
+        font-size: 12px;
+        background: #222;
+        border: 1px dotted #999;
+        color: #FFF;
     }
 
     #commentForm form div.submit span.rememberBox input#cremember { }
@@ -358,11 +509,22 @@ div.entry {
 /* Modules
  * ------------------------------------------------------------------*/
 
-div.module { }
+div.module {
+    padding: 0;
+    margin-bottom: 20px;
+}
 
     div.modTop { }
 
-        div.module h2 { }
+        div.module h2 {
+            font-weight: normal;
+            font-size: 12px;
+            color: #FF0066;
+            text-align: right;
+            border-top: 1px dotted #999;
+            margin: 0 0 5px 0;
+            padding: 3px 0 0 0;
+        }
 
     div.modBody { }
 
@@ -412,6 +574,7 @@ div.module { }
 
 #login { }
 
+margin-top: 3px;
 /* Hacks
  * read more (http://thomas.tanreisoftware.com/?p=11)
  * ------------------------------------------------------------------*/

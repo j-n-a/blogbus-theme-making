@@ -1,5 +1,6 @@
 <!--list-->
 <div class="entry">
+    <div class="innerEntry">
     <div class="entryhead">
         <h2 class="entrytitle"><a href="{#url}" title="{#title}">{#title}</a></h2>
         <div class="metadata">Posted at <span class="date">{#date}, {#time}</span> by <a href="{#profile_url}" class="author" title={#author}">{#author}</a></div>
@@ -8,8 +9,9 @@
         {#content}
     </div>
     <div class="entryfoot">
-        <div class="tags">Tags: {#tags}</div>
+        <span class="tags">Tags: {#tags}</span>
         <div><span class="category">Category: {#cat}</span> | <span class="menubar">{#menubar}</span></div>
+    </div>
     </div>
 </div>
 <!--/list-->
