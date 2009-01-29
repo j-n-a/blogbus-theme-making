@@ -1,7 +1,7 @@
 <div id="wrapper">
     <div id="header">
         <h1 id="blogname"><a href="http://{#domain}" title="{#blog_name}">{#blog_name}</a></h1>
-        <p id="description">{#blog_desc}</p>
+        <div id="description">{#blog_desc}</div>
     </div>
     <div id="content">
         <div id="primary">
@@ -9,20 +9,12 @@
         </div>
         <div id="secondary">
             {c:1}
-            <div id="meta" class="module">
-                <div class="modTop"></div>
-                <div class="modBody">
-                    <ul>
-                        <li class="statistics">Statistics: <span class="count">{#counter}</span></li>
-                        <li class="subscribe">{#feed_info}</li>
-                        <li class="poweredBy"> {#powered_by} </li>
-                    </ul>
-                </div>
-                <div class="modBottom"></div>
-            </div>
         </div>
     </div>
     <div id="footer">
-        <p id="copyright">{#copyright}</p>
+        <div id="copyright">
+            {#copyright}<br/>
+            Skinned by <a href="http://imapollo.blogbus.com">Apollo</a>
+        </div>
     </div>
 </div>
