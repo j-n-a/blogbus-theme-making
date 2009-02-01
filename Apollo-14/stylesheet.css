@@ -324,6 +324,7 @@ div.entry {
         }
 
         .tags a {
+            height: 19px;
             color: #404040;
             padding: 0 0 0 5px;
             margin: 0 0 5px 0;
@@ -459,7 +460,7 @@ div.module {
         div.module h2 {
             padding: 0 15px 0 5px;
             margin: 0;
-            line-height: 19px;
+            height: 19px;
             font-size: 12px;
             font-weight: normal;
             display: inline;
@@ -473,7 +474,9 @@ div.module {
     }
 
     div.modBody ul li {
+        height: 19px;
         display: block;
+        overflow: hidden;
     }
 
     div.modBody ul li a {
