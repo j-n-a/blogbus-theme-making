@@ -6,10 +6,10 @@
  * Author Blog: http://imapollo.blogbus.com
  * Version: 1.1
  * Description: IE6's filter is f**king confusing
- * Last Modified: Feb 08, 200
+ * Last Modified: Feb 09, 200
  *
  * Revision: $1.0, Created:  Apollo, Sep 29, 2008
- * Revision: $1.1, Modified: Apollo, Feb 08, 2009
+ * Revision: $1.1, Modified: Apollo, Feb 09, 2009
  *
  * Encoding: UTF-8
  * Special thanks to Punkid
@@ -355,6 +355,10 @@ blockquote {
    margin-top: 10px;
 }
 
+#navigation a {
+   position: relative;
+}
+
    span.pre { }
 
    span.home { }
@@ -546,14 +550,14 @@ div.module { }
 
       div.module h2 {
          background: url(http://files.blogbus.com/apollo-skin12.blogbus.com/files/12213724690.png) repeat-y top left;
-	 margin: 0;
-	 margin-left: 13px;
-	 padding: 0;
-	 line-height: 120%;
-	 font-size: 13px;
-	 padding: 0 75px 10px 15px;
-	 overflow: hidden;
-	 z-index: 1;
+         margin: 0;
+         margin-left: 13px;
+         padding: 0;
+         line-height: 120%;
+         font-size: 13px;
+         padding: 0 75px 10px 15px;
+         overflow: hidden;
+         z-index: 1;
       }
 
    div.modBody {
@@ -562,14 +566,6 @@ div.module { }
       padding: 0 75px 0 15px;
       overflow: hidden;
       z-index: 1;
-   }
-
-   div.modBody a {
-      position: relative;
-   }
-
-   div.modBody ul li a {
-      position: relative;
    }
 
    div.modBottom {

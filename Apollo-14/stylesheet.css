@@ -4,12 +4,13 @@
  * Theme URI: http://apollo-skin14.blogbus.com/
  * Author Email: Ze.Apollo[at]Gmail.com
  * Author Blog: http://imapollo.blogbus.com
- * Version: 1.1
+ * Version: 1.2
  * Description: Delicious Emulator
- * Last Modified: February 1, 2009
+ * Last Modified: February 9, 2009
  *
  * Revision $1.0, Created:  Apollo, Date: Dec 20, 2008
  * Revision $1.1, Modified: Apollo, Date: Feb 01, 2009
+ * Revision $1.2, Modified: Apollo, Date: Feb 09, 2009
  *
  * Encoding: UTF-8
  * Special thanks to Punkid
@@ -323,6 +324,7 @@ div.entry {
         .tags {
             overflow: hidden;
             line-height: 19px;
+            width: 75px;
             margin-top: 5px;
         }
 
@@ -331,13 +333,12 @@ div.entry {
             color: #404040;
             padding: 0 0 0 5px;
             margin: 0 0 5px 0;
-            background: #F2F2F2 url(http://apollo-skin14.blogbus.com/files/12297553740.jpg) right 0 no-repeat;
+            background: url(http://apollo-skin14.blogbus.com/files/12341892740.jpg) left 0 no-repeat;
             display: block;
         }
 
         .tags a:hover {
-            background-color: #6C6C6C;
-            background-position: right -19px;
+            background-position: left -19px;
             text-decoration: none;
         }
 
