@@ -501,6 +501,34 @@ div.entry {
             display: none;
         }
 
+        div.entrybody table.mustshow {
+            display: block;
+        }
+
+        div.entrybody table.mustshow tr td {
+            width: 170px;
+            height: 200px;
+            text-align: center;
+        }
+
+        div.entrybody table a {
+            border-bottom: none;
+        }
+
+        div.entrybody table a:hover {
+            border-bottom: none;
+        }
+
+        div.entrybody table.mustshow a img {
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        div.entrybody table.mustshow a img:hover {
+            text-decoration: none;
+            background: #DDD;
+        }
+
         div.entrybody .quote {
             background: #FAFAFA url(http://imapollo.blogbus.com/files/12267498770.jpg) no-repeat 5px 5px;
             border: 1px solid #DDD;
