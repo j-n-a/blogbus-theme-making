@@ -1,0 +1,25 @@
+<div id="entryInfo">
+    <div class="detailInfo">
+        <ul>
+            <li><label>Prev:</label> {#pre}</li>
+            <li><label>Next:</label> {#next}</li>
+            <li><label>Category:</label> {#cat}</li>
+            <li><label>Tags:</label> {#tags}</li>
+            <li><label>Date:</label> {#date}</li>
+            <li><label>Time:</label> {#time}</li>
+            <li><label>Author:</label> <a href="{#profile_url}" class="author" title={#author}">{#author}</a></li>
+        <ul>
+    </div>
+</div>
+<div id="entryContent">
+    <div class="entry">
+        <div class="entryhead">
+            <div class="entrytitle">
+                <a href="{#url}" title="{#title}">{#title}</a>
+            </div>
+        </div>
+        <div class="entrybody clearfix clear">
+            {#content}
+        </div>
+    </div>
+</div>
