@@ -1,63 +1,71 @@
 <project name="createPackage" basedir="." default="all">
-    <property name="package.dir" value="package" />
+    <property name="package.dir" value="release" />
+
+    <taskdef classname="net.bluecow.googlecode.ant.GoogleCodeUploadTask"
+        classpath="lib/ant-googlecode-0.0.1.jar"
+        name="gcupload" />
 
     <target name="all">
-        <antcall target="clean" />
         <antcall target="package" />
-        <!--
         <antcall target="clean" />
+        <!--
+        <antcall target="upload" />
         -->
-    </target>
-
-    <target name="clean">
-        <delete dir="${package.dir}" />
     </target>
 
     <target name="package">
         <mkdir dir="${package.dir}" />
-        <copy todir="${package.dir}">
+        <copy todir="${package.dir}/temp">
             <fileset dir="." />
         </copy>
-        <delete dir="${package.dir}/${package.dir}" />
-        <delete dir="${package.dir}/Tuzki4.0" />
-        <delete file="${package.dir}/build.xml" />
-        <delete file="${package.dir}/readme.txt" />
 
         <zip destfile="${package.dir}/Apollo-01.zip"
-            basedir="${package.dir}/Apollo-01" />
+            basedir="${package.dir}/temp/Apollo-01" />
         <zip destfile="${package.dir}/Apollo-02.zip"
-            basedir="${package.dir}/Apollo-02" />
+            basedir="${package.dir}/temp/Apollo-02" />
         <zip destfile="${package.dir}/Apollo-03.zip"
-            basedir="${package.dir}/Apollo-03" />
+            basedir="${package.dir}/temp/Apollo-03" />
         <zip destfile="${package.dir}/Apollo-04.zip"
-            basedir="${package.dir}/Apollo-04" />
+            basedir="${package.dir}/temp/Apollo-04" />
         <zip destfile="${package.dir}/Apollo-05.zip"
-            basedir="${package.dir}/Apollo-05" />
+            basedir="${package.dir}/temp/Apollo-05" />
         <zip destfile="${package.dir}/Apollo-06.zip"
-            basedir="${package.dir}/Apollo-06" />
+            basedir="${package.dir}/temp/Apollo-06" />
         <zip destfile="${package.dir}/Apollo-07.zip"
-            basedir="${package.dir}/Apollo-07" />
+            basedir="${package.dir}/temp/Apollo-07" />
         <zip destfile="${package.dir}/Apollo-08.zip"
-            basedir="${package.dir}/Apollo-08" />
+            basedir="${package.dir}/temp/Apollo-08" />
         <zip destfile="${package.dir}/Apollo-09.zip"
-            basedir="${package.dir}/Apollo-09" />
+            basedir="${package.dir}/temp/Apollo-09" />
         <zip destfile="${package.dir}/Apollo-10.zip"
-            basedir="${package.dir}/Apollo-10" />
+            basedir="${package.dir}/temp/Apollo-10" />
         <zip destfile="${package.dir}/Apollo-11a.zip"
-            basedir="${package.dir}/Apollo-11/Apollo-11a" />
+            basedir="${package.dir}/temp/Apollo-11/Apollo-11a" />
         <zip destfile="${package.dir}/Apollo-11b.zip"
-            basedir="${package.dir}/Apollo-11/Apollo-11b" />
+            basedir="${package.dir}/temp/Apollo-11/Apollo-11b" />
         <zip destfile="${package.dir}/Apollo-11c.zip"
-            basedir="${package.dir}/Apollo-11/Apollo-11c" />
+            basedir="${package.dir}/temp/Apollo-11/Apollo-11c" />
         <zip destfile="${package.dir}/Apollo-12.zip"
-            basedir="${package.dir}/Apollo-12" />
+            basedir="${package.dir}/temp/Apollo-12" />
         <zip destfile="${package.dir}/Apollo-13.zip"
-            basedir="${package.dir}/Apollo-13" />
+            basedir="${package.dir}/temp/Apollo-13" />
         <zip destfile="${package.dir}/Apollo-14.zip"
-            basedir="${package.dir}/Apollo-14" />
+            basedir="${package.dir}/temp/Apollo-14" />
+        <zip destfile="${package.dir}/sandbox.zip"
+            basedir="${package.dir}/temp/sandbox" />
+    </target>
 
-        <!-- TODO
-        upload these packages to the download side of google code
-        -->
+    <target name="clean">
+        <delete dir="${package.dir}/temp" />
+    </target>
+
+    <target name="upload">
+        <gcupload
+            username="ze.apollo"
+            password="gF8HP2cZ2fD6"
+            projectname="blogbus-theme-making"
+            filename="${package.dir}/sandbox.zip"
+            targetfilename="sandbox.zip"
+            summary="Version 0.0.1 of sandbox" />
     </target>
 </project>
