@@ -3,12 +3,13 @@
  * Theme Author: Apollo Coleone (Minjie Zhang)
  * Author Email: Ze.Apollo[at]Gmail.com
  * Author Blog: http://imapollo.blogbus.com
- * Version: 1.1
- * Description:
- * Last Modified: Dec 23, 2008
+ * Version: 1.2
+ * Description: based on Punkid's sandbox
+ * Last Modified: Mar 15, 2009
  *
  * Revision 1.0, Nov 16, 2008, Author: Apollo
  * Revision 1.1, Dec 23, 2008, Author: Apollo
+ * Revision 1.2, Mar 15, 2009, Author: Apollo
  *
  * Encoding: UTF-8
  * Special thanks to Punkid
@@ -587,7 +588,16 @@ div.entry {
         margin-top: 10px;
         background: #FAFAFA;
         position: relative;
-        border: 1px solid #DDD;
+        border-top: 1px solid #DDD;
+        border-bottom: 1px solid #DDD;
+        padding: 5px;
+    }
+
+    #comments li.even {
+        margin-top: 10px;
+        background: #FFF;
+        position: relative;
+        border: none;
         padding: 5px;
     }
 
@@ -621,10 +631,10 @@ div.entry {
             }
 
             #comments li div.reCmtBody {
-                background: url(http://imapollo.blogbus.com/files/12273409060.jpg) no-repeat 10px 10px;
-                padding: 5px 0 5px 65px;
+                padding: 5px 0 5px 20px;
                 margin-top: 5px;
-                border-top: solid 1px #DDD;
+                border-top: dotted 1px #DDD;
+                color: #888;
             }
 
             #comments li div.reCmtBody span.author { }
@@ -695,7 +705,6 @@ div.entry {
     }
 
     #commentForm form div span.emailnotice {
-        display: none;
     }
 
     #commentForm form div.submit input.button {
