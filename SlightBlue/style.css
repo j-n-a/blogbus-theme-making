@@ -4,11 +4,12 @@
  * Theme URI: http://www.shenyajieju.com/
  * Author Email: Ze.Apollo[at]Gmail.com
  * Author Blog: http://imapollo.blogbus.com
- * Version: 1.0
+ * Version: 1.1
  * Description: for the shenyajieju.com website
- * Last Modified: Oct 18, 2008
+ * Last Modified: Mar 28, 2009
  *
- * Revision 1.0, Created Oct 18, 2008, Apollo
+ * Revision 1.0, Created  Oct 18, 2008, Apollo
+ * Revision 1.1, Modified Mar 28, 2009, Apollo
  *
  * Encoding: UTF-8
  * Special thanks to Punkid
@@ -371,8 +372,18 @@ div.entry {
 
     #comments { }
 
+    #comments h2 {
+        font-size: 13px;
+        margin: 0 0 10px 0;
+        padding: 0 0 3px 0;
+        line-height: 120%;
+        background: url(http://david28952.blogbus.com/files/s/12243085090.jpg) no-repeat bottom left;
+    }
+
     #comments li {
         margin: 0 0 20px;
+        padding-bottom: 5px;
+        background: url(http://david28952.blogbus.com/files/s/12243085090.jpg) no-repeat bottom left;
     }
 
         #comments li div.cmtBody { }
@@ -385,7 +396,10 @@ div.entry {
 
             #comments li span.reply { }
 
-            #comments li div.reCmtBody { }
+            #comments li div.reCmtBody {
+                border-left: solid 2px #47CCDD;
+                padding-left: 5px;
+            }
 
             #comments li div.reCmtBody span.author { }
 
@@ -397,6 +411,14 @@ div.entry {
 
     #commentForm {
         margin: 20px 0;
+    }
+
+    #commentForm h2 {
+        font-size: 13px;
+        margin: 0 0 10px 0;
+        padding: 0 0 3px 0;
+        line-height: 120%;
+        background: url(http://david28952.blogbus.com/files/s/12243085090.jpg) no-repeat bottom left;
     }
 
     #commentForm form {
@@ -422,10 +444,13 @@ div.entry {
         border: 1px solid #555;
     }
 
-    #commentForm form div span.emailnotice { }
+    #commentForm form div span.emailnotice {
+        display: none;
+    }
 
     #commentForm form div.submit input.button {
         padding: 3px 8px;
+        border: 1px solid #555;
     }
 
     #commentForm form div.submit span.rememberBox input#cremember { }
