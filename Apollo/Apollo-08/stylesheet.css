@@ -1,0 +1,502 @@
+/* 
+	Style: Apollo's Skin 08
+	Version: 1.0
+	Author: Apollo
+	Email: ze.apollo@gmail.com
+
+	Optimal Configuation: Best view in at least 1024*768 dpi, Ture color, Javascript Enabled.
+	Browser Support: MS-IE 7+/Mozilla FireFox 2.0+
+	(c) Copyright 2007-2050 J&A. All Rights Reserved.
+*/
+
+/***** Global Settings *****/
+ 
+html, body {
+border:0;
+margin:0;
+padding:0;
+line-height:130%;
+}
+
+body {
+background: #eb770e url(http://files.blogbus.com/apollo-skin8.blogbus.com/files/12039194970.gif) repeat-x top left;
+font:14px Verdana,Arial, Helvetica, sans-serif;
+}
+ 
+/***** Headings *****/
+ 
+h1, h2, h3, h4, h5, h6 {
+margin:0;
+padding:0;
+font-weight:normal;
+}
+ 
+h1 {
+padding:30px 0 25px 0;
+letter-spacing:-1px;
+font-size:2em;
+}
+ 
+h2 {
+padding:20px 0;
+letter-spacing:-1px;
+font-size:1.5em;
+}
+ 
+h3 {
+font-size:1em;
+font-weight:bold;
+}
+ 
+/***** Common Formatting *****/
+ 
+p, ul, ol, li {
+list-style:none;
+margin:0;
+padding:0;
+}
+
+ul, ol, li {
+padding:0;
+}
+ 
+blockquote {
+margin:1.25em;
+padding:1.25em 1.25em 0 1.25em;
+}
+ 
+small {
+font-size:0.85em;
+}
+ 
+img {
+border:0;
+}
+ 
+sup {
+position:relative;
+bottom:0.3em;
+vertical-align:baseline;
+}
+ 
+sub {
+position:relative;
+bottom:-0.2em;
+vertical-align:baseline;
+}
+ 
+acronym, abbr {
+cursor:help;
+letter-spacing:1px;
+border-bottom:1px dashed;
+}
+ 
+/***** Links *****/
+
+a,
+a:link,
+a:visited,
+a:hover {
+text-decoration:none;
+}
+ 
+/***** Forms *****/
+ 
+form {
+margin:0;
+padding:0;
+display:inline;
+}
+ 
+input, select, textarea {
+font:1em Arial, Helvetica, sans-serif;
+}
+ 
+textarea {
+width:100%;
+line-height:1.25;
+}
+ 
+label {
+}
+ 
+/***** Tables *****/
+ 
+table {
+border:0;
+margin:0 0 1.25em 0;
+padding:0;
+}
+ 
+table tr td {
+padding:2px;
+}
+
+/*****Structure*****/
+
+#container{
+width: 800px;
+margin: 0 auto;
+}
+
+#content{
+width: 530px;
+float: right;
+background: none;
+}
+
+#sidebar{
+width: 270px;
+float:right;
+position: fixed;
+}
+
+/*****index*****/
+
+#header{
+background: url(http://files.blogbus.com/apollo-skin8.blogbus.com/files/12039198810.gif) no-repeat bottom right;
+height: 100px;
+}
+
+#headerndesc{
+background: #fff url(http://files.blogbus.com/apollo-skin8.blogbus.com/files/12039208890.jpg) no-repeat center 3px;
+padding: 15px 0 15px 0;
+height: 134px;
+}
+
+#headTitle{
+color: #fff;
+font-size: 15px;
+font-weight: bold;
+padding: 38px 0 0 30px;
+}
+
+#headTitle a{
+color: #fff;
+}
+
+#headTitle a:hover{
+color: #abd1d8;
+}
+
+
+#headDesc{
+color: #abd1d8;
+font-size: 13px;
+padding: 0 0 0 30px;
+}
+
+#topLeft{
+background: #fff url(http://files.blogbus.com/apollo-skin8.blogbus.com/files/12045225660.gif) no-repeat top left;
+height: 12px;
+}
+
+#topRight{
+background:url(http://files.blogbus.com/apollo-skin8.blogbus.com/files/12045225661.gif) no-repeat top right;
+height: 12px;
+}
+
+#sideTop{
+background:url(http://files.blogbus.com/apollo-skin8.blogbus.com/files/12046816660.gif) no-repeat bottom right;
+height: 300px;
+}
+
+#sideContent{
+background:url(http://files.blogbus.com/apollo-skin8.blogbus.com/files/12046832630.jpg) repeat-y 21px top;
+color: #666;
+font-size: 15px;
+text-align: center;
+line-height: 160%;
+}
+
+#sideContent a{
+color: #666;
+display: block;
+}
+
+#sideContent a:hover{
+color: #93b3b9;
+}
+
+#sideBottomContent{
+background:url(http://files.blogbus.com/apollo-skin8.blogbus.com/files/12053675360.jpg) no-repeat 21px top;
+height: 30px;
+}
+
+#contentBottom{
+background:#fff url(http://files.blogbus.com/apollo-skin8.blogbus.com/files/12047294120.jpg) no-repeat left bottom;
+min-height: 200px;
+height: auto !important;
+height: 200px;
+padding: 0 15px 0 15px;
+}
+
+#cBottomLeft{
+background: #fff url(http://files.blogbus.com/apollo-skin8.blogbus.com/files/12046967690.gif) no-repeat bottom left;
+min-height: 188px;
+height: auto !important;
+height: 188px;
+}
+
+#cBottomRight{
+background: url(http://files.blogbus.com/apollo-skin8.blogbus.com/files/12047255350.gif) no-repeat bottom right;
+min-height: 188px;
+height: auto !important;
+height: 188px;
+padding: 0 80px 0 15px;
+margin-bottom: 25px;
+}
+
+#leftSidebar{
+font-size: 14px;
+color: #666;
+float:left;
+width:240px;
+}
+
+#leftSidebar .count{
+}
+
+#leftSidebar a{
+color: #666;
+}
+
+#leftSidebar a:hover {
+color: #93b3b9;
+}
+
+#leftSidebar h2 {
+font-weight: bold;
+margin-bottom: 10px;
+padding-bottom: 1px;
+font-size: 100%;
+color: #93b3b9;
+}
+
+#leftSidebar li
+{
+list-style:none;
+line-height:23px;
+border-bottom:1px solid #eee;
+overflow:hidden;
+height:23px;
+}
+
+#rightSidebar{
+font-size: 14px;
+color: #666;
+float:right;
+width:240px;
+}
+
+#rightSidebar .count{
+}
+
+#rightSidebar a{
+color: #666;
+}
+
+#rightSidebar a:hover {
+color: #93b3b9;
+}
+
+#rightSidebar h2 {
+font-weight: bold;
+margin-bottom: 10px;
+padding-bottom: 1px;
+font-size: 100%;
+color: #93b3b9;
+}
+
+#rightSidebar li
+{
+list-style:none;
+line-height:23px;
+border-bottom:1px solid #eee;
+overflow:hidden;
+height:23px;
+}
+
+#copyright{
+color: #666;
+}
+
+#copyright a{
+color: #666;
+}
+
+#copyright a:hover{
+color: #eb770e;
+}
+
+/*****post*****/
+
+#posts{
+width: 500px;
+padding:0 15px; 0 15px;
+background: #fff;
+}
+
+#blogTitle{
+font-size: 14px;
+font-weight: bold;
+color: #93b3b9;
+}
+
+#blogTitle a{
+color: #93b3b9;
+}
+
+#blogTitle a:hover{
+text-decoration: underline;
+}
+
+#blogDate{
+font-size: 13px;
+color: #555;
+}
+
+#blogDate a{
+color:#555;
+}
+
+#blogDate a:hover{
+color:#93b3b9;
+}
+
+#blogContent{
+padding-top: 5px;
+font-size: 13px;
+color: #555;
+line-height: 140%;
+}
+
+#blogContent a{
+color: #93b3b9;
+font-weight: bold;
+}
+
+#blogContent p{
+margin: 0 auto 18px;
+}
+
+#blogContent a:hover{
+text-decoration: underline;
+}
+
+#blogTag{
+font-size:13px;
+color: #555;
+padding-top: 5px;
+}
+
+#blogTag a{
+color: #555;
+}
+
+#blogTag a:hover{
+color: #93b3b9;
+}
+
+#menuBar{
+font-size:13px;
+color: #555;
+padding-bottom: 35px;
+}
+
+#menuBar a{
+color: #555;
+}
+
+#menuBar a:hover{
+color: #93b3b9;
+}
+
+.clear{
+clear:both;
+}
+
+#pageNavi{
+font-size:13px;
+color: #555;
+margin-bottom: 10px;
+}
+
+#pageNavi a{
+color: #555;
+}
+
+#pageNavi a:hover{
+color: #93b3b9;
+}
+
+/*****Comments Form*****/
+
+#comments{
+background: #fff;
+padding: 0 15px 0 15px;
+}
+
+#comments h2{
+color: #666;
+font-size: 14px;
+font-weight: bold;
+border-bottom: 1px solid #999;
+padding-bottom: 5px;
+margin-bottom: 5px;
+}
+
+.cmtBody{
+font-size: 13px;
+color: #666;
+}
+
+.menubar{
+font-size: 13px;
+color: #666;
+padding-bottom: 10px;
+}
+
+.menubar a{
+color: #93b3b9;
+}
+
+.menubar a:hover{
+text-decoration: underline;
+}
+
+.reCmtBody{
+color: #666;
+font-size: 13px;
+border-left: 3px solid #eb770e;
+padding-left: 15px;
+margin: 5px;
+}
+
+#commentForm{
+background: #fff url(http://files.blogbus.com/apollo-skin8.blogbus.com/files/12047294120.jpg) no-repeat bottom left;
+padding: 0 15px 0 15px;
+height: 400px;
+}
+
+#commentForm h2{
+color: #666;
+font-size: 14px;
+font-weight: bold;
+border-bottom: 1px solid #999;
+padding-bottom: 5px;
+margin-bottom: 5px;
+}
+
+#commentForm input{
+border: 1px solid #999;
+}
+
+#commentForm label{
+display: block;
+}
+
+#commentForm textarea{
+width: 400px;
+boerder: 1px solid #999;
+}

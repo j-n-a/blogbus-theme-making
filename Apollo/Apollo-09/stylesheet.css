@@ -1,0 +1,631 @@
+/* 
+ * Theme Name: Apollo's Skin 09
+ * Theme Author: Apollo Coleone	
+ * Theme URI: http://imapollo.blogbus.com
+ * Version: 1.0
+ * Description: Based on the SandBox by Punk!d
+ *
+ * Encoding: UTF-8
+ * Tab Indent: 4 spaces (for vim :set tabstop=4, shiftwidth=4)
+ * ------------------------------------------------------------------*/
+
+
+
+/* Reset
+ * 清空浏览器的预设风格，减少浏览器差异
+ * read more: (http://meyerweb.com/eric/tools/css/reset/)
+ * ------------------------------------------------------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* Global Setting
+ * 全局设置, 重定义整体样式
+ * ------------------------------------------------------------------*/
+
+/* 用62.5%重置字体大小
+ * 如果用户浏览器预置的是16px字体的话，62.5% * 16px = 10px */
+body {
+	font: 62.5%/1.6 Verdana,'Helvetica Neue',Helvetica,Sans-Serif;
+	background:url(http://files.blogbus.com/apollo-skin9.blogbus.com/files/12121240890.gif) repeat top left;
+	color: #000;
+	text-align: left;
+}
+
+/* 用em定义字号比px, pt, percentage更具灵活性
+ * read more (http://mondaybynoon.com/2006/03/13/effective-style-with-em/) */
+p {
+	margin: 0 0 1.2em;
+}
+
+h1, h2, h3, h4 {
+	margin: 0.5em 0;
+	font-weight: bold;
+}
+
+	/* h2 负责正文标题及相应模块标题 */
+	h2 {
+		font-size: 1.3em;
+	}
+
+	/* h3， h4 是日志内容标题，dont using strong tag */
+	h3 {
+		font-size: 1.25em;
+	} 
+	
+	h4 {
+		font-size: 1.1em;
+	} 
+
+a{
+	color: #580000;
+	text-decoration: none;
+}
+
+a:hover { 
+	color: #9d0f0f;
+	background: #000;
+}
+
+acronym, abbr {
+	border-bottom: 1px dotted;
+	cursor: help;
+	letter-spacing: .07em;
+}
+
+/* 浏览器对input, textarea的字体有格外的预设 */
+input, textarea, select {
+	font: 1em Verdana,'Lucida Grande',Helvetica,Sans-Serif;
+	background: #FFF;
+}
+
+	input:focus, textarea:focus, input:hover, textarea:hover { }
+
+/* 字族顺序: Linux -> Mac -> Windows Vista -> Windows */
+code, var, pre {
+	font: .9em 'Bitstream Vera Sans Mono',Monospace,Monaco,Consolas,Courier;
+	color: #555;
+}
+
+/* 正确使用pre规范正文出现的代码 */
+pre {
+	overflow: auto;
+}
+
+/* blockquote不只是缩进 */
+blockquote {
+	margin: 2em 0 2em 2em;
+}
+
+/* 不要在HTML中使用 align='left|center|right' 定位 */
+.center { 
+	text-align: center;
+}
+
+.floatleft {
+	float: left;
+	margin: 0 15px 10px 0;
+}
+
+.floatright {
+	float: right;
+	margin: 0 0 10px 15px;
+}
+
+/* 用clearfix清除浮动
+ * read more (http://www.positioniseverything.net/easyclearing.html) */
+.clearfix:after { 
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+	/* target IE6 and IE7 */
+	* html .clearfix {
+		height: 1%;
+	}
+
+	*+html .clearfix {
+		height: 1%;
+	}	
+
+/* bus封装的clear div*/
+.clear {
+	clear: both;
+}	
+
+
+
+/* Layout and Structure
+ * 布局，结构设置
+ * ------------------------------------------------------------------*/
+
+#wrapper {
+	width: 840px;
+	margin-top: 0;
+	margin-left: 35px;
+	font-size: 1.2em; /* 如果用户浏览器预设字号是16px的话，这里的字号相当于12px */
+}	
+
+#header {
+	height: 160px;
+	margin: 0;
+	padding: 0;
+	background: url(http://files.blogbus.com/apollo-skin9.blogbus.com/files/12121321800.jpg) no-repeat right 10px;
+}
+
+	/* 一个页面仅出现一次h1，for SEO friendly! */
+	h1#blogname {
+		font: 3em Baskerville,'Palatino Linotype',Georgia,Serif; /* 10px * 1.2 * 3 = 36px */
+		float: right;
+		width: 500px;
+		overflow: hidden;
+	}
+	
+	h1#blogname a{
+		font-weight: bold;
+		color: #000;
+	}
+	
+	h1#blogname a:hover{
+		background: none;
+	}
+
+	p#description {
+		padding-top: 50px;
+		float: left;
+		width: 330px;
+		overflow: hidden;
+	}
+
+#content {
+	margin: 0;
+}
+
+	/* 正文及侧栏区域，用padding定位，更好的避免浏览器间的差异*/
+	#primary {
+		float: right;
+		width: 500px; /* 真实的盒模型宽度是500px */
+	}	
+
+	#secondary {
+		float: left;
+		width: 330px; /* primary和secondary之间有10px间隔，留足弹性以免页面元素撑爆盒模型造成元素下沉(mainly in IE) */
+	}
+	
+	#secondaryLeft{
+		float: left;
+		width: 160px;
+	}
+	
+	#secondaryRight{
+		float: right;
+		width: 160px;
+	}
+
+#footer {
+	padding: 20px;
+	clear: both;
+}	
+		
+	p#copyright {
+		text-align: right;
+		font-size: 12px;
+	}
+
+
+
+/* Styles
+ * 主体风格设置
+ * ------------------------------------------------------------------*/
+
+/* 分页导航 */
+#pagenavi { 
+	text-align: center;
+	font-size: 12px;
+}
+
+	/* 当前页面 */
+	#pagenavi span { }
+
+/* 日志页面导航 */
+#navigation {
+	text-align: left;
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+
+	span.pre { }
+
+	span.home { }
+
+	span.next { }
+/* 日志主体 */
+
+div.entry {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 25px;
+}
+
+	/* 日志顶部信息 */
+	div.entryhead { 
+		height: 40px;
+		border-top: 3px solid #000;
+	}
+
+		h2.entrytitle {
+			font-size: 16px;
+			font-weight: bold;
+			color: #000;
+		}
+		
+		h2.entrytitle a{
+			color: #000;
+		}
+		
+		h2.entrytitle a:hover{
+			color: #000;
+			text-decoration: none;
+			background: none;
+		}
+
+		p.metadata { }
+
+			p.metadata span.date { }
+
+			p.metadata a.author { }
+
+	/* 日志内容 */
+	div.entrybody {
+		font-size: 12px;
+		color: #666;
+	}
+	
+	div.entrybody a{
+		color: #580000;
+	}
+	
+	div.entrybody a:hover{
+		color: #9d0f0f;
+		background: #000;
+	}
+	
+	div.entrybody img{
+		border: solid 1px #999;
+		margin-bottom: 2px;
+	}
+
+		/* 重新定义日志内出现的无序列表和有序列表风格 */
+		div.entrybody ul, div.entrybody ol {
+			margin: 2em 0 2em 2em;
+		}
+
+		div.entrybody ul li {
+			list-style: outside square;
+		}
+
+		div.entrybody ol li {
+			list-style: outside decimal;
+		}
+
+	/* 日志底部信息 */
+	div.entryfoot { 
+		margin-left: 10px;
+		font-size: 12px;
+		padding-left: 5px;
+		border-left: 3px solid #000;
+	}
+	div.entryfoot p{
+		padding: 0;
+		margin: 0;
+	}
+
+		div.entryfoot span.tags { }
+
+		div.entryfoot span.category { }
+
+		div.entryfoot span.trackback { }
+
+		div.entryfoot span.menubar { }
+
+	/* 日志版权信息 */
+	p.cc-lisence { }
+
+	/* 随机文章列表 */
+	div.relpost { }
+
+	/* 收藏到 */
+	div.addfav { }
+
+	
+	
+/* Commentfield
+ * 评论区域
+ * ------------------------------------------------------------------*/
+
+/* 评论列表 */
+#comments { 
+	font-size: 12px;
+}
+
+#comments h2{
+	font-size: 13px;
+	font-weight: bold;
+	color: #000;
+}
+
+	#comments li {
+		margin: 0 0 20px;
+	}
+
+		/* 评论内容 */
+		#comments li div.cmtBody { }
+
+		/* 评论信息 */
+		#comments li div.menubar { }
+
+			#comments li span.author { }
+
+			#comments li span.time { }
+
+			#comments li span.reply { }
+
+		/* 博主回复评论 */
+		#comments li div.reCmtBody { 
+			margin-top: 5px;
+			border-left: 3px solid #000;
+			margin-left: 10px;
+			padding-left: 5px;
+		}
+
+			#comments li div.reCmtBody span.author { }
+	
+			/* 回复内容 */
+			#comments li div.reCmtBody div.content { }
+
+			#comments li div.reCmtBody div.time { }
+
+		/* 评论分页 */
+		#comments li div.cmtPagenav { }
+
+/* 评论框 */
+#commentForm {
+	margin: 20px 0;
+	font-size: 12px;
+}
+
+#commentForm h2{
+	font-size: 13px;
+	font-weight: bold;
+	color: #000;
+}
+
+	#commentForm form {
+		width: 80%;
+	}
+
+	#commentForm form div {
+		margin: 0 0 5px;
+	}
+	
+	#commentForm form div input.textField {
+		width: 200px;
+		border: 1px solid #000;
+	}
+
+	#commentForm form div label {
+		display: block;
+		color: #555;
+	}	
+
+	#commentForm form div textarea {
+		width: 400px;
+		border: 1px solid #000;
+	}	
+
+	/* 收到博主回复邮件提示 */
+	#commentForm form div span.emailnotice { }
+
+	/* 提交评论按钮*/
+	#commentForm form div.submit input.button {
+		padding: 3px 8px;
+		border: 1px solid #000;
+	}
+
+	/* 记住我 */
+	#commentForm form div.submit span.rememberBox input#cremember { }
+
+
+
+/* Modules
+ * 侧栏模块
+ * ------------------------------------------------------------------*/
+
+/* 模块结构 */
+div.module {
+	margin-bottom: 20px;
+}
+
+	div.modTop {
+		border-top: 3px solid #000;
+	}
+		
+		/* 模块标题 */
+		div.module h2 { 
+			color: #000;
+			font-weight: bold;
+			font-size: 12px;
+			height: 25px;
+		}
+
+	div.modBody { 
+		font-size: 12px;
+	}
+	
+	div.modBody li{
+		background: url(http://files.blogbus.com/apollo-skin9.blogbus.com/files/12121298610.gif) no-repeat 0 7px;
+		padding-left: 9px;
+		line-height: 160%;
+		border-bottom: dotted 1px #777;
+	}
+
+	div.modBottom {}
+
+/* 个人资料模块 */
+#profile { }
+
+#profile img{
+	border: solid 1px #999;
+}
+
+/* 日历模块 */
+#calendar { }
+
+	#calendar table {
+		text-align: center;
+	}
+
+	#calendar table tr { }
+
+	#calendar table tr td {
+		padding: 2px 3px;
+	}
+
+	#calendar table tr.calendarHead { }
+
+	tr.calendarHead span.preMonth { }
+
+	tr.calendarHead span.nextMonth { }
+
+	#calendar table tr.week { }
+
+	#calendar table tr.day { }
+
+	#calendar table td.today {
+		font-weight: bold;
+	}
+
+/* 搜索模块 */
+#search { }
+
+#search input{
+	border: #777 solid 1px;
+}
+
+/* 日志分类模块 */
+#cats { }
+
+/* 标签模块 */
+#tags { }
+
+/* 最近日志模块 */
+#nPosts { }
+
+/* 最新评论模块 */
+#nComments { }
+
+/* 链接模块 */
+#links { }
+
+/* 存档模块 */
+#archives { }
+
+/* 管理模块 */
+#login { }
+
+/* meta模块 */
+#meta { }
+
+/* 自定义HTML模块*/
+#custom { }
+
+
+
+/* Hacks
+ * 针对各浏览器进行debug
+ * read more (http://thomas.tanreisoftware.com/?p=11)
+ * ------------------------------------------------------------------*/
+
+/* target IE6 */
+* html /*selector*/ { }
+
+/* target IE7 */
+*+html /*selector*/ { }
+
+/* target Mozilla Firefox (Gecko) */
+html:not([lang*=""]) /*selector*/ { }
+
+/* target Opera */
+@media all and (min-width:0px) {
+	head~body:lang(en) /*selector*/ { }
+}
+
+/* target Safari 3 (webkit) */
+@media all and (min-width:0px) {
+		 body:not(:root:root) /*selector*/ { }
+}
+
+/* target Konqueror */
+html:not(:nth-child(1)) /*selector*/ { } 
+	
+
+
+
