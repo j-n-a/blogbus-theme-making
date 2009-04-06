@@ -1,0 +1,36 @@
+<div id="index">
+	        <div id="header">
+			<div class="blogName"><a href="http://{#domain}" title="http://{#domain}">{#blog_name}</a></div>
+			<div class="description">{#blog_desc}</div>
+			<h1>
+<a href="http://{#domain}"  target="_blank" >Main</a>//
+<a href="http://jesie0426.blogus.com"  target="_blank" >Link</a>//
+<a href="http://www.blogbus.com/user"  target="_blank">Login</a>//
+<a href="http://{#domain}/index.rdf"  target="_blank" ><span style="color: #89c122">Rss</span></a>
+</h1><br>
+		</div>
+                <div id="content">
+                   {c:0}
+                </div>
+                <div id="sidebar">
+                            <div id="photo"><img src="http://jessie-skin19.blogbus.com/files/12342558370.jpg" ></div>
+                            <div id="about">
+                                  About: <br>
+                                  JC<br>
+                                  April 26, 1987<br>
+                                  Shanghai &Beijing<br> 
+                                  Sensitive, Stable, Smiling<br>
+                                  jessie_subly@hotmail.com<br>
+<a href="http://www.webmasterhome.cn/" target="_blank"><img src="http://pagerank.webmasterhome.cn/MyRank/?url=http://jessie0426.blogbus.com/" style="width:66px;height:13px;border:0px" align=absmiddle></a>
+                            </div>
+				
+		</div>
+                <div class="clear" ></div>
+               <div id="copyright">
+                                        Total:{#counter}<br>
+					&copy;Powered by  <a href="http://www.blogbus.com" target="_blank">BlogBus</a>
+Skinned by <a href="http://jessie0426.blogbus.com" target="_blank">class JC
+	        </div>
+                 
+                
+</div>

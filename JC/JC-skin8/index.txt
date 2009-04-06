@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title><!-- ~ blogname ~ --> - BlogBus.com</title>
+<meta name="description" content="<!-- ~ blogname ~ -->,<!-- ~ blogdescr ~ -->" />
+<meta name="keywords" content="<!-- ~ blogname ~ -->,<!-- ~ blogdescr ~ -->,Blog,Blogger,BlogBus" />
+<!-- ~ header ~ -->
+</head>
+<body>
+	<div id="outerContainer">
+	<div id="container">
+		<div id="header">
+			<h1><a href="http://<!-- ~ domain ~ -->" title="返回首页"><!-- ~ blogname ~ --></a></h1>
+			<div id="description"><!-- ~ blogdescr ~ --></div>		
+		</div>	
+		<div id="content">
+			<!-- ~ diarys ~ -->
+			<p class="pages"><!-- ~ pagetxt ~ --><br/><br/>
+Powered by <a href="http://www.blogbus.com" target="_blank">BlogBus</a>
+Skinned by <a href="http://jessie0426.blogbus.com" target="_blank" >class JC</a>
+</p>
+		</div>
+
+			
+
+			
+		<div id="sidebar">
+			
+
+			<div id="sidebarL">
+				
+
+				<div id="login">
+					
+					<form method="post" action="http://www.blogbus.com/members/login.php?Goto=/blog/">
+					 
+					</form>
+				</div><br />	
+<div id="calendar">
+					<!-- ~ calendar ~ -->
+				</div>
+				<div id="search">
+					<form action="http://www.blogbus.com/public/search.php" name="search_form" method="post">
+						<input name="search_input" type="text" style="width: 106px;background: none;" />&nbsp;&nbsp;<input type="submit" name="Submit" value="Go" class="button" />
+					</form>
+				</div><br/>
+				<div id="archives">
+					<h2>ARCHIVE</h2>
+					<!-- ~ archive ~ -->
+				</div>
+				<div id="links">
+					<h2>LINKS</h2>
+					<!-- ~ links ~ -->
+					<!-- ~ new_links ~ -->
+				</div>
+
+
+				<div id="misc">
+					<p><br />TOTAL: <!-- ~ counter_text ~ --></p>
+						<div id="customHtml"><!-- ~ custom_html ~ --></div><br />
+						<div id="subscribe">
+							<table border="0" cellpadding="0">
+							  <tr>
+								<td><a href="<!-- ~ rss_url ~ -->"><img src="http://www.blogbus.com/images/site-v3/rss.gif" alt="RSS1.0" /></a></td>
+								<td><a href="http://help.blogbus.com/logs/2003/12/55530.html" target="_blank">什么是RSS？</a></td>
+							  </tr>
+							</table>
+						</div><br />
+		
+
+		
+						<div id="poweredBy"></div>					
+				</div>
+			</div>
+			<div id="sidebarR">
+				<br/>
+				<div id="sorts">
+					<h2>SORTS</h2>
+					<!-- ~ sorts ~ -->
+				</div>
+                                    <div id="tagline">
+					<h2>TAG</h2>
+					<ul><!-- ~ cats ~ --></ul>
+				</div>
+				<div id="update">
+					<h2>UPDATE</h2>
+					<!-- ~ update ~ -->
+				</div>
+				<div id="lastComments">
+					<h2>COMMENT</h2>
+					<!-- ~ last_cmt ~ -->
+				</div>
+				
+			</div>
+		</div>
+		<div id="footer">
+			<br />
+			
+		</div>
+				
+	</div>
+	</div>
+
+</body>
+</html>

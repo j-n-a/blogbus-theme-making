@@ -1,0 +1,69 @@
+<div id="index">
+<div id="wrap">
+	<div id="container">
+            <div id="outerContent">
+                   <div id="header">
+			<h1 class="blogName"><a href="http://{#domain}" title="http://{#domain}">{#blog_name}</a></h1>
+			<div class="description">{#blog_desc}</div>
+			<div class="clear"></div>
+		   </div>
+                   <div id="content">
+                        {c:0}
+<script type="text/javascript">
+
+var enCmtForm=document.getElementById("comments");
+enCmtForm.innerHTML = enCmtForm.innerHTML.replace("评论","Comment");
+var enCmtForm=document.getElementById("commentForm");
+enCmtForm.innerHTML = enCmtForm.innerHTML.replace("发表评论","Leave a comment");
+enCmtForm.innerHTML = enCmtForm.innerHTML.replace("姓　名","Name");
+enCmtForm.innerHTML = enCmtForm.innerHTML.replace("E-Mail","E-mail");
+enCmtForm.innerHTML = enCmtForm.innerHTML.replace("地　址","Blog");
+enCmtForm.innerHTML = enCmtForm.innerHTML.replace("提交","OK ");
+enCmtForm.innerHTML = enCmtForm.innerHTML.replace("记住我","Remember me!");
+</script>
+                                   
+                </div>
+            </div>
+            <div id="sidebar">
+                    <div id="sidebartop">
+                         <h1>
+<a href="http://{#domain}"  target="_blank" title="主页">Main</a>|&nbsp;
+<a href="http://jesie0426.blogus.com"  target="_blank" title="链接">Link</a>|&nbsp;
+<a href="http://www.blogbus.com/user"  target="_blank" title="登陆">Login</a>|&nbsp;
+<a href="http://jessie0426.blogbus.com"  target="_blank" title="豆瓣">Douban</a>                 </h1>
+                    </div>
+
+<br>
+                   <div id="innersidebar">
+                   {c:1}
+                         <div id="meta" class="module">
+                                <div class="modTop"></div>
+                                 <h2>Others</h2>
+                                <div class="modBody">
+                                   <ul><li class="statistics">Total：<span class="count">{#counter}</span></li>
+                                       <li class="subscribe" style="line-height:180%;">{#feed_info}</li>
+                                       <li class="poweredBy">{#powered_by}</li>
+                          
+                                  </ul><br>
+                                  <div style='text-align:center'><a href='http://www.blogbus.com/user/reg.php'><img src='http://public.blogbus.com/images/reg_side.gif' border=0 /></a></div>
+                                 </div>
+                                 <div class="modBottom"></div>
+                         </div>
+
+                                  
+
+                    </div>
+            </div>
+           
+        
+		<div class="clear"></div>
+       </div>	
+</div>
+<div id="footer">
+<div id="innerfooter">
+<img src="http://jessie-skin17.blogbus.com/files/s/12333394390.jpg" >
+<div class="copyright">&copy; Powered by <a href="http://www.blogbus.com" target="_blank">BlogBus</a>
+Skinned by <a href="http://jessie0426.blogbus.com" target="_blank">class JC
+</div>
+</div>
+</div>

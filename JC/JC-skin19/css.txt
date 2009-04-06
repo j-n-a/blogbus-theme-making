@@ -1,0 +1,112 @@
+* {margin: 0;padding: 0;}
+body { margin: 0 auto;font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px;text-align: center;color: #66645c;background: #ffffff url(http://jessie-skin19.blogbus.com/files/12341018740.jpg) left bottom no-repeat fixed;}
+
+li {list-style: none;}
+
+a {color: #3cb4ca;text-decoration :  none;}
+a:hover {color: 66645c;}
+
+img {border: none;}
+
+input {padding: 1px;font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 100%;color: #444;border: 1px solid #D9D9D9;background: none;}
+textarea {padding: 2px 3px;font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 100%;color: #444;border: 1px solid #D9D9D9;background: none;overflow: auto;}
+
+.button {width: 48px;height: 22px;padding: 0 0 2px 7px;#padding: 3px 0 2px 3px !important;#padding: 0 0 2px 3px;font-size: 100%;font-weight: bold;letter-spacing: 0.5em;text-align: left;color: #444;border: 1px solid #b5c5cc;background: #fffff ;cursor: pointer;}
+
+.time {font-size: 90%;}
+
+.clear {clear: both;}
+
+#index {width: 58%;float:right;overflow:hidden;background: url(http://jessie-skin19.blogbus.com/files/12342432350.jpg) top right repeat-y;}
+
+#header {text-align:right;overflow:hidden;}
+#header  h1{text-align:right;margin:20px 70px 0px 0;font-size:11px;color:#3bb4c9;font-weight:normal;}
+#header  h1 a{font-weight:normal;color:#3bb4c9;}
+#header  h1 a:hover{font-weight:normal;background:#3bb4c9;color:#ffffff;}
+.blogName { font-align:left;font-weight:bold;font-size: 200%;margin:10px 70px 0 0;}
+.blogName a {letter-spacing:-2px;color: #3cb5ca;}
+.blogName a:hover {color: #3cb5ca;}
+.description {margin: 0px 70px 0 0;text-align:right;font-size:11px;line-height: 100%;color: #66645c;}
+
+#content {width:90%;float:left;text-align:left;}
+
+#posts {margin-top:20px;}
+#posts li {margin-bottom: 25px;}
+.postHeader {padding-bottom:25px;width:500px;float:left;background-image: url('http://jessie-skin19.blogbus.com/files/12342463930.jpg');background-position:bottom left;background-repeat:no-repeat;}
+.postHeader h2 {float: left;padding:10px 0 10px 35px;font-size: 18px;font-weight: bold;line-height: 130%;color: #66645c;background: url(http://jessie-skin19.blogbus.com/files/12342464930.jpg) center left no-repeat;}
+.postHeader h2 a {color: #343026;}
+.postHeader h2 a:hover {color: #343026;}
+.postHeader h2 .category {display: none;}
+.postBody {line-height: 160%;padding:15px 20px 15px 0px;}
+.postBody p {margin: 0 0 10px;}
+.postBody table {margin: 0 auto;}
+.postBody img {border:1px solid #cccccc;}
+.postBody table a:hover {border: none;}
+.postFooter {padding-left:25px;background: url(http://jessie-skin19.blogbus.com/files/12342481840.jpg) left top repeat-y;}
+.postFooter h3 {font-size:11px;
+font-weight:normal;}
+.postFooter h3 a {font-size:11px;font-weight:normal;}
+.postFooter a {color: #66645c;}
+.postFooter a:hover {color: #89c122;}
+
+
+.pageNavi {padding-bottom:7px;}
+.pageNavi a {color:#89c122;}
+.pageNavi a:hover {color:#89c122;}
+
+
+#sidebar{width:320px;margin:30px 80px 30px 0;float:right; text-align:left;}
+#photo{float:right;}
+#about{ float:left;line-height:160%;font-size:11px;margin-right:20px;}
+.module {margin-bottom: 20px;}
+#profile img {width: 96px;height: 96px;padding: 2px;border: 1px solid #D9D9D9;overflow: hidden;}
+#profile h3 {margin: 5px 0 2px;#margin: 2px 0 2px;font-size: 100%;}
+
+
+#custom {margin-bottom: 20px;}
+.statistics {margin-bottom: 20px;}
+.subscribe {margin-bottom: 20px;}
+
+#copyright{margin:10px 0 20px 0;text-align:left;font-size:11px;overflow:hidden;color:#66645c;font-weight:normal;}
+#copyright a{font-size:11px;color:#66645c;}
+#copyright a:hover{font-size:11px;color:#3cb5ca;}
+
+
+.tb_url {margin: 5px 0;}
+.tb_url input {width: 280px;color: #666;border: 1px solid #D9D9D9;}
+#trackbacks {margin: 0 0 20px;}
+#trackbacks .desc {margin: 0 0 15px 0;}
+#trackbacks h2 {font-size: 110%;margin-bottom: 20px;}
+#trackbacks h3 {font-size: 100%;font-weight: normal;}
+#trackbacks .blogName {margin: 2px 0;padding: 0;font-size: 100%;font-weight: normal;text-align: left;}
+#trackbacks .blogName span {font-weight: bold;}
+#trackbacks .time {font-size: 80%;}
+#trackbacks li {margin: 0 0 20px;border-bottom: 1px solid #D9D9D9;}
+#trackbacks .content {}
+
+.context {margin: 0 0 24px;font-size: 100%;text-align: left;color: #4EA3AE;}
+
+#comments {margin: 0 20px 20px;width:500px;}
+#comments h2 {font-size: 110%;margin-bottom: 20px;}
+#comments li {margin: 0 0 20px;border-bottom: 1px solid #D9D9D9;}
+#comments .menubar {margin-top: 10px;}
+.reCmtBody {margin: 5px 0;padding: 0px 20px 0 15px;color: #444;width:400px;border-left:#89c122 5px solid;}
+.cmtBody p {margin: 10px 0;}
+.reply {}
+#commentForm {margin: 0 20px 20px;}
+#commentForm h2 {font-size: 110%;margin-bottom: 20px;}
+#commentForm form {}
+#commentForm label {display: block;}
+#commentForm textarea {width: 400px;margin: 5px 0;}
+
+#cats a:active {outline:none}
+#nPosts a:active {outline:none}
+#nComments a:active {outline:none}
+#links a:active {outline:none}
+#tags a:active {outline:none}
+#archives a:active {outline:none}
+
+#content #posts li .postBody ul,ol { margin:0; padding:0; margin-left:20px; }
+#content #posts li .postBody li { margin:0; padding:0; padding:0 2px;list-style-position:inside; }
+#content #posts li .postBody ul li { list-style:disc; }
+#content #posts li .postBody ol li { list-style:decimal; }

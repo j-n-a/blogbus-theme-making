@@ -1,0 +1,29 @@
+<form method="post" action="<!-- ~ addcomment_url ~ -->" />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="left" valign="middle" nowrap>&nbsp;Name£º</td>
+    <td align="left" valign="bottom"><input type="text" name="name" value="<!-- ~ cmt_wt_name ~ -->" /></td>
+  </tr>
+  <tr>
+    <td align="left" valign="middle" nowrap>&nbsp;E-mail£º</td>
+    <td align="left" valign="bottom"><input type="text" name="email" value="<!-- ~ cmt_wt_email ~ -->" /></td>
+  </tr>
+  <tr>
+    <td align="left" valign="middle" nowrap>&nbsp;Web£º</td>
+    <td align="left" valign="bottom"><input type="text" name="homepage" value="<!-- ~ cmt_wt_homepg ~ -->" /></td>
+  </tr>
+  <tr>
+    <td align="left" valign="top">&nbsp;</td>
+        <td align="left" valign="bottom">
+		<textarea name="cmt" rows="8" cols="42" style="color:#1f1f1f; font-size:12px !important; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-seriffont-weight:500; padding:3px"></textarea>&nbsp;
+		<input type="hidden" name="parentid" value="<!-- ~ diaryid ~ -->" />
+		<input type="hidden" name="jumpto" value="<!-- ~ url ~ -->" />
+		<input type="submit" name="addsub" value="OK" class="button"/>
+		<input name="ÖØÖÃ" type="reset" value="Reset" class="button"/>
+	</td>
+
+  </tr>
+</table>
+</form>
+<br />
+<br />

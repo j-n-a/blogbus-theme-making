@@ -1,0 +1,23 @@
+<ul id="posts">
+				<div class="context"><span class="pre">{#pre}</span> | <span class="top"><a href="http://{#domain}">สื าณ</a></span> | <span class="next">{#next}</span></div>
+				<!--list-->
+				<li>
+					<div class="postHeader">
+						<h2><a href="{#url}">{#title}</a></h2>
+                                                <div class="clear"></div>
+                                                 <h3>posted by <a href="{#profile_url}">{#author}</a> @
+{#date} {#time}</h3> 
+                                                
+                                          </div>
+                                        <div class="clear"></div>
+					<div class="postBody">
+						{#content}
+					</div>
+					<div class="postFooter">
+						<div class="menubar"> {#menubar}<br> Tag: {#tags} | Sort:{#cat}
+</div>
+                                        </div><br>
+				</li>
+				<!--/list-->
+				
+</ul>

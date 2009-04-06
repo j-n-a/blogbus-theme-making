@@ -1,0 +1,29 @@
+<ul id="posts">
+
+				<!--list-->
+				<li>
+					<div class="postHeader">
+                                                         <div class="postinfo">
+						<h2><a href="{#url}">{#title}</a></h2>
+                                                
+                                                         </div>
+                                                         <div class="posttime">
+                                                <h3>{#date} </h3>
+					              	 </div>
+					</div>
+                                           <div class="clear"></div>
+					   <div class="entryContent">
+			                   {#content}
+		                           </div>
+					<div class="postFooter">
+						<div class="menubar"> posted by  <a href="{#profile_url}">{#author}</a> @ {#time}  |  {#menubar}</div>
+                                                 Tag: {#tags} | Sort:{#cat} 
+					</div>
+<br>
+				</li>
+				<!--/list-->
+</ul>
+<div class="pageNavi">
+
+{#pagenav}
+</div>

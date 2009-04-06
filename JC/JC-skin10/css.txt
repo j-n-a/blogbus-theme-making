@@ -1,0 +1,818 @@
+<style type="text/css">
+
+<!--
+
+
+* {
+
+      padding: 0px;
+
+      margin: 0px;
+
+      border: none;
+
+}
+
+body {
+
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+
+      font-size: 12px;
+
+      line-height: 150%;
+
+      color: #353535;
+
+ 
+ background:#476B3D;
+
+   
+      margin-top:30px;
+      margin-bottom: 20px;
+
+}
+
+a {
+
+      color: #353535;
+
+      text-decoration: none;
+
+}
+
+a:visited {
+
+      color: #353535;
+
+}
+
+a:hover {
+
+      color: #D15C00;
+
+      text-decoration: underline;
+
+}
+
+h2 {
+
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+
+      font-size: 13px;
+
+      font-weight: bold;
+
+}
+
+input {
+
+      color: #666666;
+
+      font-size: 12px !important;
+
+      font-size: 11px;
+
+      padding: 1px;
+
+      border: 1px solid #666666;
+
+      background: #fff;
+
+} 
+
+
+textarea {
+
+      color: #666666;
+
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+
+      font-size: 12px !important;
+
+      font-size: 11px;
+
+      padding: 2px 3px;
+
+      border: 1px solid #666666;
+
+      overflow: auto;
+
+}
+
+li {
+
+      color: #353535;
+
+      list-style: none;
+
+      text-align: left;
+    
+
+}
+
+.button {
+
+      color: #353535;
+
+      background: #4056F;
+
+      width: 48px;
+
+      height: 19px;
+
+      font-weight: bold;
+
+      padding: 2px 5px 3px 5px;
+
+      border: 1px solid #666666;
+
+      cursor: pointer;
+
+}
+
+#container {
+
+      width: 750px;
+
+      margin: 0px auto;
+
+      background: #ffffff ;
+
+} 
+
+
+#header {
+       width: 717px;
+       height: 415px;
+       padding-top:10px;
+       font-family: Verdana, Arial, Helvetica, sans-serif;
+       background: url(http://files.blogbus.com/jessie-skin10.blogbus.com/files/s/12016327010.jpg) top center no-repeat;
+       overflow: hidden;
+       text-align: right;
+}
+#header h1 {
+       padding: 20px 130px 5px 16px;
+       line-height: 120%;
+       text-align: right;
+       font-size: 24px;
+       color: #353535;
+       font-weight: bold;
+}
+
+#header h1 a { 
+       line-height: 120%;
+       font-size: 24px;
+       font-weight: bold;
+       color: #353535;
+}
+#header h1 a:hover{
+       color: #353535;
+       font-size: 24px;
+       text-decoration: none;
+}
+
+#header h3{
+       margin-top:-25px;
+       padding: 0px 120px 5px 60px;
+       line-height: 120%;
+       text-align: left;
+       font-size: 12px;
+       color: #353535;
+       font-weight: normal;
+}
+#header h3 a {
+       color: #353535;
+       font-weight: normal;
+       text-decoration: none;
+       font-size:12px;
+}
+#header h3 a:hover {
+       color: #ffffff;
+      background:#000000;
+      font-weight: normal;
+       text-decoration: none;
+       font-size:12px;
+}
+
+#description {
+       font-size: 12px;
+       text-align: right;
+   
+       padding: 1px 120px 5px 320px; 
+       MARGIN-TOP: -10px
+       line-height: 120%;
+       color: #4B7746;
+       font-weight: normal;
+}
+
+
+
+#content {
+
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+
+      color: #353535;
+      
+      text-align: left;
+
+      width: 520px;
+
+      float: left;
+
+      word-break: break-all;
+     
+      overflow: hidden;
+
+}
+
+.entry {
+
+      width: 512px;
+
+      margin: 25px 0 20px 0px;
+
+}
+
+.entryBody {
+
+      margin: 32px 5px 0 16px;
+
+}
+
+.entryBody p {
+
+      margin: 10px auto;
+
+}
+
+.date {
+
+      color: #D15C00;
+       padding-left: 18px;
+
+      font-size: 12px !important;
+
+      font-size: 11px;
+
+      float: left;
+
+      text-align: left; background: url() bottom left repeat-y;
+
+}
+
+.entry h2, .entry h2 a {
+
+      color: #353535;
+
+      font-size: 16px;
+
+      font-weight: bold;
+
+      padding-bottom: 1px;padding-left: 8px;
+
+      text-decoration: none;
+
+      text-align:left;
+
+      overflow: hidden;
+
+      line-height: 120%;
+    
+
+}
+
+.entry h2 a:visited {
+
+      color: #353535;
+         font-size: 16px;
+}
+
+.entry h2 a:hover {
+
+      color: #D35E00 ;
+      background:none;
+      text-decoration: none;
+      font-size: 16px;
+}
+
+.posttime {
+
+      color: #D15C00;
+
+      font-size: 12px !important;
+
+      font-size: 11px;
+
+      float: left;
+
+      text-align:left;
+
+      margin-right: 5px;
+
+}
+
+#entryHeader {     
+
+      width: 500px; height: 22px;                  
+
+      display: block;
+
+      background: url() bottom left repeat-y;
+
+}
+
+.entryFooter {
+
+      font-size: 12px !important;
+
+      font-size: 11px;
+
+      color: #D15C00;
+      
+      padding-top: 10px;
+      padding-bottom:20px;
+      margin: 0 16px;
+      border-top:1px solid #D15C00;
+    
+
+}
+
+.entryFooter a {
+
+      font-size: 12px !important;
+
+      font-size: 11px;
+      text-align:right;
+      color: #D15C00;
+     
+      text-decoration: none;
+
+}
+
+.entryFooter a:visited {
+
+  
+      color: #D15C00;
+     
+      text-decoration: none;
+
+}
+
+.entryFooter a:hover {
+      
+    font-size: 12px !important;
+
+      font-size: 11px;
+      color: #353535;
+     background:none;
+      text-decoration: none;
+
+}
+
+.tags {
+
+      color: #D15C00;
+
+      font-size: 12px !important;
+
+      font-size: 11px;
+
+      float: left;
+
+      margin-top: 1px;
+
+      margin-left: 22px;
+
+}
+
+.tags a {
+
+      font-size: 12px !important;
+       background:none;
+      font-size: 11px;
+
+} 
+ 
+ 
+
+
+#sidebar {
+width: 190px;
+padding: 25px 10px 0 20px;
+float: left;
+text-align: left;
+line-height: 140%;
+overflow: hidden;
+table-layout: fixed;
+word-break: break-all; 
+
+ 
+}
+
+#sidebar a{
+
+      font-size: 12px !important;
+    
+      font-size: 11px;
+   
+}
+
+#sidebar h2 {
+
+      color: #D35E00 ;
+
+      font-size: 13px;
+
+      margin-bottom: 7px;
+
+      padding-bottom: 1px;
+      padding-top:12px;
+      padding-right:10px;
+      text-align: right;
+background: url(http://files.blogbus.com/jessie-skin10.blogbus.com/files/12018077270.jpg) bottom right no-repeat;
+
+}
+
+#calendar {               
+
+      margin-bottom: 10px;
+
+      color: #353535;
+      padding-left:20px;
+      text-align:left ;
+      
+}
+
+.calendar_h {
+
+      color: #353535;
+
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+
+      width: 100%;
+
+      font-weight: bold;
+
+      padding: 2px 0px;
+
+}
+
+.week {
+
+      color: #353535;
+
+      font-size: 11px !important;
+
+      font-size: 10px;
+
+      text-align: center;
+
+      padding: 3px;
+
+      white-space: nowrap;
+
+}
+
+.day {
+
+      color: 353535;
+
+      font-size: 12px !important;
+
+      font-size: 11px;
+
+      text-align: center;
+
+      white-space: nowrap;
+
+}
+
+.today {
+
+      color: #FFF;
+
+      font-size: 12px !important;
+
+      font-size: 11px;
+
+      text-align: center;
+
+      font-weight: bold;
+
+      background: #D35E00 ;
+
+}
+
+#calendar .today a:link {
+
+      color: #353535;
+
+}
+
+#calendar .today a:visited {
+
+      color: #353535;
+
+}
+
+#calendar .today a:hover {
+
+      text-decoration: underline;
+
+}
+
+
+#tagline {
+
+      margin-top: 15px;
+
+      margin-bottom: 20px;
+    
+}
+
+
+}
+#sorts {
+
+      margin-bottom: 10px;
+
+      line-height: 150%;
+
+}
+
+
+#update {
+
+      margin-bottom: 10px;
+
+      line-height: 150%;
+
+}
+
+#lastComments {
+
+      margin-bottom: 10px;
+
+      line-height: 150%;
+
+}
+
+#archives {
+
+      margin-bottom: 10px;
+
+      line-height: 150%;
+
+}
+
+
+
+
+#customHtml {
+
+      padding: 2px 0px;
+
+      word-break: break-all;
+
+      
+
+}
+
+#misc {
+
+      margin-bottom: 10px;
+
+      line-height: 150%;
+
+}
+
+#misc img {
+
+      margin: 5px 2px;
+
+}
+
+#misc a img {
+
+      border: none;
+
+}
+
+#subscribe, #subscribe a {
+
+      padding: 6px 0px;
+
+      background: none;
+
+}
+
+#poweredBy, #poweredBy a {
+
+      font-size: 15px !important;
+
+      font-size: 15px;
+
+      background: none;
+
+      padding: 20px 0px 0px;
+
+}
+
+#context {
+
+      color: #353535;
+
+      margin-bottom: 24px;
+
+      margin-left: 25px;
+
+}
+
+#context a {
+
+      color: #353535;
+
+      text-decoration: none;
+
+}
+
+#context a:visited {
+
+      color: #353535;
+
+}
+
+
+#context a:hover {
+
+      color: #D15C00;
+
+      text-decoration: none;
+
+}
+
+#comments {
+
+      margin-bottom: 10px;
+
+      margin-left: 25px;
+
+      width: 450px;
+
+}
+
+#comments li {
+
+      margin-bottom: 10px;
+      border-bottom:#353535 1px solid;
+     
+
+      list-style: none;
+
+}
+
+.commentBody {
+
+      margin: 10px 10px 6px 6px; 
+
+      text-align: left;
+
+}
+
+.commentPost  {
+
+      margin-top: 4px;
+
+}
+#comments h2 {
+
+      color: #D35E00 ;
+
+      font-size: 13px;
+
+      font-weight: bold;
+
+}
+
+
+
+.commentPost a{
+
+      font-size: 12px !important;
+
+      font-size: 11px;
+
+}
+
+.recmtBody {
+
+      padding: 3px;
+      border:1px solid #BE5A00;
+
+     
+
+}
+
+#commentForm {
+
+      margin-left: 25px;
+
+}
+
+#commentForm h2 {
+
+      color: #D35E00;
+
+      font-size: 13px;
+
+      font-weight: bold;
+
+      margin-bottom: 14px;
+
+}
+
+#commentForm td {
+
+      padding-bottom: 4px;
+
+}
+
+#commentForm tr {
+
+      padding: 6px;
+
+}
+
+.pages {
+
+      margin-left: 20px;
+
+}
+
+#footer {
+
+      clear: both;
+
+      width: 605px;
+
+      height: 60px;
+
+      background: url() bottom left no-repeat;
+
+}
+
+#copyright {
+
+      font-size: 10px;
+
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+
+      padding-top: 20px;
+    color:#353535;
+      
+      text-align: center;
+
+} 
+#copyright  a{
+
+      font-size: 10px;
+
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+     color:#BE5A00;
+      padding-top: 20px;
+    text-align: center;
+
+} 
+#copyright  a:hover{
+
+      font-size: 10px;
+      color:#353535;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+
+      padding-top: 20px;
+    text-align: center;
+
+} 
+
+
+
+
+.entry h2 .sort {
+	font-size: 12px;
+	font-weight: normal;
+	margin-left: 5px;
+	line-height: 120%;
+}
+.entry h2 .sort a{
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+ 
+
+
+-->
+
+</style> 

@@ -1,0 +1,449 @@
+<style type="text/css">
+<!--
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+#sidebar ul, #sidebar ul li { margin:0; padding:auto; list-style:none; }
+body {
+	margin: 0;
+	padding: 0;
+	 background: #FFF url(http://files.blogbus.com/jessie-skin2.blogbus.com/files/11916706960.jpg) right bottom no-repeat  fixed;
+	color: #444;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
+a {
+	color: #777777;
+	text-decoration: none;
+}
+a:visited {
+	color: #777777;
+}
+a:hover {
+	color: #777777;
+}
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #444;
+	font-size: 13px;
+	font-weight: bold;
+}
+input {
+	border: 1px solid #BBB;
+	font-size: 12px !important;
+	font-size: 11px;
+	padding: 1px 0 1px 1px;
+	color: #444;
+}
+textarea {
+	color: #444;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px !important;
+	font-size: 11px;
+	padding: 2px 3px;
+	border: 1px solid #BBB;
+	overflow: auto;
+}
+li {
+	color: #444;
+	list-style: disc;
+	text-align: left;
+}
+.button {
+	color: #444;
+	background: #FFF;
+	width: 48px;
+	height: 20px;
+	font-weight: bold;
+	padding: 2px 3px 3px 5px;
+	border: 1px solid #BBB;
+	cursor: pointer;
+}
+#container {
+	width: 784px;
+	margin: 1px auto;
+       
+}
+#header {
+	width: 490px; /*543px ori*/
+	height: 80px;
+	margin: 0 16px 0 5px !important;
+	margin: 0 8px 0 6px;
+	padding: 0 15px 33px 15px !important;
+	padding: 0 15px 20px 15px;
+	float: right;
+	font-family: "Times New Roman", Times, serif;
+	overflow: hidden;
+	text-align: right;
+	background: url() top left no-repeat;
+}
+#header a {
+	color: #626262;
+}
+#header h1 {
+	font-family: "Times New Roman", Times, serif;
+	margin: 20px 0 4px 0;
+	text-align: right;
+	font-size: 25px;
+	color: #626262;
+	font-weight: bold;
+}
+#header h1 a {
+	color: #888888;
+	text-decoration: none;
+	font-weight: bold;
+}
+#header h1 a:hover, a:active {
+	color: #666;
+}
+#description {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	text-align: right;
+	color: #444;
+	font-weight: bold;
+	margin-bottom: 30px;
+	padding-left: 180px;
+}
+#content {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #444;
+	text-align: left;
+	width: 490px;
+	float: right;
+	margin: 0 16px 0 5px !important;
+	margin: 0  8px 0 5px;
+	padding: 0 14px 0 16px;
+	word-break: break-all;
+	overflow: hidden;
+	border:  solid #D3D3D3 1px;
+	
+}
+.entry {
+	margin-bottom: 20px;
+}
+.entryBody {
+	word-break: break-all;
+	line-height: 140%;
+	margin-left: 2px;
+}
+.entryBody p {
+	margin: 10px auto;
+}
+.date {
+	color: #777777;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 12px;
+	float: right;
+	text-align: right;
+	white-space: nowrap
+}
+.entry h2 {
+	color: #444;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: left;
+	float: left;
+	word-break: break-all;
+}
+.entry h2 a {
+	color: #444;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.entry h2 a:visited {
+	color: #444;
+}
+.entry h2 a:hover {
+	color: #666;
+}
+.entryFooter {
+	color: #777777;
+	font-size: 12px !important;
+	font-size: 11px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	font-weight: bold;
+}
+.entryFooter a {
+	color: #777777;
+	font-size: 12px !important;
+	font-size: 11px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.entryFooter a:visited {
+	color: #777777;
+}
+.entryFooter a:hover,a:active {
+	color: #777777;
+}
+
+.titlebar {                            
+	padding: 3px 5px;
+        width:480px;
+	background: url(http://files.blogbus.com/jessie-skin2.blogbus.com/files/11916070010.jpg) bottom left repeat-x;
+	margin-bottom: 5px;
+	float: left;
+}
+.tags {
+	font-size: 11px !important;
+	font-size: 11px;
+	color: #777777;
+	margin: 0 5px;
+	font-family: "Lucida Grande", Verdana, Helvetica, Sans-Serif;
+        
+}
+.tags a {
+	font-size: 12px !important;
+	font-size: 11px;
+	color: #777777;
+	font-family: "Lucida Grande", Verdana, Helvetica, Sans-Serif;
+	/*font-weight: bold;*/
+	text-decoration: none;
+}
+.tags a:visited {
+	color: #777777;
+}
+.tags a:hover,a:active {
+	color: #777777;
+	text-decoration: underline;
+}
+#sidebar {
+	font-family: "Lucida Grande", Verdana, Arial, Sans-Serif;
+	width: 180px;
+	float: left;
+	padding: 115px 0 0 26px !important;
+	padding: 115px 10px 0 27px;
+	text-align: left;
+	line-height: 140%;
+	overflow: hidden;
+	table-layout: fixed;
+	word-break: break-all;
+}
+#sidebar h2 {
+	color: #555555;
+	margin-bottom: 5px;
+	padding-bottom: 2px;
+	background: url() bottom left repeat-x;
+}	
+#sidebar a {
+	font-size: 12px !important;
+	font-size: 11px;
+	color: #555;
+	text-decoration: none;
+}
+#sidebar a:visited {
+	color: #555;
+}
+#sidebar a:hover,a:active {
+	color: #999;
+}
+#calendar {               
+	margin-bottom: 20px;
+	padding-right: 10px;
+}
+#calendar table {
+}
+.calendar_h {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 100%;
+	font-weight: bold;
+	padding: 2px 0px;
+}
+.week {
+	font-size: 11px !important;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	padding: 2px;
+	white-space: nowrap;
+}
+.day {
+	font-size: 12px !important;
+	font-size: 11px;
+	text-align: center;
+	white-space: nowrap;
+}
+.today {
+	color: #FFF;
+	font-size: 12px;
+	text-align: center;
+	background: #777777;
+}
+#calendar .today a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+#calendar .today a:visited {
+	color: #FFF;
+}
+#calendar .today a:hover,a:active {
+	color: #FFF;
+	text-decoration: underline;
+}
+#login td {
+	padding-bottom: 4px;
+}
+#login tr {
+	padding: 6px;
+	text-align: right;
+}
+#tagline {
+	margin-bottom: 20px;
+}
+#search {
+	margin-bottom: 20px;
+}
+#sorts {
+	margin-bottom: 20px;
+}
+#update {
+	margin-bottom: 20px;
+}
+#lastComments {
+	margin-bottom: 20px;
+}
+#archives {
+	margin-bottom: 20px;
+}
+#links {
+	margin-bottom: 20px;
+}
+#links img {
+	margin: 5px 2px;
+}
+#links a img {
+	border: none;
+}
+#misc {
+	margin-bottom: 20px;
+	line-height: 150%;
+}
+#misc img {
+	margin: 5px 2px;
+}
+#misc a img {
+	border: none;
+}
+#customHtml {
+	padding: 4px 0px;
+	word-break: break-all;
+	overflow: hidden;
+}
+#subscribe, #subscribe a {
+	padding: 6px 0px;
+	background: none;
+}
+#poweredBy, #poweredBy a {
+	font-size: 12px !important;
+	font-size: 10px;
+	background: none;
+	padding: 20px 0px 0px;
+}
+#context {
+	color: #777777;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+#context a {
+	padding-left: 0px;
+	color: #777777;
+	text-decoration: none;
+	font-weight: bold; 
+}
+#context a:visited {
+	color: #777777;
+}
+#context a:hover,a:active {
+	color: #777777;
+}
+#comments {
+	margin-bottom: 30px;
+}
+#comments h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #444;
+	font-size: 13px;
+	font-weight: bold;
+}
+#comments li {
+	margin-bottom: 30px;
+	background: url(http://files.blogbus.com/jessie-skin2.blogbus.com/files/11916070010.jpg) bottom left repeat-x;
+	list-style: none;
+}
+.commentBody {
+	color: #444;
+	margin: 10px 10px 6px 6px; 
+	text-align: left;
+                line-height: 140%;
+}
+.commentPost  {
+	margin-top: 14px;
+}
+.commentPost a{
+	color: #777777;
+	text-decoration: none;
+	font-weight: bold;        
+}
+.commentPost a:hover,a:active {
+	color: #777777;
+}
+.recmtBody {
+	padding: 3px 0px 5px 3px;
+	background: #DDD;
+	line-height: 160%;
+}
+#commentForm h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #444;
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 14px;
+}
+#commentForm td {
+	padding-bottom: 4px;
+}
+#commentForm tr {
+	padding: 6px;
+}
+#footer {
+	clear: both;
+	float: right;
+	width: 490px;
+	height: 60px;
+	margin: 0 16px 0 5px !important;
+	margin: 0 8px 0 5px;
+	padding: 0 15px 0 15px;
+
+}
+#copyright {
+	font-size: 9px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding-top,padding-bottom: 20px;
+}
+.entry h2 .sort {
+	font-size: 12px;
+	font-weight: normal;
+	margin-left: 5px;
+	margin-right: 60px;
+	padding-right: 60px;
+	line-height: 120%;
+}
+.entry h2 .sort a{
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+-->
+</style>

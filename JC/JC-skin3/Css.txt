@@ -1,0 +1,785 @@
+<style type="text/css">
+
+<!--
+/*
+Copyright ? MiMZii 2007.
+This Blog is powered by WordPress.
+Entries RSS and Comments RSS. Template designed by MayaBox.
+Yahoo!Stat.
+*/
+
+
+
+* {
+
+      padding: 0px;
+
+      margin: 0px;
+
+      border: none;
+
+}
+
+body {
+
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+
+      font-size: 12px;
+
+      line-height: 150%;
+
+      color: #626262;
+
+     background:#ffffff url(http://files.blogbus.com/jessie-skin3.blogbus.com/files/11929542660.jpg) fixed ; background-position:center top; style="overflow: scroll; overflow-x:hidden";
+text-align: center;
+
+      margin-bottom: 16px;
+
+}
+
+
+
+a {
+
+      color: #626262;
+
+      text-decoration: none;
+
+}
+
+a:visited {
+
+      color: #626262;
+
+}
+
+a:hover {
+
+      color: #B85B5A;
+
+      text-decoration: underline;
+
+}
+
+h2 {
+
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+
+      font-size: 13px;
+
+      font-weight: bold;
+      color:#F15A21;
+
+}
+
+input {
+
+      color: #666666;
+
+      font-size: 12px !important;
+
+      font-size: 11px;
+
+      padding: 1px;
+
+      border: 1px solid #BBB;
+
+      background: #fff;
+
+} 
+
+
+textarea {
+
+      color: #626262;
+
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+
+      font-size: 12px !important;
+
+      font-size: 11px;
+
+      padding: 2px 3px;
+
+      border: 1px solid #BBB;
+
+      overflow: auto;
+
+}
+
+li {
+
+      color: #666;
+
+      list-style: none;
+
+      text-align: left;
+
+}
+
+.button {
+
+      color: #666;
+
+      background: #FFF;
+
+      width: 48px;
+
+      height: 19px;
+
+      font-weight: bold;
+
+      padding: 2px 5px 3px 5px;
+
+      border: 1px solid #BBB;
+
+      cursor: pointer;
+
+}
+
+#container {
+
+      width: 780px;
+
+      margin: 0px auto;
+
+      background: #FFF url(http://files.blogbus.com/jessie-skin3.blogbus.com/files/11929563590.jpg) top center repeat-y;
+     
+} 
+
+
+#header {
+       width: 780px;
+       height: 253px;
+       font-family: Verdana, Arial, Helvetica, sans-serif;
+       background: url(http://files.blogbus.com/jessie-skin3.blogbus.com/files/11929542662.gif) top center no-repeat;
+       overflow: hidden;
+       text-align: center;
+}
+#header h1 {
+       padding: 35px 20px 5px 16px;
+       line-height: 120%;
+       text-align: right;
+       font-size: 26px;
+       color: #A68165;
+       font-weight: bold;
+}
+
+#header h1 a {
+       color: #A68165;
+       font-weight: bold;
+       text-decoration: none;
+}
+#header h1 a:hover, a:active {
+       color: #ADA79C;
+       text-decoration: none;
+}
+
+#description {
+       font-size: 12px;
+       text-align: right;
+       padding: 1px 40px 5px 16px; 
+       MARGIN-TOP: -15px
+       line-height: 120%;
+       color: #626262;
+       font-weight: normal;
+}
+
+
+
+#content {
+
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+
+      color: #626262;
+      
+      text-align: left;
+
+      width: 552px;
+
+      float: left;
+
+      word-break: break-all;
+
+      overflow: hidden;
+
+}
+
+.entry {
+
+      width: 512px;
+
+      margin: 25px 0 20px 18px;
+
+}
+
+.entryBody {
+
+      margin: 32px 5px 0 16px;
+      
+
+}
+
+.entryBody p {
+
+      margin: 10px auto;
+
+}
+
+.date {
+
+      color: #ADA79C;
+       padding-left: 18px;
+
+      font-size: 12px !important;
+
+      font-size: 11px;
+
+      float: left;
+
+      text-align: left; 
+     background: url() bottom left no-repeat;
+
+}
+
+.entry h2, .entry h2 a {
+
+      color: #F15A21;
+
+      font-size: 16px;
+
+      font-weight: bold;
+
+      padding-bottom: 1px;padding-left: 8px;
+
+      text-decoration: none;
+
+      text-align:left;
+
+      overflow: hidden;
+
+      line-height: 120%;
+       
+
+}
+
+.entry h2 a:visited {
+
+      color: #F15A21;
+
+}
+
+.entry h2 a:hover {
+
+      color: #A68165;
+      text-decoration: none;
+
+}
+
+.posttime {
+
+      color: #ADA79C;
+
+      font-size: 12px !important;
+
+      font-size: 11px;
+
+      float: left;
+
+      text-align:left;
+
+      margin-right: 5px;
+
+}
+
+#entryHeader {     
+
+      width: 500px; height:15px;                  
+}
+
+.entryFooter {
+
+      font-size: 12px !important;
+
+      font-size: 11px;
+
+      color: #F15A21;
+      
+      padding-bottom: 30px;
+      margin: 0 16px;
+     
+    
+
+}
+
+.entryFooter a {
+
+      font-size: 12px !important;
+
+      font-size: 11px;
+      text-align:right;
+      color: #F15A21;
+     
+      text-decoration: none;
+
+}
+
+.entryFooter a:visited {
+
+      color: #F15A21;
+
+}
+
+.entryFooter a:hover,a:active {
+
+      color: #A68165;
+
+      text-decoration: none;
+
+}
+
+.tags {
+
+      color: #ADA79C;
+
+      font-size: 12px !important;
+
+      font-size: 11px;
+
+      float: left;
+
+      margin-top: 1px;
+
+      margin-left: 22px;
+
+}
+
+.tags a {
+
+      font-size: 12px !important;
+
+      font-size: 11px;
+
+} 
+ 
+ 
+
+
+#sidebar {
+width: 200px;
+padding: 0px 15px 0 5px;
+float: right;
+text-align: left;
+line-height: 140%;
+overflow: hidden;
+table-layout: fixed;
+word-break: break-all; 
+
+}
+
+
+#sidebar a{
+
+      font-size: 12px !important;
+
+      font-size: 11px;
+
+}
+
+#sidebar h2 {
+
+      color: #686868;
+
+      font-size: 13px;
+
+      margin-bottom: 4px;
+
+      padding-bottom: 1px;
+
+    
+     
+
+
+}
+#calendar { 
+	margin-bottom: 15px;
+	padding: 5px 2px; 
+}
+#calendar table {
+	width: 100%; 
+	margin: 0; 
+	padding: 0; 
+}
+#calendar td { 
+	font-size: 80%; 
+	text-align: center; 
+	line-height: 150%; 
+	word-break: keep-all; 
+	text-transform: lowercase; 
+       background:#F7F4EF;
+}
+#calendar .calendar_h {
+	font-size: 100%;
+	font-weight: bold;
+}
+#calendar .calendar_h a { 
+	display: inline;
+	margin: 0 4px;
+	text-decoration: none;
+	background: none;
+}
+#calendar .calendar_h a:hover { 
+	text-decoration: none;
+	background: none;
+}
+#calendar td a { 
+	color: #838D6F;
+	font-weight: bold; 
+	text-decoration: none;
+	background: none; 
+}
+#calendar td a:hover {
+	color: #856E2D;
+	border: none;
+}
+#calendar .week {
+	padding: 2px;
+	font-size: 100%;
+	text-align: center;
+	white-space: nowrap;
+}
+.day {
+	text-align: center;
+	white-space: nowrap;
+}
+#calendar td.today {
+	background: #B69876;
+}
+#calendar td.today a { 
+	background: #B69876;
+}
+	
+#login td {
+
+      padding-bottom: 4px;
+
+}
+
+#login tr {
+
+      padding: 6px;
+
+      text-align: right;
+
+}
+
+#tagline {
+
+      margin-top: 25px;
+
+      margin-bottom: 10px;
+
+}
+
+
+#sorts {
+
+      margin-bottom: 25px;
+
+      line-height: 150%;
+
+}
+
+
+#update {
+
+      margin-bottom: 25px;
+
+      line-height: 150%;
+      
+
+}
+
+
+
+
+
+#lastComments {
+
+      margin-bottom: 25px;
+
+      line-height: 150%;
+
+}
+#lastComments li {
+
+      margin-bottom: 3px;
+
+      line-height: 150%;
+
+}
+
+
+#archives {
+
+      margin-bottom: 25px;
+
+      line-height: 150%;
+
+}
+
+#links {
+
+      margin-bottom: 25px;
+
+      line-height: 150%;
+      
+     
+
+}
+
+#links img {
+
+      margin: 5px 2px;
+
+}
+
+#links a img {
+
+      border: none;
+
+}
+
+#customHtml {
+
+      padding: 2px 0px;
+
+      word-break: break-all;
+
+      overflow: hidden;
+
+}
+
+#misc {
+
+      margin-bottom: 20px;
+
+      line-height: 150%;
+
+}
+
+#misc img {
+
+      margin: 5px 2px;
+
+}
+
+#misc a img {
+
+      border: none;
+
+}
+
+#subscribe, #subscribe a {
+
+      padding: 6px 0px;
+
+      background: none;
+
+}
+
+#poweredBy, #poweredBy a {
+
+      font-size: 15px !important;
+
+      font-size: 15px;
+
+      background: none;
+
+      padding: 20px 0px 0px;
+
+}
+
+#context {
+
+      color: #A68165;
+
+      margin-bottom: 24px;
+
+      margin-left: 25px;
+
+}
+
+#context a {
+
+      color: #ADA79C;
+
+      text-decoration: none;
+
+}
+
+#context a:visited {
+
+      color: #A68165;
+
+}
+
+#context a:hover,a:active {
+
+      color: #A68165;
+
+      text-decoration: none;
+
+}
+
+#context a:hover,a:active {
+
+      color: #A68165;
+
+      text-decoration: none;
+
+}
+
+#comments {
+
+      margin-bottom: 20px;
+
+      margin-left: 25px;
+
+      width: 450px;
+
+}
+
+#comments li {
+
+      margin-bottom: 20px;
+
+     
+
+      list-style: none;
+
+}
+
+.commentBody {
+
+      margin: 10px 10px 6px 6px; 
+
+      text-align: left;
+
+}
+
+.commentPost  {
+
+      margin-top: 4px;
+
+}
+#comments h2 {
+
+      color: #666666;
+
+      font-size: 13px;
+
+      font-weight: bold;
+      text-align: left;
+
+}
+
+
+
+.commentPost a{
+
+      font-size: 12px !important;
+
+      font-size: 11px;
+
+}
+
+.recmtBody {
+
+      padding: 3px;
+
+   
+      border:1px solid  #B39573;
+
+}
+
+#commentForm {
+
+      margin-left: 25px;
+
+}
+
+#commentForm h2 {
+
+      color: #666666;
+
+      font-size: 13px;
+
+      font-weight: bold;
+
+      margin-bottom: 14px;
+       text-align: left;
+
+}
+
+#commentForm td {
+
+      padding-bottom: 4px;
+
+}
+
+#commentForm tr {
+
+      padding: 6px;
+
+}
+
+.pages {
+
+      margin-left: 20px;
+
+}
+
+#footer {
+
+      clear: both;
+
+      width: 780px;
+
+      height: 97px;
+
+      background: url(http://files.blogbus.com/jessie-skin3.blogbus.com/files/11929545031.jpg) bottom left no-repeat;
+
+}
+
+#copyright {
+
+      font-size: 12px;
+
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+
+      padding-bottom: 38px;
+      padding-left: 20px;
+
+      text-align: center;
+
+} 
+.entry h2 .sort {
+	font-size: 12px;
+	font-weight: normal;
+	margin-left: 5px;
+	line-height: 120%;
+}
+.entry h2 .sort a{
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+ 
+
+
+-->
+
+</style> 

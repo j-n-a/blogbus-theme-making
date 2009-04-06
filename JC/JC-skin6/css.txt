@@ -1,0 +1,267 @@
+<style type="text/css">
+<!--
+/* 
+Theme Name: City Slicker
+Theme URL: http://grabatheme.com/grab/cityslicker
+Description: A funky orange theme -- see if you can spot the Easter Egg in the header!
+Author:  stiletto.love & Grab A Theme
+*/
+* {
+padding: 0px;
+margin: 0px;
+border: none;
+}
+
+body {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+line-height: 160%;
+color: #F0ECD3;
+background: #FEB500 ;
+text-align: center;
+}
+#wrap
+{width:640px;
+margin:0 auto;
+background: #FEB500 url(http://files.blogbus.com/jessie-skin6.blogbus.com/files/11951217101.gif) center top repeat-y;}
+
+
+a, a:visited{
+color: #F0ECD3;
+text-decoration: none;
+}
+a:hover {
+color: #FEB500;
+text-decoration: none;
+}
+
+input, textarea {
+color: #666;
+font-size: 12px !important;
+font-size: 11px;
+padding: 1px;
+border: 1px solid #DDD;
+background: #fff;
+margin-bottom:5px;
+}
+
+.button {
+height: 20px;
+font-weight: normal;
+padding: 0px;
+border: 1px solid #DDD;
+cursor: pointer;
+margin-top: 5px;
+}
+
+#container {
+margin: 0 auto;
+background: url(http://files.blogbus.com/jessie-skin6.blogbus.com/files/11951217100.jpg) center top no-repeat;
+text-align: center;
+width: 640px;
+}
+
+#header {
+text-align: left;
+height: 360px;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+overflow: hidden;
+}
+
+#header h1 {
+padding:60px 30px 0 60px;
+text-align: left;
+font-size: 36px;
+}
+#header h1 a {color: #F0ECD3;}
+#header h1 a:hover {color: #000000;}
+
+
+#header h2 {
+padding:100px 80px 0 65px;
+text-align: left;
+font-size: 15px;
+}
+
+#header h2 a {color: #000000;}
+#header h2 a:hover {color: #FEB500;background: #F0ECD3;}
+
+#description 
+{
+padding: 10px 80px 0 70px;
+color:#F0ECD3;
+text-align:left;
+}
+
+#content {
+text-align: left;
+width: 480px;
+margin: 0 auto;
+overflow: hidden;
+}
+.entry .info 
+{
+padding-top: 15px;
+
+}
+
+
+p {
+	margin: 0 0 12px;
+}
+.entrybody
+{
+margin:20px 5px;
+
+}
+
+
+.entry h2 {
+font-size: 16px;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-weight: bold;
+
+
+}
+.entry h2 a {color:#F0ECD3;}
+
+.entry h2 a:hover,a:active {color:#FEB500;}
+.tags{
+	color:#FEB500;
+	font-size: 12px;
+	margin-bottom:3px
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+.entryFooter {
+
+      font-size: 12px !important;
+
+      font-size: 11px;
+
+      color: #C2BA4E;
+       padding-top: 10px;
+      padding-bottom:20px;
+      margin: 0 10px;
+      border-top:1px solid #FEB500;
+    
+    
+
+}
+
+.entryFooter a {
+
+      font-size: 12px !important;
+
+      font-size: 11px;
+      text-align:right;
+      color: #FEB500;
+     
+      text-decoration: none;
+      border-top:1px solid color: #FEB500;
+}
+
+.entryFooter a:visited {
+
+      color: #FEB500;
+
+}
+.entryFooter a:hover,a:active {
+
+      color: #F0ECD3;
+
+      text-decoration: none;
+
+}
+
+.cmtcount {
+text-align: right;
+padding:10px 5px 30px;
+border-top:1px solid #F0ECD3;
+}
+
+#context {
+margin-bottom: 25px;
+
+padding-bottom:10px;
+text-align: center;
+}
+
+
+#comments {
+margin-bottom: 20px;
+word-break: break-all;
+overflow: hidden;
+padding-top:10px;
+
+}
+
+#comments br{display:block}
+
+#comments li {
+margin: 10px 5px 10px;
+list-style: none;
+border-bottom: 1px solid #eee;
+padding-bottom: 8px;
+}
+
+.commentBody {
+font-size: 12px !important;
+font-size: 11px;
+margin:0 5px 8px;
+color: #F0ECD3;
+}
+
+.commentPost  {
+font-size: 12px !important;
+font-size: 11px;
+color: #F0ECD3;
+margin: 8px 5px 0;
+}
+
+.recmtBody {
+font-size: 12px !important;
+font-size: 11px;
+padding: 3px 6px;
+color: #F0ECD3;
+border:1px solid #FEB500 ;
+}
+#comments h2 {
+
+      color: #FEB500;
+
+      font-size: 13px;
+
+      font-weight: bold;
+      text-align: left;
+
+}
+
+
+#commentForm form{margin-left: 12px;}
+#commentForm h2{ color: #FEB500;
+
+      font-size: 13px;
+
+      font-weight: bold;
+      text-align: left;}
+#poweredBy, #poweredBy a {
+	background: none;
+	padding: 20px 0px 0px;
+}
+
+#footer {
+	height: 92px;
+	background: url(http://files.blogbus.com/jessie-skin6.blogbus.com/files/11951217102.gif) top center no-repeat;
+	clear: both;
+}
+#copyright {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+        text-align:center;
+}
+
+
+
+-->
+</style>

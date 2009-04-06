@@ -1,0 +1,44 @@
+<div id="index">
+	
+		<div id="header">
+			<h1 class="blogName"><a href="http://{#domain}" title="http://{#domain}">{#blog_name}</a></h1>
+<div class="description">{#blog_desc}</div>
+<h3>
+<a href="http://{#domain}" target="_blank" title="Ö÷Ò³">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://jessie0426.blogbus.com" target="_blank" title="Á´½Ó">Links</a> <a href="http://jessie0426.blogbus.com" target="_blank" title="¶¹°ê">Douban</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.blogbus.com/user/" target="_blank" title="µÇÂ½">Login&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://{#domain}/index.rdf" target="_blank" title="RSS¶©ÔÄ">RSS</a>
+</h3>
+			<div class="clear"></div>
+		</div>
+<div id="container">
+        <div id="innerContainer">
+			<div class="innerTop">
+				
+			</div>
+            <div id="outerContent">
+                <div id="content">
+                    <div class="contentTop"></div>
+                        {c:0}
+                  
+                </div>
+            </div>
+            
+            
+        </div>        
+		<div class="clear"></div>
+	</div>
+	<div id="footer">
+ <div id="footinner">
+
+<div id="about">
+<strong>ABOUT : </strong><br>
+JC £¬ April 26, 1987 £¬170 cm<br />
+Shanghai &amp; Beijing £¬Computer Science<br />
+jessie_subly@hotmail.com<br /><br>
+<a href="http://www.webmasterhome.cn/" target="_blank"><img src="http://pagerank.webmasterhome.cn/MyRank/?url=http://jessie0426.blogbus.com/" style="width:66px;height:13px;border:0px" align=absmiddle></a>
+</div>
+</div>
+<div class="clear"></div>
+<li class="statistics"><SPAN style="COLOR: #cccccc">Total£º<span class="count">{#counter}</span></span></li>       
+		<div class="copyright"><SPAN style="COLOR: #cccccc">&copy; Powered by <a href="http://www.blogbus.com/" target="_blank">BlogBus</a>&nbsp;&nbsp;Skinned by <a href="http://jessie0426.blogbus.com/" target="_blank">class JC</a></span></div><br>
+	
+</div>
+</div>

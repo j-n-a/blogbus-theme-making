@@ -1,0 +1,15 @@
+<div class="entry">
+		<div class="titlebar">
+			<h2><SPAN style="COLOR: #F15A21"><a href="<!-- ~ log_url ~ -->"><!-- ~ diarytitle ~ --></a><span class="sort">- [<!-- ~ sort ~ -->]</span></h2>
+       <img src="http://files.blogbus.com/jessie-skin3.blogbus.com/files/11930520400.jpg"  >
+	<div class="date">&nbsp;<!-- ~ timeline ~ --></div>
+		</div>	
+</a><br/>
+                                <div class="tags"><SPAN style="COLOR: #ADA79C">Author:<!-- ~ author ~ --></a> | Time: <!-- ~ posttime ~ --> | Tag: <SPAN style="COLOR: #ADA79C"><!-- ~ b_cat ~ --></div><br />			
+		<div class="entryBody">
+			<!-- ~ diarybody ~ -->
+		</div><br />
+				
+		<div class="entryFooter"><a href="<!-- ~ log_url ~ -->#cmt"><strong>Comment (<!-- ~ comments ~ -->)</strong></a> </div>
+
+</div>

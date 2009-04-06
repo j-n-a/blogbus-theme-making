@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title><!-- ~ diarytitle ~ --> - <!-- ~ blogname ~ --> - BlogBus.com</title>
+<meta name="description" content="<!-- ~ blogname ~ -->,<!-- ~ blogdescr ~ -->" />
+<meta name="keywords" content="<!-- ~ blogname ~ -->,<!-- ~ blogdescr ~ -->,Blog,Blogger,BlogBus" />
+<!-- ~ header ~ -->
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<h1><a href="http://<!-- ~ domain ~ -->" ><span><!-- ~ blogname ~ --></span></a></h1>
+<div id="description"><!-- ~ blogdescr ~ --></div>	
+<h3>
+<a href="http://<!-- ~ domain ~ -->" target="_blank" title="主页">Home</a>&nbsp;&nbsp;//&nbsp;&nbsp;<a href="http://jessie0426.blogbus.com" target="_blank" title="关于我">About</a>&nbsp;&nbsp;//&nbsp;&nbsp;<a href="http://jessie0426.blogbus.com" target="_blank" title="链接">Links</a> &nbsp;&nbsp;//&nbsp;&nbsp;<a href="http://www.blogbus.com/user/" target="_blank" title="登陆">Login</a>
+</h3>
+		</div>	
+		<div id="sidebar">
+<div id="search">
+				<form action="http://www.blogbus.com/public/search.php" name="search_form" method="post">
+					
+			
+				</form>
+			</div>
+			<div id="update">
+				<h2>Update</h2>
+				<!-- ~ update ~ -->
+			</div>
+			<div id="lastComments">
+				<h2>Comment</h2>
+				<!-- ~ last_cmt ~ -->
+			</div>
+			<div id="misc">
+
+				<p>Total:<!-- ~ counter_text ~ --></p>
+					<div id="customHtml"><!-- ~ custom_html ~ --></div><br />
+					<div id="subscribe">
+						<table border="0" cellpadding="0">
+						  <tr>
+							
+							<td><a href="http://help.blogbus.com/logs/2003/12/55530.html" target="_blank"></a></td>
+						  </tr>
+						</table>
+					</div><br />
+				<a href="http://www.blogbus.com/"></a>
+			</div>
+		</div>
+
+		<div id="content">
+</a><br/></a><br/>
+			<div id="context"><!-- ~ pre ~ --> | <a href="<!-- ~ home_url ~ -->">首 页</a> | <!-- ~ next ~ --></div>
+			<div class="entry">
+				<div id="entryHeader">
+					<h2><a href="<!-- ~ log_url ~ -->"><!-- ~ diarytitle ~ --></a></span></h2>
+     
+
+	
+		</div>	
+
+                                <div class="tags">Author:<!-- ~ author ~ --></a> | Time: <!-- ~ wttime ~ --> | Tag: <!-- ~ b_cat ~ --> | Sort:<!-- ~ sort ~ --> </div><br />		
+				<div class="entryBody">
+				<!-- ~ diarybody ~ -->
+		
+				<div class="entryFooter"><a href="<!-- ~ log_url ~ -->#cmt"><strong>Comment (<!-- ~ comments ~ -->)</strong></a> </div>
+			</div><br />
+				
+			</div><br />
+			<div id="comments">
+				<h2>Comment</h2>
+				<ul><!-- ~ cmts ~ --></ul> 
+			</div>					
+			<div id="commentForm">
+				<h2>Leave a Comment</h2>
+                                          </a><br />
+				<!-- ~ commentform ~ --> 
+
+			</div>
+		</div>
+<center>
+		<div id="footer">
+			<p id="copyright">&copy; Powered by <a href="http://www.blogbus.com/" target="_blank">BlogBus</a>&nbsp;&nbsp;Skinned by <a href="http://jessie0426.blogbus.com/" target="_blank">class JC</a></p>
+<br /><br />
+
+			</div>
+		</div>
+				
+	</div>
+
+</body>
+</html>

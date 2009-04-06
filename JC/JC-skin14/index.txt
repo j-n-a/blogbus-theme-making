@@ -1,0 +1,43 @@
+<div id="index">
+<div id="container">
+          <div id="outerContent">
+                 <div id="header">
+			<div class="blogName"><a href="http://{#domain}" title="http://{#domain}">{#blog_name}</a>
+                        </div>
+                        <h2>
+                        <a href="http://jesie0426.blogus.com"  target="_blank" title="¹ØÓÚ">About</span></a>
+                        <a href="http://www.blogbus.com/user"  target="_blank" title="µÇÂ½">Login</span></a>
+                        <a href="http://douban.com"  target="_blank" title="Douban">&nbsp;&nbsp;Douban</span></a>
+                        </h2>
+			<div class="description">{#blog_desc}</div>
+			<div class="clear"></div>
+                  </div>
+                   <div id="wrap">
+                  {c:0}
+                 </div>
+                 <div id="footer">
+                        <div class="copyright">&copy; Powered by <a href="http://www.blogbus.com" target="_blank">BlogBus</a>&nbsp;&nbsp;
+Skinned by <a href="http://jessie0426.blogbus.com" target="_blank">class JC</a>
+                         </div>
+	         </div>
+         </div>
+
+                
+<div id="outerSidebar">
+         {c:1}
+                 <div id="meta" class="module">
+                 <div class="modTop"></div>
+                 <h2>Others</h2>
+                 <div class="modBody">
+                 <ul><li class="statistics">Total£º<span class="count">{#counter}</span></li>
+                        <li class="subscribe" style="line-height:180%;">{#feed_info}</li>
+                        <li class="poweredBy">{#powered_by}</li>
+                          
+                 </ul>
+                 </div>
+
+                 <div class="modBottom"></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>

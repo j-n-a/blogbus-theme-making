@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title><!-- ~ diarytitle ~ --> - <!-- ~ blogname ~ --> - BlogBus.com</title>
+<meta name="description" content="<!-- ~ blogname ~ -->,<!-- ~ blogdescr ~ -->" />
+<meta name="keywords" content="<!-- ~ blogname ~ -->,<!-- ~ blogdescr ~ -->,Blog,Blogger,BlogBus" />
+<!-- ~ header ~ -->
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<h1><a href="http://<!-- ~ domain ~ -->" title="返回首页"><!-- ~ blogname ~ --></a></h1>
+			<div id="description"><!-- ~ blogdescr ~ --></div>		
+		</div>	
+		<div id="sidebar">
+			<div id="search">
+				<form action="http://www.blogbus.com/public/search.php" name="search_form" method="post">
+				</a><br/></a><br/></a><br/>
+				</form>
+			</div>
+			<div id="update">
+				<h2><img src="http://files.blogbus.com/jessie-skin3.blogbus.com/files/11930498180.gif" >Update</h2>
+<td valign='top'>
+
+<img src="http://files.blogbus.com/jessie-skin3.blogbus.com/files/11930496820.gif" >
+<div class='bar'>
+  </div>
+				<!-- ~ update ~ -->
+			</div>
+			<div id="lastComments">
+				<h2><img src="http://files.blogbus.com/jessie-skin3.blogbus.com/files/11930498180.gif" >Comment</h2>
+<td valign='top'>
+
+<img src="http://files.blogbus.com/jessie-skin3.blogbus.com/files/11930496820.gif" >
+<div class='bar'>
+  </div>
+				<!-- ~ last_cmt ~ -->
+			</div>
+			<div id="misc">
+				<p><br />Total: <!-- ~ counter_text ~ --></p>
+					<div id="customHtml"><!-- ~ custom_html ~ --></div><br />
+					<div id="subscribe">
+						<table border="0" cellpadding="0">
+						  <tr>
+							<td><a href="<!-- ~ rss_url ~ -->"><img src="http://www.blogbus.com/images/site-v3/rss.gif" alt="RSS1.0" /></a></td>
+							<td><a href="http://help.blogbus.com/logs/2003/12/55530.html" target="_blank">什么是RSS？</a></td>
+						  </tr>
+						</table>
+					</div><br />
+				<a href="http://www.blogbus.com/"></a>
+			</div>
+		</div>
+
+		<div id="content">
+			<div id="context"><!-- ~ pre ~ --> | <a href="<!-- ~ home_url ~ -->">首 页</a> | <!-- ~ next ~ --></div>
+			<div class="entry">
+				<div id="entryHeader">
+					<h2><SPAN style="COLOR: #F15A21"><a href="<!-- ~ log_url ~ -->"><!-- ~ diarytitle ~ --></a><span class="sort">- [<!-- ~ sort ~ -->]</span></h2>
+       <img src="http://files.blogbus.com/jessie-skin3.blogbus.com/files/11930520400.jpg"  >
+</a><br/>
+	
+		</div>	
+</a><br/>
+                                <div class="tags"><SPAN style="COLOR: #ADA79C">Author:<!-- ~ author ~ --></a> | Time: <!-- ~ wttime ~ --> | Tag: <SPAN style="COLOR: #ADA79C"><!-- ~ b_cat ~ --></div><br />		
+				<div class="entryBody">
+					<!-- ~ diarybody ~ -->
+				</div><br />
+						
+				<div class="entryFooter"><a href="<!-- ~ log_url ~ -->#cmt"><strong>Comment (<!-- ~ comments ~ -->)</strong></a> </div>
+			</div><br />
+			<div id="comments">
+				<h2>Comments</h2>
+				<ul><!-- ~ cmts ~ --></ul> 
+			</div>					
+			<div id="commentForm">
+				<h2>Leave a comment</h2>
+				<!-- ~ commentform ~ --> 
+			</div>
+		</div>
+		<div id="footer">
+			<br />
+			<p id="copyright">Powered by <a href="http://www.blogbus.com" target="_blank"><strong>BlogBus</strong></a>
+Skinned by <a href="http://jessie0426.blogbus.com" target="_blank"><strong>class JC</strong>
+		</div>
+				
+	</div>
+
+</body>
+</html>

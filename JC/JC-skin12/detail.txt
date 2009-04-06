@@ -1,0 +1,56 @@
+<div id="detail">
+	<div id="container">
+		<div id="header">
+			<h1 class="blogName"><a href="http://{#domain}" title="http://{#domain}">{#blog_name}</a></h1>
+			<div class="description">{#blog_desc}</div>
+			<div class="clear"></div>
+		</div>
+       <div id="innerContainer">
+           <div class="innerTop"></div>
+            <div id="outerContent">
+                <div id="content">
+                    <div class="contentTop"></div>
+
+                        {c:0}
+<script type="text/javascript">
+
+var enCmtForm=document.getElementById("comments");
+enCmtForm.innerHTML = enCmtForm.innerHTML.replace("评论","Comment");
+var enCmtForm=document.getElementById("commentForm");
+enCmtForm.innerHTML = enCmtForm.innerHTML.replace("发表评论","Leave a comment");
+enCmtForm.innerHTML = enCmtForm.innerHTML.replace("姓　名","Name");
+enCmtForm.innerHTML = enCmtForm.innerHTML.replace("E-Mail","E-mail");
+enCmtForm.innerHTML = enCmtForm.innerHTML.replace("地　址","Blog");
+enCmtForm.innerHTML = enCmtForm.innerHTML.replace("提交","OK ");
+enCmtForm.innerHTML = enCmtForm.innerHTML.replace("记住我","Remember me!");
+</script>
+                    <div class="contentBottom"></div>                    
+                </div>
+            </div>
+            <div id="outerSidebar">
+                <div id="sidebar">
+                    <div class="sideTop"></div>
+<img src="http://files.blogbus.com/jessie-skin12.blogbus.com/files/12046536930.png" ><br><br>
+<h1>
+<a href="http://{#domain}"  target="_blank" title="主页">Main|&nbsp;</span></a>
+<a href="http://jesie0426.blogus.com"  target="_blank" title="关于">About|&nbsp;</span></a>
+<a href="http://www.blogbus.com/user"  target="_blank" title="登陆">Login|&nbsp;</span></a>
+<a href="http://jessie0426.blogbus.com"  target="_blank" title="豆瓣">Douban</span></a></h1><br>
+                        {c:1}
+                        <div id="meta" class="module">
+                            <div class="modTop"></div>
+                            <div class="modBody">
+                               
+                            </div>
+                            <div class="modBottom"></div>
+                        </div>
+                    <div class="sideBottom"></div>
+                </div>
+            </div>
+            <div class="innerBottom"></div>
+        </div>        
+		<div class="clear"></div>
+	</div>
+	<div class="copyright">Powered by <a href="http://www.blogbus.com" target="_blank">BlogBus</a>
+Skinned by <a href="http://jessie0426.blogbus.com" target="_blank">class JC</div>
+</div>

@@ -1,0 +1,12 @@
+<div class="entry">
+		<div class="titlebar">
+			<h2><SPAN style="COLOR: #ffffff"><a href="<!-- ~ log_url ~ -->"><!-- ~ diarytitle ~ --></a></h2>
+                                <div class="tags"><SPAN style="COLOR: #ffffff"> Author:<!-- ~ author ~ --></a> | Time: <!-- ~ timeline ~ --> <!-- ~ posttime ~ -->  | Tag: <SPAN style="COLOR: #ffffff"><!-- ~ b_cat ~ -->  | Sorts:<!-- ~ sort ~ --> </div>
+                </div>	<br />			
+		<div class="entryBody">
+			<!-- ~ diarybody ~ -->
+		</div><br />
+				
+		<div class="entryFooter"><a href="<!-- ~ log_url ~ -->#cmt"><strong>Comment (<!-- ~ comments ~ -->)</strong></a> </div>
+
+</div>

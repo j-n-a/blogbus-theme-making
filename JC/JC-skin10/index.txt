@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title><!-- ~ blogname ~ --> - BlogBus.com</title>
+<meta name="description" content="<!-- ~ blogname ~ -->,<!-- ~ blogdescr ~ -->" />
+<meta name="keywords" content="<!-- ~ blogname ~ -->,<!-- ~ blogdescr ~ -->,Blog,Blogger,BlogBus" />
+<!-- ~ header ~ -->
+
+</head>
+<body>
+	
+	<div id="container">
+		<div id="header">
+			<h1><a href="http://<!-- ~ domain ~ -->" title="返回首页"><!-- ~ blogname ~ --></a></h1>
+			<div id="description"><!-- ~ blogdescr ~ --></div>	
+<h3>
+<a href="http://<!-- ~ domain ~ -->" target="_blank" title="主页">Home</a>&nbsp;&nbsp;//&nbsp;&nbsp;<a href="http://jessie0426.blogbus.com" target="_blank" title="关于我">About</a>&nbsp;&nbsp;//&nbsp;&nbsp;<a href="http://jessie0426.blogbus.com" target="_blank" title="链接">Links</a> &nbsp;&nbsp;//&nbsp;&nbsp;<a href="http://www.blogbus.com/user/" target="_blank" title="登陆">Login</a>
+</h3>
+		</div>	
+		<div id="sidebar">
+			<div id="calendar">
+
+				<!-- ~ calendar ~ -->
+			</div>
+			<div id="login">
+				
+				  <table width="0" border="0" cellspacing="0" cellpadding="0">
+                   
+                      
+                    </table>
+				</form>
+			</div>
+
+
+                      </tr>
+<div id="sorts">
+				<h2>Sort</h2>
+				<!-- ~ sorts ~ -->
+			</div>
+
+			<div id="tagline">
+				<h2>Tag</h2>
+				<ul><!-- ~ cats ~ --></ul>
+			</div>
+
+			<div id="search">
+				<form action="http://www.blogbus.com/public/search.php" name="search_form" method="post">
+					
+				</form>
+			</div>
+			
+			<div id="update">
+				<h2>Update</h2>
+				<!-- ~ update ~ -->
+			</div>
+			<div id="lastComments">
+				<h2>Comment</h2>
+				<!-- ~ last_cmt ~ -->
+
+			
+			</div>
+<div id="archives">
+				<h2>Archive</h2>
+				<!-- ~ archive ~ -->
+			</div>
+			
+			<div id="misc">
+
+									<div id="customHtml"><!-- ~ custom_html ~ --></div>					<div id="subscribe">
+						<table border="0" cellpadding="0">
+						  							<a href="<!-- ~ rss_url ~ -->"><img src="http://files.blogbus.com/jessie-skin10.blogbus.com/files/12017779430.gif" alt="RSS1.0" /></a><br/>Total:<!-- ~ counter_text ~ -->
+
+							
+							
+						</table>
+					</div><br />
+				
+			</div>
+		</div>
+
+		<div id="content">
+			<!-- ~ diarys ~ -->
+			<p class="pages">&nbsp;&nbsp;&nbsp;&nbsp;<!-- ~ pagetxt ~ --></p>
+		</div>
+<center>
+		<div id="footer">
+			<p id="copyright">&copy; Powered by <a href="http://www.blogbus.com/" target="_blank">BlogBus</a>&nbsp;&nbsp;Skinned by <a href="http://jessie0426.blogbus.com/" target="_blank">class JC</a></p>
+<br /><br />
+
+			</div>
+</center>
+				
+	</div>
+
+</body>
+</html>

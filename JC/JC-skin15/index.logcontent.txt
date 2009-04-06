@@ -1,0 +1,13 @@
+<div class="entry">
+		<div class="titlebar">
+			<h2><a href="<!-- ~ log_url ~ -->"><!-- ~ diarytitle ~ --></a></h2>
+                                <div class="tags"> Author:<!-- ~ author ~ --></a> | Time: <!-- ~ timeline ~ --> <!-- ~ posttime ~ -->  | Tag: <!-- ~ b_cat ~ -->  | Sorts:<!-- ~ sort ~ -->
+                                </div>
+                </div>	
+		<div class="entryBody">
+			<!-- ~ diarybody ~ -->
+		</div>
+				
+		<div class="entryFooter"><a href="<!-- ~ log_url ~ -->#cmt"><strong>Comment (<!-- ~ comments ~ -->)</strong></a> 
+                </div>
+</div>

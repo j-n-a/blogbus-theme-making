@@ -1,0 +1,28 @@
+<form method="post" action="<!-- ~ addcomment_url ~ -->">
+  <table border="0" cellspacing="0" cellpadding="0">
+	  <tr>
+		<td nowrap="nowrap">Name:&nbsp;&nbsp;</td>
+		<td width="100%"><input name="name" type="text" value="<!-- ~ cmt_wt_name ~ -->" style="width: 180px" /></td>
+	  </tr>
+	  <tr>
+		<td nowrap>E-mail:&nbsp;&nbsp;</td>
+		<td><input name="email" type="text" value="<!-- ~ cmt_wt_email ~ -->" style="width: 180px" /></td>
+	  </tr>
+	  <tr>
+		<td>Web:&nbsp;&nbsp;</td>
+		<td><input name="homepage" type="text" value="<!-- ~ cmt_wt_homepg ~ -->" style="width: 180px" /></td>
+	  </tr>
+	  <tr>
+		<td colspan="2">
+			<textarea name="cmt" rows="6" style="width: 360px"></textarea>
+		</td>
+	  </tr>
+	  <tr>
+		<td colspan="2" align="center"><br />
+			<input type="hidden" name="parentid" value="<!-- ~ diaryid ~ -->" />
+			<input type="hidden" name="jumpto" value="<!-- ~ url ~ -->" />
+			<input type="submit" name="addsub" value="Ok" class="button" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input name="reset" type="reset" value="Reset" class="button" />
+		</td>
+	  </tr>
+  </table>
+</form>

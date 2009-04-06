@@ -1,0 +1,5 @@
+<li>
+	<p class="commentBody"><!-- ~ cmtbody ~ --></p>
+	<div class="commentPost"><a href="mailto:<!-- ~ email ~ -->"><span style="color: #999999;"><!-- ~ name ~ --></span></a> (<a href="http://<!-- ~ homepage ~ -->"><!-- ~ homepage ~ --></a>) ·¢±íÓÚ <!-- ~ comtime ~ -->&nbsp;&nbsp;<!-- ~ cmt_re ~ --></div>
+
+</li>

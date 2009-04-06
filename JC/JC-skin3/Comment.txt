@@ -1,0 +1,5 @@
+<li>
+	<p class="commentBody"><!-- ~ cmtbody ~ --></p>
+	<div class="commentPost"><a href="mailto:<!-- ~ email ~ -->"><span style="color: #b39574;"><!-- ~ name ~ --></span></a> (<a href="http://<!-- ~ homepage ~ -->"><!-- ~ homepage ~ --></a>) ·¢±íÓÚ <!-- ~ comtime ~ -->&nbsp;&nbsp;<!-- ~ cmt_re ~ --></div>
+<img src="http://files.blogbus.com/jessie-skin3.blogbus.com/files/11930619810.jpg"  />
+</li>

@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title><!-- ~ diarytitle ~ --> - <!-- ~ blogname ~ --> - BlogBus.com</title>
+<meta name="description" content="<!-- ~ blogname ~ -->,<!-- ~ blogdescr ~ -->" />
+<meta name="keywords" content="<!-- ~ blogname ~ -->,<!-- ~ blogdescr ~ -->,Blog,Blogger,BlogBus" />
+<!-- ~ header ~ -->
+</head>
+<body>
+
+	<div id="header">
+		<h1><a href="http://<!-- ~ domain ~ -->" title="返回首页"><!-- ~ blogname ~ --></a></h1>
+		<div id="description"><!-- ~ blogdescr ~ --></div>		
+	</div>	
+
+	<div id="container">
+	
+		<div id="context"><!-- ~ pre ~ --> | <a href="<!-- ~ home_url ~ -->">首 页</a> | <!-- ~ next ~ --></div>
+	
+		<div id="content">
+		<div class="entryTop" style="height:63px;"><br/>
+<h2><a href="<!-- ~ log_url ~ -->"><!-- ~ diarytitle ~ --></a></h2>	
+<div class="tags">Author:<!-- ~ author ~ --></a> | Time: <!-- ~ date ~ -->  <!-- ~ wttime ~ --> | Tag: <!-- ~ b_cat ~ --> | Sort: <!-- ~ sort ~ --></div></div>
+			<div class="entryMain">
+				<div class="entry">
+							
+						<div class="entryBody">
+							<!-- ~ diarybody ~ -->
+						</div>			
+						<div class="entryFooter"></div>
+					
+				</div>
+						
+				<div id="comments">
+						<h2>Comment</h2>
+						<ul><!-- ~ cmts ~ --></ul>
+				</div>					
+				<div id="commentForm">
+						<h2>Leave a comment</h2>
+						<!-- ~ commentform ~ --> 
+				</div>
+			</div>
+
+			<div class="entryBottom" style="height: 49px;">
+</div>	
+		</div>
+
+
+		<div id="sidebar">
+		
+			<div class="sidebarTop" style="height: 20px;"></div>
+				<div class="sidebarMain">
+					<div id="search">
+						<form action="http://www.blogbus.com/public/search.php" name="search_form" method="post">
+							
+						</form>
+					</div>
+				</div>
+			<div class="sidebarBottom" style="height: 20px;"></div>
+
+
+			
+				<div class="sidebarMain">
+					<div id="update">
+						<h2>UPDATE</h2>
+						<!-- ~ update ~ -->
+					</div>
+				</div>
+			<div class="sidebarBottom" style="height: 20px;"></div>
+			
+			
+				<div class="sidebarMain">
+					<div id="lastComments">
+						<h2>COMMENT</h2>
+						<!-- ~ last_cmt ~ -->
+					</div>
+				</div>
+			
+			
+			<div class="sidebarTop" style="height: 20px;"></div>
+				<div class="sidebarMain">
+					<div id="links">
+						<h2>LINKS</h2>
+						<!-- ~ links ~ -->
+						<!-- ~ new_links ~ -->
+					</div>
+				</div>
+			
+			
+			<div class="sidebarTop" style="height: 20px;"></div>
+				<div class="sidebarMain">
+					<div id="misc">
+						<p>TOTAL: <!-- ~ counter_text ~ --></p>
+						<div id="customHtml"><!-- ~ custom_html ~ --></div><br />
+						<div id="subscribe">
+							<table border="0" cellpadding="0">
+							  <tr>
+								<td><a href="<!-- ~ rss_url ~ -->"><img src="http://www.blogbus.com/images/site-v3/rss.gif" alt="RSS1.0" /></a></td>
+								<td><a href="http://help.blogbus.com/logs/2003/12/55530.html" target="_blank">什么是RSS？</a></td>
+							  </tr>
+							</table>
+						</div><br />
+						
+					</div>				
+				</div>
+			<div class="sidebarBottom" style="height: 49px;"></div>	
+	
+		</div>
+
+
+		
+		<div id="footer">
+			<br />
+		<p id="copyright">&copy; Powered by <a href="http://www.blogbus.com/" target="_blank">BlogBus</a>&nbsp;&nbsp;Skinned by <a href="http://jessie0426.blogbus.com/" target="_blank">class JC</a></p>
+			
+</div>
+		</div>
+				
+	</div>
+
+</body>
+</html>

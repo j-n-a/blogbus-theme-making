@@ -1,0 +1,173 @@
+* {margin: 0;padding: 0;}
+body {margin: 0 auto;font-family: "Trebuchet MS", Verdana,Arial;font-size: 12px;color: #fffff;background: url(http://jessie-skin17.blogbus.com/files/12334234020.jpg) ;}
+
+li {list-style: none;}
+
+a {color: #302921;text-decoration: none;}
+a:hover {color: #444;text-decoration: none;}
+
+img {border: none;}
+
+input {padding: 1px;font-family: "Trebuchet MS", Verdana,Arial;font-size: 100%;color: #444;border: 1px solid #D9D9D9;background: none;}
+
+textarea {padding: 2px 3px;font-family: "Trebuchet MS", Verdana,Arial;font-size: 100%;color: #444;border: 1px solid #D9D9D9;background: none;overflow: auto;}
+
+.button {width: 48px;height: 22px;padding: 0 0 2px 7px;#padding: 3px 0 2px 3px !important;#padding: 0 0 2px 3px;font-size: 100%;font-weight: bold;letter-spacing: 0.5em;text-align: center;color: #444;border: 1px solid #b5c5cc;background: #C6D5DC;cursor: pointer;}
+
+.clear {clear: both;}
+
+#wrap{margin:0 auto;width:955px;background: url(http://jessie-skin17.blogbus.com/files/s/12332442280.jpg) center top repeat-y;}
+
+#index {width: 100%;margin: 0 auto;background: url(http://jessie-skin17.blogbus.com/files/12334238070.jpg) left top repeat-x;}
+
+
+#container {width: 955px;margin:0 auto;
+}
+#header {text-align: left;overflow: hidden;background: url(http://jessie-skin17.blogbus.com/files/s/12332450590.jpg) top left no-repeat;width:675px;height:160px;}
+
+.blogName {margin: 50px 25px 0;font-size: 280%;color: #FFF;}
+.blogName a {color: #FFF;text-decoration: none;}
+.blogName a:hover {color: #fff;}
+.blogName a:active {outline:none;}
+
+.description {margin: 0 0 0 30px;line-height: 120%;color: #FFFFFF;}
+
+#outerContent {float: left;width: 675px;text-align: left;overflow: hidden;
+}
+
+#posts {padding:0;}
+#posts li {margin-bottom: 5px;}
+
+.postHeader {background: url(http://jessie-skin17.blogbus.com/files/s/12333172570.png) no-repeat;width:675px;height:60px;margin-top:-20px;}
+
+.postinfo {float:left;}
+.postinfo h2 {text-align:left;font-size: 16px;font-weight: bold;color: #3b342a;padding:30px 0 0 30px;position:relative;}
+.postinfo h2 a {color: #3b342a;position:relative}
+.postinfo h2 a:hover {color: #3b342a;}
+
+.posttime {float:right;}
+.posttime h3 {color: #5f7e00;font-size:11px;font-weight: normal;padding:32px 45px 0 5px;}
+
+.entryContent{width:570px;padding:10px 0 0 35px;font-weight:normal;font-size:12px;color:#3b342a}
+.entryContent p {margin: 0 0 10px;}
+.entryContenttable {margin: 0 auto;}
+.entryContent img {border:1px solid #cccccc;}
+.entryContent table a:hover {border: none;}
+
+.postFooter {margin:10px 30px 0 30px;padding:10px 20px;width:500px;border:1px dotted #5f7d01;color:#3b342a;font-size:12px;font-weight:normal;}
+
+*+html .postFooter {padding:10px 20px;width:500px;border:1px dotted #5f7d01;color:#3b342a;font-size:12px;font-weight:normal;}
+.postFooter a {color:#5b7e00;}
+.postFooter a:hover {color:#3b322b;}
+
+.menubar a{color:#5b7e00;}
+.menubar a:hover {color:#3b322b;}
+
+.pageNavi {padding:5px 35px;}
+.pageNavi a {}
+.pageNavi a:hover {}
+.pageNavi a:active {outline:none;}
+
+#sidebar {float: right;width: 230px;text-align: left;word-break: break-all;padding:0px 50px 0 0px;}
+*html #sidebar {float: right;width: 280px;text-align: left;word-break: break-all;padding:0px;}
+#sidebar .count{margin-left: 5px;}
+#sidebar .tags{margin-top: 20px;}
+
+.module{margin-top:20px;font-size:12px;font-weight:normal;color:#5f7d01;line-height:150%;}
+*+html .module{margin-top:20px;font-size:12px;font-weight:normal;color:#5f7d01;line-height:150%;}
+.module a {font-size:12px;font-weight:normal;color:#5f7d01;padding-left:5px;}
+.module li{width:230px;padding-left:10px;}
+.module li:hover{background:#bbcf7f;width:230px;}
+.module h2 {margin:-19px 0 20px 15px;font-size: 13px;color:#5f7d00;font-weight:bold;}
+
+
+#innersidebar {margin-top:-58px;}
+
+#sidebartop h1 {margin:80px 0 0 0;text-align:left;font-size: 12px;color:#7a9f01;font-weight:normal;width:240px;}
+#sidebartop h1 a {text-align:left;font-size: 12px;color:#ffffff;font-weight:normal;width:60px;}
+#sidebartop h1 a:hover {text-align:left;font-size: 12px;color:#7a9f01;font-weight:normal;width:60px;}
+#sidebartop {text-align: left;overflow: hidden;background: url(http://jessie-skin17.blogbus.com/files/12334234810.jpg) top left no-repeat;width:280px;height:120px;}
+#sidebartop img{border:none;}
+
+.modTop {background:url(http://jessie-skin17.blogbus.com/files/12333094640.png) left bottom no-repeat;width:280px;height:40px;}
+.modBottom {margin-bottom:-30px;}
+.modBody {width:240px;}
+
+#profile img {width: 96px;height: 96px;padding: 2px;overflow: hidden;}
+#profile h3 {margin: 5px 0 2px;#margin: 2px 0 2px;font-size: 100%;}
+
+.about {}
+
+#login ul {text-align: left;}
+#login li span {margin-right: 10px;}
+
+#calendar table {width: 90%;margin: 0 0 0 10px; padding: 0; }
+#calendar a {border: none;}
+#calendar a:active {outline:none;}
+#calendar td { text-align: center; line-height: 150%; word-break: keep-all; text-transform: lowercase; }
+#calendar td a { font-weight: bold; text-decoration: none;background: none; }
+#calendar td a:hover {border: none;}
+#calendar td a:active {outline:none;}
+#calendar .calendarHead td {font-weight: bold;}
+#calendar .week td {padding: 5px 2px 2px;font-size: 90%;text-align: center;white-space: nowrap;}
+.day {text-align: center;white-space: nowrap;}
+#calendar td.today {color: #FFF;background: #bbcf7f;}
+#calendar td.today a {color: #FFF;}
+
+#custom {margin-bottom: 20px;}
+
+.statistics {margin-bottom: 20px;}
+.subscribe {margin-bottom: 20px;}
+
+#footer {background:url(http://jessie-skin17.blogbus.com/files/12334236460.jpg) top left repeat-x;width:100%;height:190px;}
+*+html #footer {background:url(http://jessie-skin17.blogbus.com/files/12333391030.gif) top left repeat-x;width:100%;height:190px;}
+
+#innerfooter {width:955px;margin:0 auto;  }
+
+*+html .copyright {margin:-70px 0 0 40px;color:#3c332a;font-size:12px;font-weight:normal;}
+.copyright {margin:-80px 0 0 40px;color:#3c332a;}
+.copyright a {color:#3c332a;}
+.copyright a:hover {color:#3c332a;border-bottom:1px dotted #3c332a;}
+
+.tb_url {margin: 5px 0;}
+.tb_url input {width: 280px;color: #666;border: 1px solid #D9D9D9;}
+
+#trackbacks {margin: 0 0 20px;}
+#trackbacks .desc {margin: 0 0 15px 0;}
+#trackbacks h2 {font-size: 110%;margin-bottom: 20px;}
+#trackbacks h3 {font-size: 100%;font-weight: normal;}
+#trackbacks .blogName {margin: 2px 0;padding: 0;font-size: 100%;font-weight: normal;text-align: left;}
+#trackbacks .blogName span {font-weight: bold;}
+#trackbacks .time {font-size: 80%;}
+#trackbacks li {margin: 0 0 20px;border-bottom: 1px solid #D9D9D9;}
+#trackbacks .content {}
+
+.context {margin: -20px 0 0 35px;font-size: 100%;text-align: center;color: #ffffff;}
+.context a{color: #ffffff;}
+
+.more{margin-top:10px;}
+
+#sidebar .search{padding-left:20px;}
+#sidebar .bloglink{padding-left:10px;margin-top:10px;line-height:150%;}
+
+#comments {margin: 0 20px 20px 35px;width:540px;font-size:12px;font-weight:normal;}
+#comments h2 {font-size: 100%;margin-bottom: 20px;}
+#comments li {margin: 0 0 20px;border-bottom: 1px solid #D9D9D9;}
+#comments .menubar {margin-top: 10px;}
+
+.reCmtBody {margin: 5px 0;padding: 10px 20px;color: #444;border: 1px dotted #789f00;}
+
+.cmtBody p {margin: 10px 0;}
+.reply {}
+
+#commentForm {margin: 0 20px 20px 35px;font-size:12px;font-weight:normal;}
+#commentForm h2 {font-size: 110%;margin-bottom: 20px;}
+#commentForm form {}
+#commentForm label {display: block;}
+#commentForm textarea {width: 400px;margin: 5px
+ 0;}
+
+#content #posts li .postBody ul,ol { margin:0; padding:0; margin-left:20px; }
+#content #posts li .postBody li { margin:0; padding:0; padding:0 2px;list-style-position:inside; }
+#content #posts li .postBody ul li { list-style:disc; }
+#content #posts li .postBody ol li { list-style:decimal; }

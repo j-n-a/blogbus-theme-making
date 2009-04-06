@@ -1,0 +1,21 @@
+<script>
+var content_img_width = 638; 
+</script>
+<script type="text/javascript" src="http://public.blogbus.com/blogbus/skin/common/resize.js"></script>
+
+
+<!--[if lte IE 6]>
+	<style type="text/css">
+	 /* ie png hack */
+
+        .postHeader { background-image: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,  src= http://jessie-skin17.blogbus.com/files/s/12333172570.png,
+sizingMethod=scale); }
+
+	.modTop{ background-image: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,  src= http://jessie-skin17.blogbus.com/files/12333094640.png,
+sizingMethod=scale); }
+         
+      
+
+</style>
+
+ 	<![endif]-->

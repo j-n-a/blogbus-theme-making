@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title><!-- ~ diarytitle ~ --> - <!-- ~ blogname ~ --> - BlogBus.com</title>
+<meta name="description" content="<!-- ~ blogname ~ -->,<!-- ~ blogdescr ~ -->" />
+<meta name="keywords" content="<!-- ~ blogname ~ -->,<!-- ~ blogdescr ~ -->,Blog,Blogger,BlogBus" />
+<!-- ~ header ~ -->
+</head>
+<body>
+<div id="wrap">
+	<div id="outerContainer">
+	<div id="container">
+		<div id="header">
+
+ <h2>
+<a href="http://<!-- ~ domain ~ -->"  target="_blank" title="主页"><SPAN style="COLOR: #F22601">Main</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://jessie0426.blogbus.com" target="_blank" title="链接"><SPAN style="COLOR: #FF780A">Links</span></a> &nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://jessie0426.blogbus.com" target="_blank" title="关于我"><SPAN style="COLOR: #FFFB13">About</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.blogbus.com/user/" target="_blank" title="登陆"><SPAN style="COLOR: #69CD15">Login</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="<!-- ~ rss_url ~ -->"target="_blank" title="RSS订阅"><SPAN style="COLOR: #009F04">Rss</span></a>
+</h2>
+<h1><a href="http://<!-- ~ domain ~ -->" title="返回首页"><!-- ~ blogname ~ --></a></h1>
+			<p id="description"><!-- ~ blogdescr ~ --></p>
+		
+
+	
+</div>
+
+<div id="content">
+
+<div id="context"><!-- ~ pre ~ --> | <a href="<!-- ~ home_url ~ -->">首 页</a> | <!-- ~ next ~ --></div>
+
+<div class="entry">
+				<div id="entryHeader">
+					<h2><a href="<!-- ~ log_url ~ -->"><!-- ~ diarytitle ~ --></a></span></h2>
+     
+
+	
+		</div>	
+
+                                <div class="tags">Author:<!-- ~ author ~ --></a> | Time: <!-- ~ wttime ~ --> | Tag: <!-- ~ b_cat ~ --> | Sort:<!-- ~ sort ~ --> </div><br />		
+				<div class="entryBody">
+				<!-- ~ diarybody ~ -->
+		
+				
+				<div class="entryFooter"><a href="<!-- ~ log_url ~ -->#cmt"><strong>Comment (<!-- ~ comments ~ -->)</strong></a> </div>
+			
+				
+			
+
+<div id="comments">
+				<h2>Comments</h2>
+				<ul><!-- ~ cmts ~ --></ul> 
+			</div>					
+			<div id="commentForm">
+				<h2>Leave a comment</h2>
+<br/><br/>
+				<!-- ~ commentform ~ --> 
+</div>
+		
+			<div id="poweredBy"></div>			</div>
+		</div>		
+		
+		</div>
+		</div>
+		
+		<div id="footer">
+			<br />
+Total: <!-- ~ counter_text ~ -->
+			<p id="copyright">&copy; Powered by <a href="http://www.blogbus.com/" target="_blank">BlogBus</a>&nbsp;&nbsp;Skinned by <a href="http://jessie0426.blogbus.com/" target="_blank">class JC</a></p>
+		</div>
+	</div>
+
+
+</body>
+</html>

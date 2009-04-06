@@ -1,0 +1,320 @@
+<style type="text/css">
+<!--
+
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+body {
+	background: #333333;
+	color: #666666;
+	font-family: "Trebuchet MS", Verdana, Arial, Sans-Serif;
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 14px;
+}
+a {
+	font-family: "Lucida Grande", Verdana, Arial, Sans-Serif;
+	color: #acb7b6;
+	font-weight: normal;
+	text-decoration: none;
+	padding: 0px 2px 0px 3px;
+/*	blr:expression(this.onFocus=this.blur());*/
+}
+a:hover, a:active {
+	color: #E58BBB;
+	
+}
+a img {
+	padding: 0px;
+	background: none;
+}
+.entry td, .entry td a, .entry td a img {
+	padding: 0px;
+	background: none;
+}
+h2 {
+	color: #E58BBB;
+	font-family: "Lucida Grande", Verdana, Arial, Sans-Serif;
+	font-size: 14px;
+	margin-bottom: 3px;
+	letter-spacing: 1px;
+}
+input {
+	color: #444444;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 2px 3px;
+	border: 1px solid #444444;
+	vertical-align: middle;
+}
+textarea {
+	color: #444444;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 2px 3px;
+	border: 1px solid #444444;
+	overflow: auto;
+}
+li {
+	list-style: none;
+}
+.button {
+	width: 50px;
+	height: 20px;
+	font-size: 12px;
+	font-weight: bold;
+	background: url() center center no-repeat;
+	padding: 1px;
+	border: none;
+	cursor: pointer;
+}
+
+
+
+#container {
+	width: 760px;
+	margin: 14px auto;
+	background: url(http://files.blogbus.com/jessie-skin4.blogbus.com/files/11926183210.jpg) top left repeat-y;
+}
+
+#header {
+	color: #FFF;
+	height: 219px;
+	text-align: right;
+	background: url(http://files.blogbus.com/jessie-skin4.blogbus.com/files/11925419520.jpg) top left no-repeat;
+}
+#header a {
+	color: #acb7b6;
+}
+#header h1 {
+	position:relative;
+	top: 82px !important;
+	top: 70px;
+	text-align:center;
+	font-size: 36px;
+}
+#header h1 a {
+	text-decoration: none;
+	font-style: normal;
+}
+#header h1 a:hover, a:active {
+	color: #af3281;
+}
+#description {
+	width: 700px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+        color:#acb7b6;
+	font-weight: normal;
+	letter-spacing: 1px;
+	margin: 85px 80px 20px 20px;  !important;
+	margin: 85px 80px 20px 20px; 
+        text-align:center;
+}
+#content {
+	width: 478px;
+	text-align: left;
+	float: left;
+	padding: 20px 10px 20px 40px;
+	word-break: break-all;
+	overflow: hidden;
+}
+.entry {
+	margin-bottom: 40px;
+}
+.entry h2, .entry h2 a {
+	color: #acb7b6;
+	font-size: 18px;
+	padding: 0px;
+	line-height: normal;
+}
+.entry h2 a:hover, .entry h2 a:active {
+	color: #E58BBB;
+	background: none;
+	padding: 0px;
+}
+.entryBody {
+	word-break: break-all;
+                line-height: 140%;
+/*	white-space: -moz-pre-wrap;	*/
+}
+.entryBody p {
+	margin: 10px auto;
+}
+/*
+.entryBody table br {
+	margin-top: 0px;
+	display: none;
+}
+*/
+.date {
+	color: #acb7b6;
+	font-family: "Trebuchet MS", Verdana, Arial, Sans-Serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 12px;
+        text-align:left;
+	margin: 0px auto 0px 2px;
+}
+.tags {
+	color: #CCC;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 10px auto 16px 2px;
+}
+
+#sidebar {
+	width: 185px;
+	text-align: left;
+	float: right;
+	padding: 30px 30px 20px 0px;
+}
+#calendar {
+	margin-bottom: 20px;
+}
+#calendar table {
+	width: 100%;
+	background: #bbbbbb;
+}
+.calendar_h {
+	font-family: "Lucida Grande", Verdana, Arial, Sans-Serif;
+	width: 100%;
+	font-weight: bold;
+        color:#bbbbbb;
+	background: #FFF;
+	padding: 2px 0px;
+}
+.week {
+	font-size: 12px;
+	text-align: center;
+	background: #FFF;
+	padding: 2px;
+}
+.day {
+	font-size: 12px;
+	text-align: center;
+	background: #FFF;
+}
+.today {
+	color: #FFF;
+	font-size: 12px;
+	text-align: center;
+	background: #bbbbbb;
+}
+.today a {
+	color: #FFF;
+	text-decoration: underline;
+}
+#login td {
+	padding-bottom: 4px;
+}
+#login tr {
+	padding: 6px;
+	text-align: right;
+}
+#tagline {
+	margin-bottom: 20px;
+}
+#search {
+	margin-bottom: 20px;
+}
+#sorts {
+	margin-bottom: 20px;
+}
+
+#update {
+	margin-bottom: 20px;
+}
+#lastComments {
+	margin-bottom: 20px;
+}
+#archives {
+	margin-bottom: 20px;
+}
+#archives a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 0;
+}
+#links {
+	margin-bottom: 20px;
+}
+#customHtml {
+	padding: 4px 0px;
+}
+#subscribe, #subscribe a {
+	padding: 6px 0px;
+	background: none;
+}
+#poweredBy, #poweredBy a {
+	background: none;
+	padding: 20px 0px 0px;
+}
+#context {
+	margin-bottom: 20px;
+}
+#comments {
+	margin-bottom: 30px;
+}
+#comments h2 {
+	color: #444444;
+}
+#comments li {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #444444; 
+}
+.commentBody {
+	margin: 20px 10px 6px 6px; 
+}
+.commentPost  {
+	margin-top: 14px; 
+}
+
+.recmtBody {
+	color: #444444;
+	padding: 3px;
+	background: #F9F9F9; 
+}
+#commentForm h2 {
+	margin-bottom: 14px;
+	color: #444444;
+}
+#commentForm td {
+	padding-bottom: 4px;
+}
+#commentForm tr {
+	padding: 6px;
+}
+#footer {
+	height: 63px;
+	background: url(http://public.blogbus.com/blogbus/blog/images/templates/summer_blue/footer_bg.jpg) top left no-repeat;
+	clear: both;
+}
+#copyright {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.pages a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding: 0;
+	vertical-align: middle;
+}
+.entry h2 .sort {
+	font-size: 12px;
+	font-weight: normal;
+	margin-left: 5px;
+	line-height: 120%;
+}
+.entry h2 .sort a{
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+}
+-->
+</style>

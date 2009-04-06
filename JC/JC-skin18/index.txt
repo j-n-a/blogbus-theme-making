@@ -1,0 +1,65 @@
+<div id="index">
+        <div id="wrapper2">
+        <div id="pages">
+<ul>
+<li><a href="http://{#domain}"  target="_blank">Home</a></li>
+<li><a href="http://jessie0426.blogbus.com"  target="_blank">About</a></li>
+<li><a href="http://jessie0426.blogbus.com" target="_blank">Links</a></li>
+<li><a href="http://{#domain}/logs/" target="_blank" >Archives</a></li>
+<li><a href="mailto:jessie_subly@hotmail.com"  target="_blank">Contact</a></li>
+<li > <a href="http://www.blogbus.com/user/"  target="_blank" >Login</a></li>
+</ul>
+         </div>
+
+
+        <div id="categories">
+<ul>
+<li><a href="http://jessie0426.blogbus.com/logs/16476825.html" target="_blank">Templats</a>
+</li>
+<li><a href="http://http://www.flickr.com/" target="_blank" >Photos</a></li>
+<li><a href="http://douban.com" target="_blank">Douban</a></li>
+<li><a href="http://www.facebook.com" target="_blank">Facebook</a></li>
+<li><a href="http://fanfou.com">Fanfou</a></li>
+<li > <a href="http://{#domain}/index.rdf"  target="_blank" ><span style="color:#ff8400">Rss</span>&nbsp;&nbsp;<img src="http://jessie-skin18.blogbus.com/files/12339246280.jpg" ></a></li>
+</ul>
+         </div>
+</div>
+        <div id="header">
+			<h1 class="blogName"><a href="http://{#domain}" title="http://{#domain}">{#blog_name}</a></h1>
+			<div class="description">{#blog_desc}</div>
+			<div class="clear"></div>
+        </div>
+
+	<div id="wrap">
+	   <div id="innerContainer"></div>
+               <div id="outerContent">
+                  <div id="content">
+                    
+                        {c:0}
+                  </div>
+               </div>
+               <div id="outerSidebar">
+                   <div id="sidebar">
+                       {c:1}
+
+                        <div id="meta" class="module">
+                            <div class="modTop"><h2>Others</h2></div>
+                            <div class="modBody">
+                                <ul>
+                                              <br>
+                                    <li class="statistics">Total£º<span class="count">{#counter}</span></li><br>
+                                </ul>
+                            </div>
+                            <div class="modBottom"></div>
+                        </div>
+                   </div>
+                </div>
+            
+        </div>        
+		<div class="clear"></div>
+	      <div id="footer">
+		<div class="copyright">&copy; Powered by <a href="http://www.blogbus.com" target="_blank">BlogBus</a>
+Skinned by <a href="http://jessie0426.blogbus.com" target="_blank">class JC</div>
+              </div>
+	
+</div>

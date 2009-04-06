@@ -1,0 +1,57 @@
+<div id="detail">
+<div id="container">
+<div id="innerContainer">
+          <div id="outerContent">
+                 <div id="header">
+			<div class="blogName"><a href="http://{#domain}" title="http://{#domain}">{#blog_name}</a>
+                        </div>
+                        <h2>
+                        <a href="http://jesie0426.blogus.com"  target="_blank" title="关于">About</span></a>
+                        <a href="http://www.blogbus.com/user"  target="_blank" title="登陆">Login</span></a>
+                        <a href="http://douban.com"  target="_blank" title="Douban">&nbsp;&nbsp;Douban</span></a>
+                        </h2>
+			<div class="description">{#blog_desc}</div>
+			<div class="clear"></div>
+		  </div>
+                  <div id="wrap">
+                  {c:0}
+                  </div>
+                  <script type="text/javascript">
+                  var enCmtForm=document.getElementById("comments");
+                  enCmtForm.innerHTML = enCmtForm.innerHTML.replace("评论","Comment");
+                  var enCmtForm=document.getElementById("commentForm");
+                  enCmtForm.innerHTML = enCmtForm.innerHTML.replace("发表评论","Leave a comment");
+                  enCmtForm.innerHTML = enCmtForm.innerHTML.replace("姓　名","Name");
+                  enCmtForm.innerHTML = enCmtForm.innerHTML.replace("E-Mail","E-mail");
+                  enCmtForm.innerHTML = enCmtForm.innerHTML.replace("地　址","Blog");
+                  enCmtForm.innerHTML = enCmtForm.innerHTML.replace("提交","OK ");
+                  enCmtForm.innerHTML = enCmtForm.innerHTML.replace("记住我","Remember me!");
+                  </script>
+                  <div id="footer">
+                        <div class="copyright">&copy; Powered by <a href="http://www.blogbus.com" target="_blank">BlogBus</a>&nbsp;&nbsp;
+Skinned by <a href="http://jessie0426.blogbus.com" target="_blank">class JC</a>
+                         </div>         
+                  </div>
+           </div>
+</div>
+               
+           <div id="outerSidebar">
+            {c:1}
+                   <div id="meta" class="module">
+                          <div class="modTop"></div>
+                            <h2>Others</h2>
+                            <div class="modBody">
+                             <ul>
+                             <li class="statistics">Total：<span class="count">{#counter}</span></li>
+                             <li class="subscribe" style="line-height:180%;">{#feed_info}</li>
+                             <li class="poweredBy">{#powered_by}</li>
+                             </ul>
+                             </div>
+                             <div class="modBottom"></div>
+                          </div>
+                 
+                    </div>
+          
+             </div>   
+<div class="clear"></div>
+</div>

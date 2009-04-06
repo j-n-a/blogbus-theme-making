@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title><!-- ~ diarytitle ~ --> - <!-- ~ blogname ~ --> - BlogBus.com</title>
+<meta name="description" content="<!-- ~ blogname ~ -->,<!-- ~ blogdescr ~ -->" />
+<meta name="keywords" content="<!-- ~ blogname ~ -->,<!-- ~ blogdescr ~ -->,Blog,Blogger,BlogBus" />
+<!-- ~ header ~ -->
+</head>
+<body>
+	<div id="container">
+		<div id="header1">
+			<h1><a href="http://<!-- ~ domain ~ -->" title="返回首页"><!-- ~ blogname ~ --></a></h1>
+		</div>
+		<table width="996" height="0" border="0" cellpadding="0" cellspacing="0" background="">
+          <tr>
+            <td valign="middle"><div id="description"><!-- ~ blogdescr ~ --></div></td>
+          </tr>
+        </table>	
+		
+		<div id="content">
+			<div id="context"><!-- ~ pre ~ --> | <a href="<!-- ~ home_url ~ -->">首 页</a> | <!-- ~ next ~ --></div>
+			<div class="entry">
+					<div class="entryHeader">
+						<div class="date"><!-- ~ date ~ --></div>
+					</div>	
+						<h2><a href="<!-- ~ log_url ~ -->"><!-- ~ diarytitle ~ --></a><span class="sort">- [<!-- ~ sort ~ -->]</span></h2>	
+						<div class="tags"><span style="font-weight: bold;">Tag: </span><!-- ~ b_cat ~ --></div>		
+					<div class="entryBody">
+						<!-- ~ diarybody ~ -->
+					</div>
+			
+							
+					
+			</div>			
+			<div id="comments">
+				<h2><img src="http://files.blogbus.com/jessie-skin1.blogbus.com/files/11915640700.jpg" /></h2>
+				<ul><!-- ~ cmts ~ --></ul> 
+			</div>					
+			<div id="commentForm">
+				<h2><img src="http://files.blogbus.com/jessie-skin1.blogbus.com/files/11915643710.jpg" /></h2>
+				<!-- ~ commentform ~ --> 
+			</div>
+		</div>
+
+		<div id="sidebar">
+			<div id="search" style="margin-top: 20px;">
+				<form action="http://www.blogbus.com/public/search.php" name="search_form" method="post">
+				
+				</form>
+			</div>
+			<h2><img src="http://files.blogbus.com/jessie-skin1.blogbus.com/files/11915075555.gif" alt="最新日志" /></h2>
+			<div id="update">
+				<!-- ~ update ~ -->
+			</div>
+			<h2><img src="http://files.blogbus.com/jessie-skin1.blogbus.com/files/11915075556.gif" alt="最新评论" /></h2>
+			<div id="lastComments">
+				<!-- ~ last_cmt ~ -->
+			</div>
+
+
+			
+			<div id="misc">
+				<p><br />访问统计: <!-- ~ counter_text ~ --></p>
+					<div id="customHtml"><!-- ~ custom_html ~ --></div><br />
+					<div id="subscribe">
+						<table border="0" cellpadding="0">
+						  <tr>
+							<td><a href="<!-- ~ rss_url ~ -->"><img src="http://www.blogbus.com/images/site-v3/rss.gif" alt="RSS1.0" /></a></td>
+							<td><a href="http://help.blogbus.com/logs/2003/12/55530.html" target="_blank">什么是RSS？</a></td>
+						  </tr>
+						</table>
+					</div><br />
+					
+				
+				
+					
+<div id="poweredBy">&copy; Powered by <a style="font-size: 9px;" href="http://www.blogbus.com/">BlogBus.Com</a><br/>&nbsp;&nbsp;&nbsp;Skinned by<a style="font-size: 9px;" href="http://jessie0426.blogbus.com/">class JC</div>
+			</div>
+		</div>
+		<div id="footer">
+			<br />
+			<p id="copyright"></p>
+		</div>
+				
+	</div>
+
+</body>
+</html>

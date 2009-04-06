@@ -1,0 +1,25 @@
+<form method="post" action="<!-- ~ addcomment_url ~ -->" />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="left" valign="middle" nowrap><img src="http://files.blogbus.com/jessie-skin1.blogbus.com/files/11915148040.gif" />£º</td>
+    <td align="left" valign="bottom"><input type="text" name="name" value="<!-- ~ cmt_wt_name ~ -->" /></td>
+  </tr>
+  
+  <tr>
+    <td align="left" valign="middle" nowrap><img src="http://files.blogbus.com/jessie-skin1.blogbus.com/files/11915148041.gif" />£º</td>
+    <td align="left" valign="bottom"><input type="text" name="homepage" value="<!-- ~ cmt_wt_homepg ~ -->" /></td>
+  </tr>
+  <tr>
+    <td align="left" valign="top">&nbsp;</td>
+    <td align="left" valign="bottom">
+		<textarea name="cmt" rows="8" cols="40" style=" width: 280px; font-family: Arial, Helvetica, sans-serif; font-size:12px !important; font-size: 11px; font-weight:500; padding:2px 3px;"></textarea>&nbsp;
+		<input type="hidden" name="parentid" value="<!-- ~ diaryid ~ -->" />
+		<input type="hidden" name="jumpto" value="<!-- ~ url ~ -->" />
+		<input type="submit" name="addsub" value="SUBMIT" class="button"/>
+		<img src="http://files.blogbus.com/jessie-skin1.blogbus.com/files/11915617170.gif" />
+	</td>
+  </tr>
+</table>
+</form>
+<br />
+<br />

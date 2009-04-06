@@ -1,0 +1,25 @@
+<ul id="posts">
+				
+				<!--list-->
+				<li>
+					<div class="postHeader">
+						<h2><a href="{#url}">{#title}</a></h2>
+                                                <div class="clear"></div>
+						<h3>Author:<span class="author"><a href="{#profile_url}">{#author}</a></span> | Time
+{#date} <span class="time">{#time}</span> | Tag: {#tags} | Sort:{#cat}
+                                                </h3>
+					</div>
+                                        <div class="clear"></div>
+					<div class="postBody">
+						{#content}
+					</div>
+					<div class="postFooter">
+						<div class="menubar">  {#menubar}</div>
+                                        </div><br>
+				</li>
+				<!--/list-->
+				
+</ul>
+<div class="pageNavi">
+{#pagenav}
+</div>

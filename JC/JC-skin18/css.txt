@@ -1,0 +1,181 @@
+ * {margin: 0;padding: 0;}
+body {margin: 0 auto;padding-bottom: 0px;font-family: "Trebuchet MS", Verdana,Arial;font-size: 12px;text-align: left;color: #84878e;background: #eaeae1 url(http://jessie-skin18.blogbus.com/files/12338972850.gif) left top repeat-x;}
+
+li {list-style: none;}
+
+a {color: #5f666f;text-decoration: none;}
+a:hover {color: #333333;border-bottom:1px dotted #333333;}
+
+img {border: none;}
+
+input {padding: 1px;font-family: "Trebuchet MS", Verdana,Arial;font-size: 100%;color: #444;border: 1px solid #D9D9D9;background: none;}
+
+textarea {padding: 2px 3px;font-family: "Trebuchet MS", Verdana,Arial;font-size: 100%;color: #444;border: 1px solid #D9D9D9;background: none;overflow: auto;}
+
+.button {width: 48px;height: 22px;padding: 0 0 2px 7px;#padding: 3px 0 2px 3px !important;#padding: 0 0 2px 3px;font-size: 100%;font-weight: bold;letter-spacing: 0.5em;text-align: center;color: #444;border: 1px solid #b5c5cc;background: #C6D5DC;cursor: pointer;}
+
+.time {font-size: 90%;}
+
+.clear {clear: both;}
+
+#wrapper2  {width : 950px;margin-left : auto;margin-right : auto;padding : 0 0 0 0;background-color : #fff;margin-top : 33px;background-image : url(http://jessie-skin18.blogbus.com/files/12339106120.gif);background-position : top left;background-repeat : no-repeat;} 
+
+#pages  {width : 950px;height : 68px;margin:0 auto;background-image : url(http://jessie-skin18.blogbus.com/files/12339100560.gif);background-position : top right;background-repeat : no-repeat;} 
+#pages ul  {list-style-type : none;list-style-image : none;padding : 0 0 0 0;margin-left : 10px;margin-top : 0;margin-bottom : 0;}
+#pages li {float :left;display:block;margin-top:0;margin-bottom:0;}
+#pages li:hover {background-image : url(http://jessie-skin18.blogbus.com/files/12339098991.gif);border-bottom:none;}
+#pages li a:link, #pages li a:visited  {float : left;color : #8d8d8d;display : block;height : 45px;padding-top : 23px;font-size : 14px;padding-left : 20px;padding-right : 20px;margin-bottom : 0;} 
+
+#pages li a:hover, #pages li a:active {color : #8d8d8d;font-size : 14px;margin-bottom : 0;background-image : url(http://jessie-skin18.blogbus.com/files/12339098990.gif);background-position : top center;background-repeat : no-repeat;border-bottom:none;} 
+
+#categories  {width : 950px;margin:0 auto;height : 48px;background-image : url(http://jessie-skin18.blogbus.com/files/12338972851.gif);background-repeat : repeat-x;background-color : #433d3d;}
+#categories ul {margin : 0 0 0 10px;padding-left : 0;list-style-type : none;list-style-image : none;}
+#categories ul li {display : block;padding-left : 0;height : 48px;float:left;}
+#categories ul li a:link, #categories ul li a:visited, #categories ul li a:active, #categories ul li a:hover {float:left;height : 36px;display : block;color : #ffffff;font-size : 11px;font-weight : bold;padding : 12px 10px 0 10px;background-image : url(http://jessie-skin18.blogbus.com/files/12339083660.gif);background-repeat : no-repeat;background-position : right 0%;}
+#categories ul li a:hover {background-image : url(http://jessie-skin18.blogbus.com/files/12339083940.gif);background-repeat : repeat-x !important ;border-bottom:none;} 
+
+#header {width: 950px;height:219px;margin-left:auto;margin-right:auto;text-align:left;background: #373434 url(http://jessie-skin18.blogbus.com/files/12339093980.gif) top left repeat-x;}
+
+#wrap{width: 950px;margin:0 auto;overflow:hidden;background: url(http://jessie-skin18.blogbus.com/files/s/12338977920.gif) left top repeat-y;}
+
+.blogName {padding: 80px 0 0 40px;font-size: 26px;font-weight:bold;color: #fefefe;}
+.blogName a {color: #fefefe;text-align:left;}
+.blogName a:hover {color: #fefefe;}
+
+.description {padding: 10px 0 0 40px;line-height: 120%;color: #fefefe;}
+
+#innerContainer {width: 950px;height:19px;margin:0 auto;background: url(http://jessie-skin18.blogbus.com/files/s/12338979640.gif) center top no-repeat;}
+
+#outerContent {float: left;width: 640px;text-align: left;overflow: hidden;word-break: break-all;}
+#content {}
+
+#posts li {margin:20px 20px 0 20px;border:1px solid #ebebeb;}
+.postHeader {padding-bottom:5px;width:505px;}
+.postHeader h2 {float: left;margin:20px 15px 10px 15px;padding:0 3px;font-size: 16PX;font-weight: bold;line-height: 130%;color: #5f666f;overflow: hidden;}
+.postHeader h2 a {color: #5f666f;}
+.postHeader h2 a:hover {color: #333333;}
+.postHeader h3 {text-align:left;margin-left:20px;font-size: 11PX;font-weight: normal;color: #f5f666f;}
+.postHeader h3 a {color: #ff8400;}
+.postHeader h3 a:hover {color: #f5f666f;}
+.postHeader h2 .category {display: none;}
+.postBody {line-height: 160%;padding:15px 20px 15px 20px;}
+.postBody p {margin: 0 0 10px;}
+.postBody table {margin: 0 auto;}
+.postBody img {border:1px solid #cccccc;}
+.postBody table a:hover {border: none;}
+.postFooter {width:560px;margin:0 auto;padding-top:5px;border-top:1px dotted #ebebeb;}
+
+.tags {}
+.tags a {margin: 0 2px;}
+.tags a:hover {}
+
+.menubar {padding-left:10px;}
+
+.pageNavi {margin:20px;}
+.pageNavi a {color:#5f666f;}
+.pageNavi a:hover {color:#ff8400;}
+
+#outerSidebar {float: right;width: 290px;margin-top:10px;margin-right:14px;text-align: left;line-height: 180%;overflow: hidden;word-break: break-all;color:#373434;}
+#outerSidebar .count{margin-left: 5px;}
+#outerSidebar li{background: url(http://jessie-skin18.blogbus.com/files/12339066630.jpg) left no-repeat;padding:0 0 0 15px;height:20px;line-height:20px;overflow:hidden;}
+*+html #outerSidebar li{background: url(http://jessie-skin18.blogbus.com/files/12339066630.jpg) 6px left no-repeat;padding:0 0 0 15px;height:20px;line-height:20px;overflow:hidden;}/*IE7*/
+*html #outerSidebar li{background: url(http://jessie-skin18.blogbus.com/files/12339066630.jpg) 6px left no-repeat;padding:0 0 0 15px;height:20px;line-height:20px;overflow:hidden;}/*IE6*/
+#outerSidebar h2 {background: url(http://jessie-skin18.blogbus.com/files/12338986810.gif) top left no-repeat;height:35px;margin-left:-15px;padding:5px 0 0 15px;font-size:11px;color:#ff8400;}
+*html #outerSidebar h2 {background: url(http://jessie-skin18.blogbus.com/files/12338986810.gif) top left no-repeat; height:35px;margin-left:-9px;padding:5px 0 0 15px;font-size:11px;color:#ff8400;}/*IE6*/
+#outerSidebar a {color:#373434;}
+
+
+.module {padding:10px 0 15px 15px;}
+.modBody {width:260px;}
+#profile img {width: 96px;height: 96px;padding: 2px;border: 1px solid #D9D9D9;overflow: hidden;}
+#profile h3 {margin: 5px 0 2px;#margin: 2px 0 2px;font-size: 100%;}
+.about {}
+#login ul {text-align: left;}
+#login li span {margin-right: 10px;}
+#calendar table {width: 100%;margin: 0 0 0 -6px; padding: 0; }
+#calendar a {border: none;}
+#calendar a:active {outline:none;}
+#calendar td { text-align: center; line-height: 150%; word-break: keep-all; text-transform: lowercase; }
+#calendar td a { font-weight: bold; text-decoration: none;background: none; }
+#calendar td a:hover {border: none;}
+#calendar td a:active {outline:none;}
+#calendar .calendarHead td {font-weight: bold;}
+#calendar .week td {padding: 5px 2px 2px;font-size: 90%;text-align: center;white-space: nowrap;}
+.day {text-align: center;white-space: nowrap;}
+#calendar td.today {color: #5f666f;background: #eaeae1;}
+#calendar td.today a {color: #5f666f;}
+#tags {line-height: 160%;}
+#tags .count {display: none;}
+#tags li {display: inline;margin: 0 5px 0 0;}
+#tags .more {margin: 5px 5px 20px 0;}
+
+#login .modBody {text-align: right;}
+#login .uid {margin-bottom: 5px;}
+
+.uid #username,.pwd #password {margin-left: 5px;}
+.uid input,.pwd input {width: 135px;}
+
+#login .button {margin-top: 5px;}
+
+#search .textField {width: 100px;margin-left: 3px;}
+
+#nComments .modBody {}
+#nComments .author {}
+
+#custom {margin-bottom: 20px;}
+
+.statistics {margin-bottom: 20px;}
+.subscribe {margin-bottom: 20px;}
+
+#footer {margin:0 auto;width:950px;height:50px;background: url(http://jessie-skin18.blogbus.com/files/s/12339052820.gif) center top no-repeat;}
+
+.copyright {padding:20px 0 0 20px;color:#ffffff;font-size:11px;}
+.copyright a {color:#ffffff;}
+.copyright a:hover {color:#ffffff;}
+
+.tb_url {margin: 5px 0;}
+.tb_url input {width: 280px;color: #666;border: 1px solid #D9D9D9;}
+
+#trackbacks {margin: 0 0 20px;}
+#trackbacks .desc {margin: 0 0 15px 0;}
+#trackbacks h2 {font-size: 110%;margin-bottom: 20px;}
+#trackbacks h3 {font-size: 100%;font-weight: normal;}
+#trackbacks .blogName {margin: 2px 0;padding: 0;font-size: 100%;font-weight: normal;text-align: left;}
+#trackbacks .blogName span {font-weight: bold;}
+#trackbacks .time {font-size: 80%;}
+#trackbacks li {margin: 0 0 20px;border-bottom: 1px solid #D9D9D9;}
+#trackbacks .content {}
+
+.context {margin: 0 0 24px;text-align:center;font-size: 100%;text-align:center;color: #4EA3AE;}
+
+#comments {margin: 20px 0 20px 20px;width:500px;}
+*+html #comments {margin: 50px 0 20px 20px;width:500px;}
+*html #comments {margin: 50px 0 20px 20px;width:500px;}
+#comments h2 {font-size: 110%;margin-bottom: 30px;}
+#comments li {margin: 0 0 20px;padding:20px 20px 10px 20px;border: 1px dotted #ebebeb;}
+#comments .menubar {margin-top: 10px;}
+.reCmtBody {margin: 5px 0;padding: 10px 20px;color: #5f666f;border: 1px dotted #ebebeb;}
+.cmtBody p {margin: 10px 0;}
+.reply {}
+#commentForm {margin: 20px 20px;}
+#commentForm h2 {font-size: 110%;margin-bottom: 20px;}
+#commentForm form {}
+#commentForm label {display: block;}
+#commentForm textarea {width: 400px;margin: 5px 0;}
+
+#cats a:active {outline:none}
+
+#nPosts a:active {outline:none}
+
+#nComments a:active {outline:none}
+
+#links a:active {outline:none}
+
+#tags a:active {outline:none}
+
+#archives a:active {outline:none}
+
+#content #posts li .postBody ul,ol { margin:0; padding:0; margin-left:20px; }
+#content #posts li .postBody li { margin:0; padding:0; padding:0 2px;list-style-position:inside; }
+#content #posts li .postBody ul li { list-style:disc; }
+#content #posts li .postBody ol li { list-style:decimal; }

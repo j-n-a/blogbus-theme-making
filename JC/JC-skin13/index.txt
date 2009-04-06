@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title><!-- ~ blogname ~ --> - BlogBus.com</title>
+<meta name="description" content="<!-- ~ blogname ~ -->,<!-- ~ blogdescr ~ -->" />
+<meta name="keywords" content="<!-- ~ blogname ~ -->,<!-- ~ blogdescr ~ -->,Blog,Blogger,BlogBus" />
+<!-- ~ header ~ -->
+</head>
+<body>
+<div id="hd">
+<div id="header">
+ <div id="menu">
+<a href="http://<!-- ~ domain ~ -->" title="Ö÷Ò³">
+<img src="http://files.blogbus.com/jessie-skin13.blogbus.com/files/12054176290.jpg" /></a>
+
+<a href="http://jessie0426.blogbus.com" target="_blank" title="Á´½Ó">
+<img src="http://files.blogbus.com/jessie-skin13.blogbus.com/files/12054176291.jpg" /></a>
+
+<a href="http://jessie0426.blogbus.com" target="_blank" title="Á´½Ó">
+<img src="http://files.blogbus.com/jessie-skin13.blogbus.com/files/12054176292.jpg" /></a>
+<a href="http://www.blogbus.com/user/" target="_blank" title="µÇÂ½">
+<img src="http://files.blogbus.com/jessie-skin13.blogbus.com/files/12054176293.jpg" /></a>
+<a href="<!-- ~ rss_url ~ -->"target="_blank" title="RSS¶©ÔÄ">
+<img src="http://files.blogbus.com/jessie-skin13.blogbus.com/files/12054176294.jpg" /></a>
+</div>
+
+
+			<h1><a href="http://<!-- ~ domain ~ -->" title="·µ»ØÊ×Ò³"><!-- ~ blogname ~ --></a></h1>
+			<div id="description"><!-- ~ blogdescr ~ --></div>	
+</div>	</div>	
+	<div id="container">
+			<div id="content">
+			<!-- ~ diarys ~ -->
+			<p class="pages"><!-- ~ pagetxt ~ --></p>
+                        </div>
+<div id="footer"><br><br>
+<div id="sidebar">
+       <div id="sidebar1">
+              <div id="sidebar11">
+                    <img src="http://files.blogbus.com/jessie-skin13.blogbus.com/files/12054753572.jpg" />
+                     <!-- ~ update ~ -->
+                           <br><br>
+                        
+               </div>
+               <div id="sidebar12">
+                                         <img src="http://files.blogbus.com/jessie-skin13.blogbus.com/files/12054753570.jpg" />
+                     <!-- ~ last_cmt ~ -->
+                     <br><br>
+                      
+               </div>
+        </div>
+               <div id="sidebar2">
+                       <img src="http://files.blogbus.com/jessie-skin13.blogbus.com/files/12054753571.jpg" />
+                       <!-- ~ sorts ~ -->
+               </div>
+</div><br/><br/><br />
+<div id="misc">
+<p>Total: <!-- ~ counter_text ~ --></p>
+<div id="customHtml"><!-- ~ custom_html ~ --></div><br />
+				
+<p id="copyright">Powered by <a href="http://www.blogbus.com" target="_blank">BlogBus</a>Skinned by <a href="http://jessie0426.blogbus.com" target="_blank">class JC
+</p>
+
+</div>
+
+</div>
+
+</body>
+</html>

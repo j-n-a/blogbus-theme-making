@@ -1,0 +1,51 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="robots" content="index,follow" />
+<meta http-equiv="imagetoolbar" content="no" />
+<link rel="alternate" type="application/rss+xml" title="RSS 1.0" href="<!-- ~ rss_url ~ -->" />
+<!-- ~ css ~ -->
+<script type="text/javascript">
+function OpenComments (c) {
+    window.open(c,
+                    'comments',
+                    'width=480,height=480,scrollbars=yes,status=yes');
+}
+function OpenTrackback (c) {
+    window.open(c,
+                    'trackback',
+                    'width=480,height=480,scrollbars=yes,status=yes');
+}
+</script>
+<script type="text/javascript">
+<!--
+function resizeImg() {
+var imageAll=document.getElementById("content").getElementsByTagName("img");
+if (imageAll !=null)	{
+	for (i=0; i<imageAll.length; i++) {
+		if (imageAll[i].width>480) {
+			imageAll[i].style.width="100%";
+			imageAll[i].onclick=function(){window.open(this.src)};
+			imageAll[i].style.cursor="pointer";
+			imageAll[i].alt="????";	
+		}
+	}
+}
+resizeCustomHtml();
+}
+function resizeCustomHtml() {
+	var customHtmlImg=document.getElementById("customHtml").getElementsByTagName("img");
+	if (customHtmlImg !=null)	{
+		for (i=0; i<customHtmlImg.length; i++) {
+			if (customHtmlImg[i].width>180) {
+				customHtmlImg[i].style.width="100%";
+			}
+		}
+	}
+}
+if (window.addEventListener)
+window.addEventListener("load", resizeImg, false);
+else if (window.attachEvent)
+window.attachEvent("onload", resizeImg);
+else
+window.onload=resizeImg
+-->
+</script>

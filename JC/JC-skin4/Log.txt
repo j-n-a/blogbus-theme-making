@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title><!-- ~ diarytitle ~ --> - <!-- ~ blogname ~ --> - BlogBus.Com</title>
+<meta name="description" content="<!-- ~ blogname ~ -->,<!-- ~ blogdescr ~ -->" />
+<meta name="keywords" content="<!-- ~ blogname ~ -->,<!-- ~ blogdescr ~ -->,Blog,Blogger,BlogBus" />
+<!-- ~ header ~ -->
+</head>
+
+<body>
+	<div id="container">
+		<div id="header">
+			<h1><a href="http://<!-- ~ domain ~ -->" title="返回首页"><!-- ~ blogname ~ --></a></h1>
+			<p id="description"><!-- ~ blogdescr ~ --></p>
+		</div>
+		
+		<div id="content">
+			<div id="context"><!-- ~ pre ~ -->|<a href="<!-- ~ home_url ~ -->">首页</a>|<!-- ~ next ~ --></div>
+			
+			<div class="entry">				
+				<div class="titlebar">
+				<h2><!-- ~ diarytitle ~ --><span class="sort"> - [<!-- ~ sort ~ -->]</span></h2>	
+				<div class="date"><!-- ~ date ~ --></div>
+				</div>	
+			<div class="tags">Tag: <!-- ~ b_cat ~ --></div><br />							
+			<div class="entryBody">
+				<!-- ~ diarybody ~ -->
+			</div><br />
+				
+			</div><br />
+			<div id="comments">
+				<h2>Comment</h2>
+				<ul><!-- ~ cmts ~ --></ul> 
+			</div>
+			
+			<div id="commentForm">
+				<h2>Leave a comment</h2>
+				<!-- ~ commentform ~ --> 
+			</div>
+		</div>
+		
+		<div id="sidebar">
+			<div id="search">
+				
+				
+			</div>
+			<div id="update">
+				<h2>Update</h2>
+				<!-- ~ update ~ -->
+			</div>
+			<div id="lastComments">
+				<h2>Comment</h2>
+				<!-- ~ last_cmt ~ -->
+			</div>
+			<div id="links">
+				<h2>Link</h2>
+				<!-- ~ links ~ -->
+				<!-- ~ new_links ~ -->
+			</div>
+			<div id="misc">
+				<p><br />Total: <!-- ~ counter_text ~ --></p>
+				<div id="customHtml"><!-- ~ custom_html ~ --></div>
+				<div id="subscribe"><table border="0" cellpadding="0">
+						  <tr>
+							<td><a href="<!-- ~ rss_url ~ -->"><img src="http://www.blogbus.com/images/site-v3/rss.gif" alt="RSS1.0" /></a></td>
+							<td><a href="http://help.blogbus.com/logs/2003/12/55530.html" target="_blank">什么是RSS？</a></td>
+						  </tr>
+						</table>
+					</div><br />
+					<a href="http://www.blogbus.com/"></a>
+					</div>
+		</div>
+		
+		<div id="footer">
+			<br />
+			<p id="copyright">&copy; Powered by <a href="http://www.blogbus.com/" target="_blank">BlogBus</a>&nbsp;&nbsp;Skinned by <a href="http://jessie0426.blogbus.com/" target="_blank">class JC</a></p>
+		</div>
+	</div>
+</body>
+</html>

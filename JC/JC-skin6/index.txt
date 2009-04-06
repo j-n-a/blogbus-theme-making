@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title><!-- ~ blogname ~ -->- BlogBus.com</title>
+<meta name="description" content="<!-- ~ blogname ~ -->,<!-- ~ blogdescr ~ -->" /> 
+<meta name="keywords" content="<!-- ~ blogname ~ -->,<!-- ~ blogdescr ~ -->,Blog,Blogger,BlogBus" />
+<!-- ~ header ~ -->
+</head>
+
+<body>
+<div id="wrap">
+<div id="container">
+<div id="header">
+
+<h2>
+<a href="http://<!-- ~ domain ~ -->"  target="_blank" title="主页"><SPAN style="COLOR: #F22601">Main</span></a>&nbsp;&nbsp;<SPAN style="COLOR: #F0ECD3">|</span>&nbsp;&nbsp;<a href="http://jessie0426.blogbus.com" target="_blank" title="链接"><SPAN style="COLOR: #FF780A">Links</span></a> &nbsp;&nbsp;<SPAN style="COLOR: #F0ECD3">|</span>&nbsp;&nbsp;<a href="http://jessie0426.blogbus.com" target="_blank" title="关于我"><SPAN style="COLOR: #FFFB13">About</span></a>&nbsp;&nbsp;<SPAN style="COLOR: #F0ECD3">|</span>&nbsp;&nbsp;<a href="http://www.blogbus.com/user/" target="_blank" title="登陆"><SPAN style="COLOR: #69CD15">Login</span></a>&nbsp;&nbsp;<SPAN style="COLOR: #F0ECD3">|</span>&nbsp;&nbsp;
+<a href="<!-- ~ rss_url ~ -->"target="_blank" title="RSS订阅"><SPAN style="COLOR: #009F04">Rss</span></a>
+</h2>
+<h1><a href="http://<!-- ~ domain ~ -->" title="返回首页"><!-- ~ blogname ~ --></a></h1>
+			<p id="description"><!-- ~ blogdescr ~ --></p>
+		
+
+	
+</div>
+
+<div id="content">
+<!-- ~ diarys ~ -->
+
+<SPAN style="COLOR: #f5f5f5"><p class="pages"><!-- ~ pagetxt ~ --></p>
+</span></div>
+</div>		
+		
+		</div>
+		</div>
+		</div>
+		<div id="footer">
+			<br />
+<SPAN style="COLOR: #F0ECD3">Total: <!-- ~ counter_text ~ --></span>
+			<p id="copyright"><SPAN style="COLOR: #F0ECD3">&copy; Powered by <a href="http://www.blogbus.com/" target="_blank">BlogBus</a>&nbsp;&nbsp;Skinned by <a href="http://jessie0426.blogbus.com/" target="_blank">class JC</span></a></p>
+		</div>
+	</div>
+	
+</body>
+</html>

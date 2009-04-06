@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title><!-- ~ blogname ~ --> - BlogBus.com</title>
+<meta name="description" content="<!-- ~ blogname ~ -->,<!-- ~ blogdescr ~ -->" />
+<meta name="keywords" content="<!-- ~ blogname ~ -->,<!-- ~ blogdescr ~ -->,Blog,Blogger,BlogBus" />
+<!-- ~ header ~ -->
+</head>
+
+<body>
+<div id="header">
+               <h1><a href="http://<!-- ~ domain ~ -->" title="返回首页"><!-- ~ blogname ~ --></a>
+               </h1>
+	       <div id="description"><!-- ~ blogdescr ~ -->
+               </div>	
+               <div id="menu">
+               <a href="http://<!-- ~ domain ~ -->"  target="_blank" title="主页">Main</span></a>
+               <a href="http://jessie0426.blogbus.com" target="_blank" title="链接">Links</a> 
+               <a href="http://jessie0426.blogbus.com" target="_blank" title="关于我">About</a>
+               <a href="http://www.blogbus.com/user/" target="_blank" title="登陆">Login</a>
+               <a href="<!-- ~ rss_url ~ -->"target="_blank" title="RSS订阅">Rss</a>
+               </div>
+</div>	
+
+<div id="container">
+	       <div id="content">
+			<!-- ~ diarys ~ -->
+			<p class="pages"><!-- ~ pagetxt ~ --></p>
+               
+
+                    <div id="sidebar">
+                         <div id="sidebar1">
+                             <div id="sidebar11">
+                             <h2>Update</h2>
+                             <!-- ~ update ~ -->
+                             </div>
+                             <div id="sidebar12">
+                             <h2>Comment</h2>
+                             <!-- ~ last_cmt ~ -->
+                             </div>
+                          </div>
+                          <div id="sidebar2">
+                          <h2>Sorts</h2>
+                          <!-- ~ sorts ~ -->
+                          </div>
+                     </div>
+
+                     
+                 </div>
+                 <div id="footer">
+                      <div id="customHtml"><!-- ~ custom_html ~ --></div>
+                      <p>Total: <!-- ~ counter_text ~ --></p>
+                      <p id="copyright">&copy;Powered by <a href="http://www.blogbus.com" target="_blank">BlogBus</a>Skinned by <a href="http://jessie0426.blogbus.com" target="_blank">class JC</p>
+                 </div>
+</div>
+
+</body>
+</html>
