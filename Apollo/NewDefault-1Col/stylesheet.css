@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+/*code by Jet Yang*/
+/*modified by Minjie Zhang*/
+/*last modified Oct 4, 2008*/
+* { margin:0; padding:0; }
+body { margin:10px 0 20px; background:#fff; font-family: Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#333; text-align:center; word-break:break-all;word-break: break-all; }
+a { color:#333; text-decoration:none; }
+a:hover { color:#999; text-decoration:none; }
+a img { border:0; }
+input.textField { width:100%; height:18px; border:1px solid #d0d0d0; color:#666; font-size:12px; margin-bottom:4px; }
+input.button { width: 50px; background:#fff; border:1px solid #d0d0d0; padding:1px 0 1px 6px; }
+input#username { width:100%; height:18px; border:1px solid #d0d0d0; color:#666; font-size:12px; margin-bottom:6px; }
+input#password { width:100%; height:18px; border:1px solid #d0d0d0; color:#666; font-size:12px; margin-bottom:6px; }
+ul,li { list-style:none; }
+.clear { clear:both; }
+
+#container { width:810px; margin:0; padding:0; margin:0 auto; text-align:left; }
+#header { margin:0 0 10px; padding:0; }
+#header h1 { margin:0; padding:0; font-size:14px; text-transform:uppercase; color: #000; font-weight: normal; border-bottom:1px dotted #d0d0d0; }
+#header h1 a { color:#000; text-decoration:none; }
+#header h1 a:hover { color:#999; }
+#header .description { margin:0; padding:0; line-height:140%; color: #000; }
+
+#outerContent { width:810px; display:inline; margin:0; padding:0; }
+#content .postHeader h2 { margin:0px; padding-bottom:4px; height:16px; font-size:12px; color:#333; border-bottom:1px solid #d0d0d0; }
+#detail #content .postHeader h2 { border:none; }
+#context { border:1px solid #d0d0d0; }
+#content .postHeader h2 span { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; }
+#content .postHeader h2 span a { font-family:Arial, Helvetica, sans-serif; }
+#content .postHeader h2 a { color:#777; text-decoration:none; }
+#content .postHeader h3 { margin-top:0px; padding:2px 0 0; font-weight: normal; color: #333; font-size: 12px; border-bottom:1px solid #d0d0d0; }
+#content .postHeader .tags { }
+#content .postHeader .tags a { margin-left:4px; font-weight:normal; color:#999; }
+#content ul#posts li { margin-top:10px; margin-bottom:30px; padding:0px; }
+#content ul#posts .postBody { margin:0; padding:20px 5px; line-height:140%; word-break:break-all; }
+#content ul#posts .postBody a { text-decoration:underline; }
+#content ul#posts .postBody p { margin-bottom:1em; }
+#content ul#posts .postBody img { clear:both; }
+#content ul#posts .postFooter { margin-bottom:30px; padding:0; border-top:1px solid #d0d0d0; text-align:left; }
+#content ul#posts .postFooter a { }
+#content ul#posts .postFooter a:hover { }
+#content ul#posts .postFooter .menubar { height:16px; padding-top:5px; }
+#content ul#posts .postFooter .menubar .time {  }
+#content ul#posts .postFooter .tb_url { margin:0px; }
+#content ul#posts .postFooter .tb_url input { margin-left:4px; padding:1px; width:440px; height:16px; border:none; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#666; }
+#content ul#posts .postFooter .author { margin-right:4px; }
+
+#content #posts li .postBody ul,ol { margin:0; padding:0; margin-left:20px; }
+#content #posts li .postBody li { margin:0; padding:0; padding:0 2px;list-style-position:inside; }
+#content #posts li .postBody ul li { list-style:disc; }
+#content #posts li .postBody ol li { list-style:decimal; }
+#content .pageNavi { margin-top:30px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; }
+#content .pageNavi a { font-style:bold; }
+#content #trackbacks { margin:0 0 40px 0; }
+#content #trackbacks h2 { margin:0 0 20px; font-size:12px; padding:1px; }
+#content #trackbacks h3 { margin:0 0 4px; padding:0; border:0; background:none; text-align:left; font-size:12px; font-weight:normal; }
+#content #trackbacks h3 a { text-decoration:underline; }
+#content #trackbacks li { margin:0 4px 24px; padding:0; }
+#content #trackbacks div { margin-bottom:3px; }
+#content #trackbacks .content { margin-top:2px; line-height:150%; }
+#content #trackbacks .desc { margin:0 2px 14px; }
+#content #comments { margin:0 0 40px 0; word-break:break-all; }
+#content #comments h2 { margin:0 0 20px; font-size:12px; padding:1px; }
+#content #comments li { margin:0 0 35px; border:1px solid #d0d0d0; border-left:none; border-right:none; }
+#content #comments .cmtBody { line-height:150%; padding:5px 0; }
+#content #comments .cmtBody br { letter-spacing:normal; line-height:120%; }
+#content #comments .menubar { padding:2px 0; }
+#content #comments .menubar .author { }
+#content #comments .menubar .time {  }
+#content #comments .menubar .reply { margin-left:4px; }
+#content #comments .menubar .reply a { padding:0 2px; }
+#content #comments .reCmtBody { padding:10px; background:#f0f0f0; color:#777; }
+#content #comments .reCmtBody div { margin-bottom:4px; }
+#content #comments .reCmtBody div span { font-weight:bold; margin:0 4px; }
+#content #comments .reCmtBody div .author { margin-left:0; }
+#content #comments .reCmtBody .time { font-size:10px; text-align:right; }
+#content #comments .reCmtBody .content { line-height:170%; }
+#content #commentForm { margin:0 0 40px 0; }
+#content #commentForm h2 { margin:0 0 20px; font-size:12px; padding:1px; }
+#content #commentForm div { margin:5px 0; }
+#content #commentForm .textField { width:240px; height:18px; border:1px solid #d0d0d0; color:#666; font-size:12px; margin-bottom:2px; }
+#content #commentForm textarea { margin:8px 0; width:360px; overflow:auto; height:150px; border:1px solid #d0d0d0; color:#666; font-size:12px; margin-bottom:6px; }
+#content #commentForm label { margin:2px; display:block; }
+#content #commentForm .button { width: 50px; background:#fff; border:1px solid #d0d0d0; padding:1px 0 3px 6px; }
+
+#outerSidebar { margin:0; padding-top:190px; width:170px; font-size:12px; float:right; margin-top:10px; background: url(http://public.blogbus.com/blogbus/skin/5021/bg_sidebar.gif) no-repeat top center; }
+#sidebar br { letter-spacing:normal; }
+#sidebar a { color:#333; }
+#sidebar a:hover { color:#999; text-decoration:none; }
+#sidebar h2 { height:18px; line-height:18px; font-size:12px;  color: #333; text-align:left; border:1px solid #ccc; font-weight:normal; }
+#sidebar h3 { font-size:13px; margin:0 2px 6px; }
+#sidebar ul { margin-left:30px; }
+#sidebar ul li { margin:0 0 4px; }
+#sidebar .module { margin:0 4px 30px; }
+#sidebar .modBody { margin:0; padding:5px; border:1px solid #ccc; border-top:none; }
+#sidebar .count { margin-left:4px; }
+#sidebar img.avatar { margin:10px 0; border:2px solid #f0f0f0; width:96px; height:96px; overflow:hidden; }
+#sidebar a:hover img.avatar { border-color:#d0d0d0; }
+#sidebar .about { margin-left:1px; }
+
+#sidebar #calendar h2 { display:none; }
+#sidebar #calendar .modBody { border:none; }
+#sidebar #calendar table { padding:0; width:100%; line-height:120%; font-size:12px; border-collapse:collapse; }
+#sidebar #calendar td { text-align:center; border-collapse:collapse; border:1px solid #ccc; }
+#sidebar .calendarHead td { padding:2px 0; font-size:12px; font-weight:bold; vertical-align: middle; color:#999; }
+#sidebar .calendarHead td a { margin:0 4px; font-family:Verdana, Arial, Helvetica, sans-serif; color:#333; }
+#sidebar .week td { padding:0 2px 2px; font-family:Verdana, Arial, Helvetica, sans-serif; text-transform:uppercase; background:#f0f0f0; }
+#sidebar .day td { padding:2px 2px 2px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px;}
+#sidebar .day td.today { background:#f0f0f0; font-style:bold; font-size:10px; }
+
+#sidebar #login h2 { display:none; }
+#sidebar #login .modBody { margin-bottom:0; border:none; }
+#sidebar #login .modBody div { padding:0; margin-bottom:5px; text-align:right;  }
+#sidebar #login label { }
+#sidebar #login .submit { margin:0; text-align:right; }
+input#username, input#password { width:95px; margin-left:10px; margin-bottom:0; }
+
+#sidebar #search h2 { display:none; }
+#sidebar #search .modBody { border:none; text-align:right; }
+#sidebar #search .modBody form { margin:0; padding:0; }
+
+#sidebar #tags .more{ padding-left:30px; }
+#sidebar #custom { margin-top:40px; }
+#sidebar .statistics { margin:40px 0 16px; }
+#sidebar #meta .modBody { border:none; }
+#sidebar #meta .modBody ul { margin-left:0; }
+#sidebar .statistics .count { margin:0; }
+
+#sidebar .poweredBy { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; font-weight:bold; }
+#sidebar .poweredBy img { margin-bottom:6px; }
+.innerBottom { clear:both; }
+#sidebar .poweredBy img { margin-bottom:6px; }
+#footer { margin-top:40px; padding-top:3px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; text-align:center; }
+
+
+* html #sidebar .button { padding:3px 0 0; }
+* html #sidebar .subscribe img { top:0; left:-60px; }
+* html #footer { padding-top:1px; }
+* html #content #comments .reCmtBody { padding-top:6px; }
+* html #content #commentForm .button { padding:3px 0 0; }
