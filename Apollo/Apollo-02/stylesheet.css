@@ -1,127 +1,127 @@
-/* 
-	Style: ButterFly
-	Style No: 02
-	Version: 1.0 rebuild 2007/10/24
-	Author: apollo
- 	Author eMail: ze.apollo@gmail.com apoollo@live.com
+/*
+    Style: ButterFly
+    Style No: 02
+    Version: 1.0 rebuild 2007/10/24
+    Author: apollo
+     Author eMail: ze.apollo@gmail.com apoollo@live.com
 */
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
         font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 75%;
-	color: #999999;
-	background: #fff url(http://apollo_skin2.blogbus.com/files/11932319730.jpg) no-repeat bottom right fixed;
+    font-size: 75%;
+    color: #999999;
+    background: #fff url(http://apollo_skin2.blogbus.com/files/11932319730.jpg) no-repeat bottom right fixed;
 text-align: center;
 }
 
 li {
-	list-style: none;
+    list-style: none;
 }
 a {
-	color: #7e9aaf;
-	text-decoration: none;
+    color: #7e9aaf;
+    text-decoration: none;
 }
 a:hover {
-	color: #999999;
-	text-decoration: none;
+    color: #999999;
+    text-decoration: none;
 }
 img {
-	border: #DDD solid 1px;
+    border: #DDD solid 1px;
         padding: 2px;
 }
 input {
-	padding: 1px;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 100%;
-	color: #999;
-	border: 1px solid #DDD;
-	background: none;
+    padding: 1px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: #999;
+    border: 1px solid #DDD;
+    background: none;
 }
 #detail input {
-	color: #555;
-	border: 1px solid #CCC;
-	background: #FFF;
+    color: #555;
+    border: 1px solid #CCC;
+    background: #FFF;
 }
 textarea {
-	padding: 2px 3px;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 100%;
-	color: #555;
-	border: 1px solid #DDD;
-	background: none;
-	overflow: auto;
+    padding: 2px 3px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: #555;
+    border: 1px solid #DDD;
+    background: none;
+    overflow: auto;
 }
 #detail textarea {
-	border: 1px solid #CCC;
-	background: #FFF;
+    border: 1px solid #CCC;
+    background: #FFF;
 }
 .button {
-	width: 48px;
-	height: 19px;
-	padding: 0 0 2px 7px;
-	*padding: 2px 0 2px 3px;
-	font-size: 100%;
-	font-weight: bold;
-	letter-spacing: 0.5em;
-	line-height: 20px;
-	text-align: center;
-	color: #666;
-	border: 1px solid #DDD;
-	background: #EEE;
-	cursor: pointer;
+    width: 48px;
+    height: 19px;
+    padding: 0 0 2px 7px;
+    *padding: 2px 0 2px 3px;
+    font-size: 100%;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    line-height: 20px;
+    text-align: center;
+    color: #666;
+    border: 1px solid #DDD;
+    background: #EEE;
+    cursor: pointer;
 }
 .time {
-	font-size: 90%;
+    font-size: 90%;
 }
 .clear {
-	clear: both;
+    clear: both;
 }
 #index {
-	margin: 0 auto;
-	padding: 0;
-	text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
         background: #000;
 }
 #detail {
-	margin: 0 auto;
-	padding: 0;
-	text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
 }
 #container {
-	float:left;
+    float:left;
         margin-left: 0;
         margin-top: 0;
         width: 726px;
 }
 #header {
-	width: 726px;
-	height: 207px;
-	background: url(http://apollo_skin2.blogbus.com/files/11932319732.jpg) left top no-repeat;
+    width: 726px;
+    height: 207px;
+    background: url(http://apollo_skin2.blogbus.com/files/11932319732.jpg) left top no-repeat;
 }
 .blogName {
-	padding: 105px 30px 5px 223px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 200%;
-	font-weight: bold;
-	text-align: left;
-	color: #555;
-	line-height: 140%;
+    padding: 105px 30px 5px 223px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 200%;
+    font-weight: bold;
+    text-align: left;
+    color: #555;
+    line-height: 140%;
 }
 .blogName a {
-	color: #7e9aaf;
-	text-decoration: none;
+    color: #7e9aaf;
+    text-decoration: none;
 }
 .description {
-	padding: 0 30px 10px 253px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-weight: normal;
-	text-align: left;
-	color: #999;
-	line-height: 140%;
+    padding: 0 30px 10px 253px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: normal;
+    text-align: left;
+    color: #999;
+    line-height: 140%;
 }
 #innerContainer {
 }
@@ -130,14 +130,14 @@ textarea {
 .innerBottom {
 }
 #outerContent {
-	float: left;
-	width: 513px;
-	padding-top: 10px;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	text-align: left;
-	line-height: 160%;
-	color: #999;
-	overflow: hidden;
+    float: left;
+    width: 513px;
+    padding-top: 10px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align: left;
+    line-height: 160%;
+    color: #999;
+    overflow: hidden;
 }
 #content {
 }
@@ -146,114 +146,114 @@ textarea {
 .contentBottom {
 }
 #posts {
-	width: 480px;
-	margin-left: 13px;
+    width: 480px;
+    margin-left: 13px;
 }
 .postsTop {
 }
 .postsBottom {
 }
 #posts li {
-	margin: 0 0 20px 0;
+    margin: 0 0 20px 0;
 }
 .postHeader {
 }
 .postHeader h2 {
-	display: inline;
-	margin-bottom: 8px;
-	color: #7e9aaf;
-	font-family: Arial, Verdana, Helvetica, sans-serif;
-	font-size: 120%;
-	font-weight: bold;
-	text-align: left;
-	line-height: 120%;
-	overflow: hidden;
+    display: inline;
+    margin-bottom: 8px;
+    color: #7e9aaf;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+    text-align: left;
+    line-height: 120%;
+    overflow: hidden;
 }
 .postHeader h2 a {
-	color: #7e9aaf;
+    color: #7e9aaf;
         text-decoration: none;
 }
 .postHeader h2 a:hover {
-	color: #999;
-	border: none;
+    color: #999;
+    border: none;
 }
 .category {
-	font-size: 85%;
-	font-weight: normal;
-	color: #999;
+    font-size: 85%;
+    font-weight: normal;
+    color: #999;
 }
 .postHeader h3 {
-	margin-bottom: 15px;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 85%;
-	font-weight: bold;
-	text-align: left;
-	color: #999;
+    margin-bottom: 15px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    font-weight: bold;
+    text-align: left;
+    color: #999;
 }
 .postBody {
-	width: 470px;
-	margin: 0 0 20px;
-	padding: 0 5px;
+    width: 470px;
+    margin: 0 0 20px;
+    padding: 0 5px;
 }
 .postBody p {
-	margin: 10px auto;
+    margin: 10px auto;
 }
 .postBody table {
-	margin: 0 auto;
+    margin: 0 auto;
 }
 .postBody table a:hover {
-	border: none;
+    border: none;
 }
 .postFooter {
-	margin: 0 5px 17px 0;
-	padding-bottom: 3px;
-	color: #999;
-	border-bottom: 1px #CCC solid;
+    margin: 0 5px 17px 0;
+    padding-bottom: 3px;
+    color: #999;
+    border-bottom: 1px #CCC solid;
 }
 .postFooter a {
-	color: #7e9aaf;
+    color: #7e9aaf;
         text-decoration: none;
 }
 .postFotter a:hover {
-	color: #999;
-	border: none;
+    color: #999;
+    border: none;
 }
 .tags {
 }
 .menubar {
 }
 .pageNavi {
-	margin-left: 12px;
+    margin-left: 12px;
 }
 .pageNavi a {
-	color: #555;
+    color: #555;
 }
 #outerSidebar {
-	float: right;
-	width: 175px;
-	padding: 10px 13px 0 25px;
-	text-align: left;
-	line-height: 160%;
-	color: #999;
-	overflow: hidden;
-	table-layout: fixed;
-	word-break: break-all;
+    float: right;
+    width: 175px;
+    padding: 10px 13px 0 25px;
+    text-align: left;
+    line-height: 160%;
+    color: #999;
+    overflow: hidden;
+    table-layout: fixed;
+    word-break: break-all;
 }
 #outerSidebar .count{
-	margin-left: 5px;
+    margin-left: 5px;
 }
 #outerSidebar a{
-	color: #999;
+    color: #999;
         text-decoration: none;
 }
 #outerSidebar a:hover {
-	color: #7e9aaf;
+    color: #7e9aaf;
 }
 #outerSidebar h2 {
-	margin-bottom: 10px;
-	padding-bottom: 1px;
-	font-size: 100%;
-	color: #7e9aaf;
+    margin-bottom: 10px;
+    padding-bottom: 1px;
+    font-size: 100%;
+    color: #7e9aaf;
 }
 #sidebar {
 }
@@ -262,7 +262,7 @@ textarea {
 .sidebarBottom {
 }
 .module {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 .modTop {
 }
@@ -271,90 +271,90 @@ textarea {
 .modBody {
 }
 #profile img {
-	width: 96px;
-	height: 96px;
-	padding: 2px;
-	border: none;
-	overflow: hidden;
+    width: 96px;
+    height: 96px;
+    padding: 2px;
+    border: none;
+    overflow: hidden;
 }
 #profile h3 {
-	margin: 5px 0;
-	font-size: 100%;
+    margin: 5px 0;
+    font-size: 100%;
 }
 .about {
-	color: 3777;
+    color: 3777;
 }
 #calendar table {
-	width: 100%;
-	margin: 0; 
-	padding: 0; 
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 #calendar a {
-	border: none;
+    border: none;
 }
-#calendar td { 
-	font-size: 90%; 
-	text-align: center; 
-	line-height: 150%; 
-	word-break: keep-all; 
-	text-transform: lowercase; 
+#calendar td {
+    font-size: 90%;
+    text-align: center;
+    line-height: 150%;
+    word-break: keep-all;
+    text-transform: lowercase;
 }
-#calendar td a { 
-	font-weight: bold; 
-	text-decoration: none;
-	background: none; 
+#calendar td a {
+    font-weight: bold;
+    text-decoration: none;
+    background: none;
 }
 #calendar td a:hover {
-	border: none;
+    border: none;
 }
 #calendar .calendarHead td {
-	font-size: 110%;
-	font-weight: bold;
+    font-size: 110%;
+    font-weight: bold;
 }
 #calendar .week {
-	padding: 2px;
-	font-size: 90%;
-	text-align: center;
-	white-space: nowrap;
+    padding: 2px;
+    font-size: 90%;
+    text-align: center;
+    white-space: nowrap;
 }
 .day {
-	text-align: center;
-	white-space: nowrap;
+    text-align: center;
+    white-space: nowrap;
 }
 #calendar td.today {
-	background: #356D9B;
+    background: #356D9B;
 }
-#calendar td.today a { 
+#calendar td.today a {
 }
 #login .modBody {
-	text-align: right;
+    text-align: right;
 }
 #login .uid {
-	margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 .uid #username,.pwd #password {
-	margin-left: 5px;
+    margin-left: 5px;
 }
 .uid input,.pwd input {
-	width: 130px;
+    width: 130px;
 }
 #login .button {
-	margin-top: 5px;
+    margin-top: 5px;
 }
 #search .textField {
-	width: 115px;
+    width: 115px;
 }
 #custom {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 .statistics {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 .subscribe {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 .poweredBy {
-	font-size: 80%;
+    font-size: 80%;
 }
 #footer {
         height: 120px;
@@ -362,96 +362,96 @@ textarea {
         background:url(http://apollo_skin2.blogbus.com/files/11932326520.jpg) no-repeat bottom left;
 }
 .copyright {
-	margin-left: 200px;
-	padding-bottom: 20px;
-	font-size: 80%;
+    margin-left: 200px;
+    padding-bottom: 20px;
+    font-size: 80%;
 }
 .tb_url {
-	margin: 5px 0;
+    margin: 5px 0;
 }
 .tb_url input {
-	width: 280px;
-	color: #555;
-	border: 1px solid #CCC;
+    width: 280px;
+    color: #555;
+    border: 1px solid #CCC;
 }
 #trackbacks {
-	width: 480px;
-	margin: 0 0 30px 13px;
+    width: 480px;
+    margin: 0 0 30px 13px;
 }
 #trackbacks .desc {
-	margin: 0 0 15px 0;
+    margin: 0 0 15px 0;
 }
 #trackbacks h2 {
-	font-size: 110%;
-	margin-bottom: 20px;
+    font-size: 110%;
+    margin-bottom: 20px;
 }
 #trackbacks h3 {
-	font-size: 100%;
-	font-weight: normal;
+    font-size: 100%;
+    font-weight: normal;
 }
 #trackbacks .blogName {
-	margin: 2px 0;
-	padding: 0;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 100%;
-	font-weight: normal;
-	color: #555;
+    margin: 2px 0;
+    padding: 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+    color: #555;
 }
 #trackbacks .blogName span {
-	font-weight: bold;
+    font-weight: bold;
 }
 #trackbacks .time {
-	font-size: 80%;
+    font-size: 80%;
 }
 #trackbacks li {
-	margin: 0 5px 10px 0;
-	border-bottom: 1px solid #CCC;
+    margin: 0 5px 10px 0;
+    border-bottom: 1px solid #CCC;
 }
 .context {
-	margin: 0 0 20px 0;
-	font-size: 100%;
-	text-align: left;
-	color: #356D9B;
+    margin: 0 0 20px 0;
+    font-size: 100%;
+    text-align: left;
+    color: #356D9B;
 }
 #comments {
-	width: 480px;
-	margin: 0 0 30px 13px;
+    width: 480px;
+    margin: 0 0 30px 13px;
 }
 #comments h2 {
-	font-size: 110%;
-	margin-bottom: 20px;
+    font-size: 110%;
+    margin-bottom: 20px;
 }
 #comments li {
-	margin: 0 5px 25px 0;
-	border-bottom: 1px solid #CCC;
+    margin: 0 5px 25px 0;
+    border-bottom: 1px solid #CCC;
 }
 #comments .menubar {
-	color: #356D9B;
+    color: #356D9B;
 }
 .reCmtBody {
-	margin: 5px 0;
-	padding: 5px;
-	border: 1px dashed #fff;
-	background: #EEE;
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px dashed #fff;
+    background: #EEE;
 }
 .cmtBody p {
-	margin: 10px 0;
+    margin: 10px 0;
 }
 .reply {
 }
 #commentForm {
-	margin: 0 0 30px 13px;
+    margin: 0 0 30px 13px;
 }
 #commentForm h2 {
-	font-size: 110%;
-	margin-bottom: 20px;
+    font-size: 110%;
+    margin-bottom: 20px;
 }
 #commentForm form {
 }
 #commentForm label {
-	display: block;
+    display: block;
 }
 #commentForm textarea {
-	width: 400px;
-	margin: 5px 0;
+    width: 400px;
+    margin: 5px 0;
 }

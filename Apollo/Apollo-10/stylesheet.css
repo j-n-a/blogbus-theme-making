@@ -1,4 +1,4 @@
-/* 
+/*
  * Theme Name: Apollo's Skin 10
  * Theme Author: Apollo Coleone
  * Theme URI: http://imapollo.blogbus.com
@@ -12,7 +12,6 @@
 
 
 /* Reset
- * 清空浏览器的预设风格，减少浏览器差异
  * read more: (http://meyerweb.com/eric/tools/css/reset/)
  * ------------------------------------------------------------------*/
 
@@ -25,51 +24,51 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-	background: transparent;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
 
 body {
-	line-height: 1;
+    line-height: 1;
 }
 
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 
 /* remember to define focus styles! */
 :focus {
-	outline: 0;
+    outline: 0;
 }
 
 /* remember to highlight inserts somehow! */
 ins {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 del {
-	text-decoration: line-through;
+    text-decoration: line-through;
 }
 
 /* tables still need 'cellspacing="0"' in the markup */
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 
@@ -81,117 +80,117 @@ table {
 /* 用62.5%重置字体大小
  * 如果用户浏览器预置的是16px字体的话，62.5% * 16px = 10px */
 body {
-	font: 62.5%/1.6 Verdana,'Helvetica Neue',Helvetica,Sans-Serif;
-	background: #dff5fd;
-	color: #000;
-	text-align: left;
-	margin: 0;
-	padding: 0;
+    font: 62.5%/1.6 Verdana,'Helvetica Neue',Helvetica,Sans-Serif;
+    background: #dff5fd;
+    color: #000;
+    text-align: left;
+    margin: 0;
+    padding: 0;
 }
 
 /* 用em定义字号比px, pt, percentage更具灵活性
  * read more (http://mondaybynoon.com/2006/03/13/effective-style-with-em/) */
 p {
-	margin: 0 0 1.2em;
+    margin: 0 0 1.2em;
 }
 
 h1, h2, h3, h4 {
-	margin: 0.5em 0;
-	font-weight: bold;
+    margin: 0.5em 0;
+    font-weight: bold;
 }
 
-	/* h2 负责正文标题及相应模块标题 */
-	h2 {
-		font-size: 1.3em;
-	}
+    /* h2 负责正文标题及相应模块标题 */
+    h2 {
+        font-size: 1.3em;
+    }
 
-	/* h3， h4 是日志内容标题，dont using strong tag */
-	h3 {
-		font-size: 1.25em;
-	} 
-	
-	h4 {
-		font-size: 1.1em;
-	} 
+    /* h3， h4 是日志内容标题，dont using strong tag */
+    h3 {
+        font-size: 1.25em;
+    }
+
+    h4 {
+        font-size: 1.1em;
+    }
 
 a{
-	color: #317B9E;
-	text-decoration: none;
+    color: #317B9E;
+    text-decoration: none;
 }
 
-a:hover { 
-	color: #408DB4;
-	text-decoration: underline;
+a:hover {
+    color: #408DB4;
+    text-decoration: underline;
 }
 
 acronym, abbr {
-	border-bottom: 1px dotted;
-	cursor: help;
-	letter-spacing: .07em;
+    border-bottom: 1px dotted;
+    cursor: help;
+    letter-spacing: .07em;
 }
 
 /* 浏览器对input, textarea的字体有格外的预设 */
 input, textarea, select {
-	font: 1em Verdana,'Lucida Grande',Helvetica,Sans-Serif;
-	background: #FFF;
+    font: 1em Verdana,'Lucida Grande',Helvetica,Sans-Serif;
+    background: #FFF;
 }
 
-	input:focus, textarea:focus, input:hover, textarea:hover { }
+    input:focus, textarea:focus, input:hover, textarea:hover { }
 
 /* 字族顺序: Linux -> Mac -> Windows Vista -> Windows */
 code, var, pre {
-	font: .9em 'Bitstream Vera Sans Mono',Monospace,Monaco,Consolas,Courier;
-	color: #555;
+    font: .9em 'Bitstream Vera Sans Mono',Monospace,Monaco,Consolas,Courier;
+    color: #555;
 }
 
 /* 正确使用pre规范正文出现的代码 */
 pre {
-	overflow: auto;
+    overflow: auto;
 }
 
 /* blockquote不只是缩进 */
 blockquote {
-	margin: 2em 0 2em 2em;
+    margin: 2em 0 2em 2em;
 }
 
 /* 不要在HTML中使用 align='left|center|right' 定位 */
-.center { 
-	text-align: center;
+.center {
+    text-align: center;
 }
 
 .floatleft {
-	float: left;
-	margin: 0 15px 10px 0;
+    float: left;
+    margin: 0 15px 10px 0;
 }
 
 .floatright {
-	float: right;
-	margin: 0 0 10px 15px;
+    float: right;
+    margin: 0 0 10px 15px;
 }
 
 /* 用clearfix清除浮动
  * read more (http://www.positioniseverything.net/easyclearing.html) */
-.clearfix:after { 
-	content: ".";
-	display: block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
 }
 
-	/* target IE6 and IE7 */
-	* html .clearfix {
-		height: 1%;
-	}
+    /* target IE6 and IE7 */
+    * html .clearfix {
+        height: 1%;
+    }
 
-	*+html .clearfix {
-		height: 1%;
-	}	
+    *+html .clearfix {
+        height: 1%;
+    }
 
 /* bus封装的clear div*/
 .clear {
-	clear: both;
-}	
+    clear: both;
+}
 
 
 
@@ -200,97 +199,97 @@ blockquote {
  * ------------------------------------------------------------------*/
 
 #wrapper {
-	width: 960px;
-	margin: 0;
-	padding: 0;
-	margin-left: 40px;
-	font-size: 1.2em; /* 如果用户浏览器预设字号是16px的话，这里的字号相当于12px */
-}	
-
-#header {
-	background: url(http://files.blogbus.com/apollo-skin10.blogbus.com/files/s/12121351322.jpg) no-repeat top left;
-	height: 198px;
-	width: 960px;
-	margin: 0;
-	padding: 0;
+    width: 960px;
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+    font-size: 1.2em; /* 如果用户浏览器预设字号是16px的话，这里的字号相当于12px */
 }
 
-	/* 一个页面仅出现一次h1，for SEO friendly! */
-	h1#blogname {
-		font: 25px Baskerville,'Palatino Linotype',Georgia,Serif; /* 10px * 1.2 * 3 = 36px */
-		line-height: 160%;
-		padding: 50px 0 0 50px;
-		margin: 0;
-	}
-	
-	h1#blogname a {
-		color:#57abc7;
-		text-decoration:none;
-	}
+#header {
+    background: url(http://files.blogbus.com/apollo-skin10.blogbus.com/files/s/12121351322.jpg) no-repeat top left;
+    height: 198px;
+    width: 960px;
+    margin: 0;
+    padding: 0;
+}
 
-	h1#blogname a:hover {
-		color:#57abc7;
-		background-color:#c9effd;
-		text-decoration:none;
-	}
+    /* 一个页面仅出现一次h1，for SEO friendly! */
+    h1#blogname {
+        font: 25px Baskerville,'Palatino Linotype',Georgia,Serif; /* 10px * 1.2 * 3 = 36px */
+        line-height: 160%;
+        padding: 50px 0 0 50px;
+        margin: 0;
+    }
 
-	p#description {
-		padding: 0;
-		padding-left: 50px;
-		margin: 0;
-	}
+    h1#blogname a {
+        color:#57abc7;
+        text-decoration:none;
+    }
+
+    h1#blogname a:hover {
+        color:#57abc7;
+        background-color:#c9effd;
+        text-decoration:none;
+    }
+
+    p#description {
+        padding: 0;
+        padding-left: 50px;
+        margin: 0;
+    }
 
 #content {
 }
 
-	/* 正文及侧栏区域，用padding定位，更好的避免浏览器间的差异*/
-	#primary {
-		font-size: 12px;
-		color:#777;
-		float: left;
-		width: 544px; /* 真实的盒模型宽度是520px */
-		background: url(http://files.blogbus.com/apollo-skin10.blogbus.com/files/12121351323.gif) repeat-y top left;
-	}	
+    /* 正文及侧栏区域，用padding定位，更好的避免浏览器间的差异*/
+    #primary {
+        font-size: 12px;
+        color:#777;
+        float: left;
+        width: 544px; /* 真实的盒模型宽度是520px */
+        background: url(http://files.blogbus.com/apollo-skin10.blogbus.com/files/12121351323.gif) repeat-y top left;
+    }
 
-	#secondary {
-		padding: 160px 186px 0 10px;
-		font-size: 12px;
-		float: right;
-		width: 220px; /* primary和secondary之间有20px间隔，留足弹性以免页面元素撑爆盒模型造成元素下沉(mainly in IE) */
-		background: url(http://files.blogbus.com/apollo-skin10.blogbus.com/files/12121351324.gif) no-repeat top left;
-	}	
+    #secondary {
+        padding: 160px 186px 0 10px;
+        font-size: 12px;
+        float: right;
+        width: 220px; /* primary和secondary之间有20px间隔，留足弹性以免页面元素撑爆盒模型造成元素下沉(mainly in IE) */
+        background: url(http://files.blogbus.com/apollo-skin10.blogbus.com/files/12121351324.gif) no-repeat top left;
+    }
 
-	#secondary a {
-		color:#57abc7;
-		text-decoration:underline;
-	}
+    #secondary a {
+        color:#57abc7;
+        text-decoration:underline;
+    }
 
-	#secondary a:hover {
-		color:#57abc7;
-		background-color:#c9effd;
-		text-decoration:underline;
-	}
-	
+    #secondary a:hover {
+        color:#57abc7;
+        background-color:#c9effd;
+        text-decoration:underline;
+    }
+
 #footer {
-	background: url(http://files.blogbus.com/apollo-skin10.blogbus.com/files/12121351320.gif) no-repeat bottom left;
-	width: 544px;
-	height: 76px;
-}	
-		
-	p#copyright {
-		text-align: center;
-	}
-	
-	p#copyright a {
-		color:#57abc7;
-		text-decoration:none;
-	}
+    background: url(http://files.blogbus.com/apollo-skin10.blogbus.com/files/12121351320.gif) no-repeat bottom left;
+    width: 544px;
+    height: 76px;
+}
 
-	p#copyright a:hover {
-		color:#57abc7;
-		background-color:#c9effd;
-		text-decoration:none;
-	}
+    p#copyright {
+        text-align: center;
+    }
+
+    p#copyright a {
+        color:#57abc7;
+        text-decoration:none;
+    }
+
+    p#copyright a:hover {
+        color:#57abc7;
+        background-color:#c9effd;
+        text-decoration:none;
+    }
 
 
 
@@ -299,258 +298,258 @@ blockquote {
  * ------------------------------------------------------------------*/
 
 /* 分页导航 */
-#pagenavi { 
-	text-align: center;
+#pagenavi {
+    text-align: center;
 }
 
 #pagenavi a {
-		color:#57abc7;
-		text-decoration:underline;
-	}
+        color:#57abc7;
+        text-decoration:underline;
+    }
 
 #pagenavi a:hover {
-	color:#57abc7;
-	background-color:#c9effd;
-	text-decoration:underline;
+    color:#57abc7;
+    background-color:#c9effd;
+    text-decoration:underline;
 }
 
-	/* 当前页面 */
-	#pagenavi span { }
+    /* 当前页面 */
+    #pagenavi span { }
 
 /* 日志页面导航 */
 #navigation {
-	text-align: center;
+    text-align: center;
 }
 
 #navigation a {
-		color:#57abc7;
-		text-decoration:underline;
-	}
+        color:#57abc7;
+        text-decoration:underline;
+    }
 
 #navigation a:hover {
-	color:#57abc7;
-	background-color:#c9effd;
-	text-decoration:underline;
+    color:#57abc7;
+    background-color:#c9effd;
+    text-decoration:underline;
 }
 
-	span.pre { }
+    span.pre { }
 
-	span.home { }
+    span.home { }
 
-	span.next { }
+    span.next { }
 
 /* 日志主体 */
 div.entry {
-	margin: 0 0 20px 0;
-	padding: 0 25px 0 25px;
+    margin: 0 0 20px 0;
+    padding: 0 25px 0 25px;
 }
 
 div.entry a {
-		color:#57abc7;
-		text-decoration:underline;
-	}
+        color:#57abc7;
+        text-decoration:underline;
+    }
 
 div.entry a:hover {
-	color:#57abc7;
-	background-color:#c9effd;
-	text-decoration:underline;
+    color:#57abc7;
+    background-color:#c9effd;
+    text-decoration:underline;
 }
 
-	/* 日志顶部信息 */
-	div.entryhead { }
+    /* 日志顶部信息 */
+    div.entryhead { }
 
-		h2.entrytitle { 
-			font-size: 14px;
-			color:#777;
-			font-weight: bold;
-		}
-		
-		h2.entrytitle a{
-			color:#777;
-			text-decoration: none;
-		}
-		
-		h2.entrytitle a:hover{
-			background: none;
-			color:#777;
-			text-decoration: underline;
-		}
+        h2.entrytitle {
+            font-size: 14px;
+            color:#777;
+            font-weight: bold;
+        }
 
-		p.metadata { }
+        h2.entrytitle a{
+            color:#777;
+            text-decoration: none;
+        }
 
-			p.metadata span.date { }
+        h2.entrytitle a:hover{
+            background: none;
+            color:#777;
+            text-decoration: underline;
+        }
 
-			p.metadata a.author { }
+        p.metadata { }
 
-	/* 日志内容 */
-	div.entrybody { }
-	
-	div.entrybody img{
-		border: 10px solid #c9effd;
-	}
+            p.metadata span.date { }
 
-		/* 重新定义日志内出现的无序列表和有序列表风格 */
-		div.entrybody ul, div.entrybody ol {
-			margin: 2em 0 2em 2em;
-		}
+            p.metadata a.author { }
 
-		div.entrybody ul li {
-			list-style: outside square;
-		}
+    /* 日志内容 */
+    div.entrybody { }
 
-		div.entrybody ol li {
-			list-style: outside decimal;
-		}
+    div.entrybody img{
+        border: 10px solid #c9effd;
+    }
 
-	/* 日志底部信息 */
-	div.entryfoot { 
-		padding-bottom: 5px;
-		border-bottom: 1px dashed #57abc7;
-	}
-	
-	div.entryfoot p{
-		padding: 0;
-		margin: 0;
-	}
+        /* 重新定义日志内出现的无序列表和有序列表风格 */
+        div.entrybody ul, div.entrybody ol {
+            margin: 2em 0 2em 2em;
+        }
 
-		div.entryfoot span.tags { }
+        div.entrybody ul li {
+            list-style: outside square;
+        }
 
-		div.entryfoot span.category { }
+        div.entrybody ol li {
+            list-style: outside decimal;
+        }
 
-		div.entryfoot span.trackback { }
+    /* 日志底部信息 */
+    div.entryfoot {
+        padding-bottom: 5px;
+        border-bottom: 1px dashed #57abc7;
+    }
 
-		div.entryfoot span.menubar { }
+    div.entryfoot p{
+        padding: 0;
+        margin: 0;
+    }
 
-	/* 日志版权信息 */
-	p.cc-lisence { }
+        div.entryfoot span.tags { }
 
-	/* 随机文章列表 */
-	div.relpost { }
+        div.entryfoot span.category { }
 
-	/* 收藏到 */
-	div.addfav { }
+        div.entryfoot span.trackback { }
 
-	
-	
+        div.entryfoot span.menubar { }
+
+    /* 日志版权信息 */
+    p.cc-lisence { }
+
+    /* 随机文章列表 */
+    div.relpost { }
+
+    /* 收藏到 */
+    div.addfav { }
+
+
+
 /* Commentfield
  * 评论区域
  * ------------------------------------------------------------------*/
 
 /* 评论列表 */
-#comments { 
-	padding: 0 25px 0 25px;
+#comments {
+    padding: 0 25px 0 25px;
 }
 
 #comments h2{
-	font-size: 13px;
+    font-size: 13px;
 }
 
 #comments a{
-	color:#777;
-	text-decoration: none;
+    color:#777;
+    text-decoration: none;
 }
-		
+
 #comments a:hover{
-	background: none;
-	color:#777;
-	text-decoration: underline;
+    background: none;
+    color:#777;
+    text-decoration: underline;
 }
 
-	#comments li {
-		padding: 10px;
-		margin: 0 0 20px;
-		background: #dff5fd;
-	}
+    #comments li {
+        padding: 10px;
+        margin: 0 0 20px;
+        background: #dff5fd;
+    }
 
-		/* 评论内容 */
-		#comments li div.cmtBody { }
+        /* 评论内容 */
+        #comments li div.cmtBody { }
 
-		/* 评论信息 */
-		#comments li div.menubar { }
+        /* 评论信息 */
+        #comments li div.menubar { }
 
-			#comments li span.author { }
+            #comments li span.author { }
 
-			#comments li span.time { }
+            #comments li span.time { }
 
-			#comments li span.reply { }
+            #comments li span.reply { }
 
-		/* 博主回复评论 */
-		#comments li div.reCmtBody { 
-			margin: 5px;
-			padding: 10px;
-			background: #f4fcfe;
-		}
+        /* 博主回复评论 */
+        #comments li div.reCmtBody {
+            margin: 5px;
+            padding: 10px;
+            background: #f4fcfe;
+        }
 
-			#comments li div.reCmtBody span.author { }
-	
-			/* 回复内容 */
-			#comments li div.reCmtBody div.content { }
+            #comments li div.reCmtBody span.author { }
 
-			#comments li div.reCmtBody div.time { }
+            /* 回复内容 */
+            #comments li div.reCmtBody div.content { }
 
-		/* 评论分页 */
-		#comments li div.cmtPagenav { }
+            #comments li div.reCmtBody div.time { }
+
+        /* 评论分页 */
+        #comments li div.cmtPagenav { }
 
 /* 评论框 */
 #commentForm {
-	margin: 20px 0;
-	padding: 0 25px 0 25px;
+    margin: 20px 0;
+    padding: 0 25px 0 25px;
 }
 
 #commentForm h2{
-	font-size: 13px;
+    font-size: 13px;
 }
 
 #commentForm a{
-	color:#777;
-	text-decoration: none;
+    color:#777;
+    text-decoration: none;
 }
-		
+
 #commentForm a:hover{
-	background: none;
-	color:#777;
-	text-decoration: underline;
+    background: none;
+    color:#777;
+    text-decoration: underline;
 }
 
-	#commentForm form {
-		width: 80%;
-	}
+    #commentForm form {
+        width: 80%;
+    }
 
-	#commentForm form div {
-		margin: 0 0 5px;
-	}
-	
-	#commentForm form div input.button{
-		border: 1px solid #a5e4f9;
-	}
-	
-	#commentForm form div input.textField {
-		width: 200px;
-		border: 1px solid #a5e4f9;
-		background: #f4fcfe;
-	}
+    #commentForm form div {
+        margin: 0 0 5px;
+    }
 
-	#commentForm form div label {
-		display: block;
-		color: #555;
-	}	
+    #commentForm form div input.button{
+        border: 1px solid #a5e4f9;
+    }
 
-	#commentForm form div textarea {
-		width: 400px;
-		border: 1px solid #a5e4f9;
-		background: #f4fcfe;
-	}	
+    #commentForm form div input.textField {
+        width: 200px;
+        border: 1px solid #a5e4f9;
+        background: #f4fcfe;
+    }
 
-	/* 收到博主回复邮件提示 */
-	#commentForm form div span.emailnotice { }
+    #commentForm form div label {
+        display: block;
+        color: #555;
+    }
 
-	/* 提交评论按钮*/
-	#commentForm form div.submit input.button {
-		padding: 3px 8px;
-	}
+    #commentForm form div textarea {
+        width: 400px;
+        border: 1px solid #a5e4f9;
+        background: #f4fcfe;
+    }
 
-	/* 记住我 */
-	#commentForm form div.submit span.rememberBox input#cremember { }
+    /* 收到博主回复邮件提示 */
+    #commentForm form div span.emailnotice { }
+
+    /* 提交评论按钮*/
+    #commentForm form div.submit input.button {
+        padding: 3px 8px;
+    }
+
+    /* 记住我 */
+    #commentForm form div.submit span.rememberBox input#cremember { }
 
 
 
@@ -561,59 +560,59 @@ div.entry a:hover {
 /* 模块结构 */
 div.module { }
 
-	div.modTop { }
-		
-		/* 模块标题 */
-		div.module h2 { 
-			font-size: 13px;
-		}
+    div.modTop { }
 
-	div.modBody { }
+        /* 模块标题 */
+        div.module h2 {
+            font-size: 13px;
+        }
 
-	div.modBottom { 
-		margin-bottom: 15px;
-	}
+    div.modBody { }
+
+    div.modBottom {
+        margin-bottom: 15px;
+    }
 
 /* 个人资料模块 */
 #profile { }
 
 #profile img{
-	border: 10px solid #c9effd;
+    border: 10px solid #c9effd;
 }
 
 /* 日历模块 */
 #calendar { }
 
-	#calendar table {
-		text-align: center;
-	}
+    #calendar table {
+        text-align: center;
+    }
 
-	#calendar table tr { }
+    #calendar table tr { }
 
-	#calendar table tr td {
-		padding: 2px 3px;
-	}
+    #calendar table tr td {
+        padding: 2px 3px;
+    }
 
-	#calendar table tr.calendarHead { }
+    #calendar table tr.calendarHead { }
 
-	tr.calendarHead span.preMonth { }
+    tr.calendarHead span.preMonth { }
 
-	tr.calendarHead span.nextMonth { }
+    tr.calendarHead span.nextMonth { }
 
-	#calendar table tr.week { }
+    #calendar table tr.week { }
 
-	#calendar table tr.day { }
+    #calendar table tr.day { }
 
-	#calendar table td.today {
-		font-weight: bold;
-	}
+    #calendar table td.today {
+        font-weight: bold;
+    }
 
 /* 搜索模块 */
 #search { }
 
 #search input{
-	border: 1px solid #a5e4f9;
-	background: #f4fcfe;
+    border: 1px solid #a5e4f9;
+    background: #f4fcfe;
 }
 
 /* 日志分类模块 */
@@ -661,17 +660,17 @@ html:not([lang*=""]) /*selector*/ { }
 
 /* target Opera */
 @media all and (min-width:0px) {
-	head~body:lang(en) /*selector*/ { }
+    head~body:lang(en) /*selector*/ { }
 }
 
 /* target Safari 3 (webkit) */
 @media all and (min-width:0px) {
-		 body:not(:root:root) /*selector*/ { }
+         body:not(:root:root) /*selector*/ { }
 }
 
 /* target Konqueror */
-html:not(:nth-child(1)) /*selector*/ { } 
-	
+html:not(:nth-child(1)) /*selector*/ { }
+
 
 
 

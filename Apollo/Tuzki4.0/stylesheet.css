@@ -379,7 +379,7 @@ blockquote {
         list-style:none;
         line-height:23px;
         overflow:hidden;
-        height:23px; 
+        height:23px;
     }
 
     #entryInfo .detailInfo label {
@@ -434,7 +434,7 @@ blockquote {
 }
 
     #trackbacks h2 {
-        padding: 0 0 2px 0; 
+        padding: 0 0 2px 0;
         margin-bottom: 5px;
         border-bottom: 1px solid #DDD;
         font-size: 14px;
@@ -455,7 +455,7 @@ blockquote {
         padding: 0;
     }
 
-div.entry { 
+div.entry {
     margin: 10px 0 10px 0;
 }
 
@@ -605,7 +605,7 @@ div.entry {
     }
 
     #comments h2 {
-        padding: 0 0 2px 0; 
+        padding: 0 0 2px 0;
         margin-bottom: 5px;
         border-bottom: 1px solid #DDD;
         font-size: 14px;
@@ -700,7 +700,7 @@ div.entry {
     }
 
     #commentForm h2 {
-        padding: 0 0 2px 0; 
+        padding: 0 0 2px 0;
         margin-bottom: 5px;
         border-bottom: 1px solid #DDD;
         font-size: 14px;
@@ -765,7 +765,7 @@ div.module {
         }
 
     div.modBody { }
-    
+
     div.modBody ul {
         list-style: none;
         margin: 0;
@@ -783,7 +783,7 @@ div.module {
         line-height:23px;
         overflow:hidden;
         height:23px;
-        
+
     }
 
     div.modBody li a {

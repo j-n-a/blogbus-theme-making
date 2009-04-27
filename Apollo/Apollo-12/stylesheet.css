@@ -379,14 +379,14 @@ div.entry {
 
       h2.entrytitle {
          padding: 0 0 5px 0;
-	 margin: 0;
-	 line-height: 120%;
+     margin: 0;
+     line-height: 120%;
       }
 
       p.metadata {
          padding: 0;
-	 margin: 0;
-	 line-height: 120%;
+     margin: 0;
+     line-height: 120%;
       }
 
          p.metadata span.date { }
@@ -419,8 +419,8 @@ div.entry {
 
       div.entryfoot {
          padding: 0;
-	     margin: 0 0 15px 0;
-	     border-bottom: solid 1px #D5D5D5;
+         margin: 0 0 15px 0;
+         border-bottom: solid 1px #D5D5D5;
       }
 
       div.entryfoot a {
@@ -475,8 +475,8 @@ div.entry {
 
          #comments li div.reCmtBody {
             padding-left: 10px;
-	    margin-left: 5px;
-	    border-left: solid 4px #317B9E;
+        margin-left: 5px;
+        border-left: solid 4px #317B9E;
          }
 
          #comments li div.reCmtBody span.author { }
