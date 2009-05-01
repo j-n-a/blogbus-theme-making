@@ -132,12 +132,30 @@ code, var, pre {
     color: #555;
 }
 
+code {
+    background: #FFF;
+    border-color: #EEE #EEE #EEE #C1CAD3;
+    border-style: solid;
+    border-width: 1px 1px 1px 6px;
+    color: #666;
+    display: block;
+    font-family: Tahoma, sans-serif;
+    font-size: 11px;
+    line-height: 120%;
+    padding: 8px 10px;
+    white-space: pre;
+}
+
 pre {
     overflow: auto;
 }
 
 blockquote {
-    margin: 32px 0 32px 32px;
+    background: url(http://apollo-skin15.blogbus.com/files/12411613537.gif) no-repeat top left;
+    display: block;
+    color: #333;
+    padding-left: 28px;
+    margin-bottom: 20px;
 }
 
 .center {
@@ -262,6 +280,7 @@ blockquote {
 #content {
     background: url(http://apollo-skin15.blogbus.com/files/s/12411613532.gif) repeat-y 0 0;
     border-top: 4px solid #FFF;
+    width: 780px;
 }
 
     #primary {
@@ -310,11 +329,38 @@ div.entry {
     margin: 0 0 20px 0;
 }
 
+div.entry a {
+    color: #996633;
+    text-decoration: underline;
+}
+
+div.entry a:hover {
+    color: #CC6600;
+    text-decoration: none;
+}
+
     div.entryhead { }
 
-        h2.entrytitle { }
+        h2.entrytitle {
+            padding-top: 6px;
+            margin-bottom: 4px;
+            font-size: 14px;
+            line-height: 120%;
+        }
 
-        div.metadata { }
+        h2.entrytitle a {
+            color: #444;
+        }
+
+        h2.entrytitle a {
+            text-decoration: none;
+        }
+
+        div.metadata {
+            color: #666644;
+            font-size: 11px;
+            margin-bottom: 6px;
+        }
 
             div.metadata span.date { }
 
@@ -322,16 +368,18 @@ div.entry {
 
         div.entrybody { }
 
-        div.entrybody ul, div.entrybody ol {
-            margin: 32px 0 32px 32px;
+        div.entrybody ul {
+            margin-bottom: 15px;
         }
 
         div.entrybody ul li {
-            list-style: outside square;
+            list-style-image: url(http://apollo-skin15.blogbus.com/files/12411613535.gif);
+            list-style-position: outside;
+            list-style-type: disc;
+            margin-left: 18px;
         }
 
-        div.entrybody ol li {
-            list-style: outside decimal;
+        .quote {
         }
 
         div.entryfoot { }
