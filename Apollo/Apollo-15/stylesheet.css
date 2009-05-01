@@ -1,17 +1,15 @@
 /*
- * Theme Name: Sandbox
+ * Theme Name: Apollo's Skin 15
  * Theme Author: Apollo Coleone (Minjie Zhang)
- * Theme URI: http://apollo-skin.blogbus.com/
+ * Theme URI: http://apollo-skin15.blogbus.com/
  * Author Email: Ze.Apollo[at]Gmail.com
  * Author Blog: http://imapollo.blogbus.com
- * Version: 1.2
- * Description:
- * Last Modified: Feb 01, 2009
+ * Version: 1.0
+ * Description: http://www.freelayouts.com/templates/Beautiful-Day
+ * Last Modified: May 01, 2009
  * Encoding: UTF-8
  *
- * $Revision 1.0, Created:  Punkid, 2008
- * $Revision 1.1, Modified: Apollo, Jan 15, 2009
- * $Revision 1.2, Modified: Apollo, Feb 01, 2009
+ * $Revision 1.0, Created: Apollo, May 01, 2009
  *
  * Based on Punkid's BlogBus Sandbox
  * (http://blog.punkid.cn/)
@@ -80,8 +78,8 @@ table {
 
 body {
     font: 12px Verdana,'Helvetica Neue',Helvetica,Sans-Serif;
-    background: #FFF;
-    color: #000;
+    background: #CCD8E0 url(http://apollo-skin15.blogbus.com/files/s/12411613530.jpg) repeat-x left bottom;
+    color: #444;
     text-align: left;
 }
 
@@ -182,36 +180,100 @@ blockquote {
 /* Layout and Structure
  * ------------------------------------------------------------------*/
 
-#wrapper {
-    width: 780px;
-    margin: 0 auto;
-    font-size: 12px;
+#top {
+    background: url(http://apollo-skin15.blogbus.com/files/s/12411613533.gif) repeat-x top left;
+    padding: 50px 10px 0;
+    overflow: hidden;
 }
 
 #header {
-    padding: 20px;
+    background: #FFF;
+    height: 150px;
+    margin: 0 auto;
+    padding: 10px 10px 5px;
+    width: 780px;
 }
+
+    #header-left {
+        background: url(http://apollo-skin15.blogbus.com/files/12411613534.jpg) no-repeat top left;
+        color: #FFF;
+        line-height: 150px;
+        text-align: center;
+        width: 564px;
+        float: left;
+    }
+
+    #header-right {
+        background: #A4A4A0;
+        color: #FFF;
+        padding: 10px;
+        height: 130px;
+        width: 190px;
+        float: right;
+    }
 
     h1#blogname {
         font-size: 20px;
     }
 
+    h1#blogname a {
+        color: #FFF;
+    }
+
+    h1#blogname a:hover {
+        color: #FFF;
+    }
+
     div#description { }
 
+#wrapper {
+    background: #FFF;
+    width: 780px;
+    margin: 0 auto;
+    padding: 0 10px 10px;
+    font-size: 12px;
+}
+
+#navigator {
+    background: #D9E1E5 url(http://apollo-skin15.blogbus.com/files/12411613536.gif) repeat-x left top;
+    border-color: #DFEEF7 #CFDEE7;
+    border-style: solid;
+    border-width: 1px;
+    height: 41px;
+    font-size: 12px;
+}
+
+    #navigator a {
+        background: #D9E1E5 url(http://apollo-skin15.blogbus.com/files/12411613536.gif) repeat-x left top;
+        border-right: 1px solid #AFBEC7;
+        color: #445566;
+        display: block;
+        float: left;
+        font-weight: bold;
+        line-height: 41px;
+        padding: 0 20px;
+    }
+
+    #navigator a:hover {
+        background-position: left bottom;
+        color: #223344;
+    }
+
 #content {
-    margin: 0;
+    background: url(http://apollo-skin15.blogbus.com/files/s/12411613532.gif) repeat-y 0 0;
+    border-top: 4px solid #FFF;
 }
 
     #primary {
         float: left;
-        padding-left: 20px;
-        width: 500px;
+        margin: 10px 0;
+        padding: 0 16px;
+        width: 531px;
     }
 
     #secondary {
         float: right;
-        padding-right: 20px;
-        width: 220px;
+        width: 210px;
     }
 
 #footer {
