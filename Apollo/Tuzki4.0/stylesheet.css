@@ -863,7 +863,9 @@ div.module {
 
 #archives { }
 
-#login {        font-color: #FFF;}
+#login {
+    color: #FFF;
+}
 
 
 /* Douban
