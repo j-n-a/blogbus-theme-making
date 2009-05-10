@@ -12,6 +12,7 @@
  * Revision 1.2, Mar 15, 2009, Author: Apollo
  * Revision 1.3, Mar 21, 2009, Author: Apollo
  * Revision 1.4, May 05, 2009, Author: Apollo
+ * Revision 1.5, May 10, 2009, Author: Apollo
  *
  * Encoding: UTF-8
  * Special thanks to Punkid
@@ -379,8 +380,13 @@ blockquote {
         display: block;
         list-style:none;
         line-height:23px;
-        overflow:hidden;
         height:23px;
+    }
+
+    #entryInfo li.tagDetailInfo {
+        overflow: show;
+        height: auto;
+        border-bottom: none;
     }
 
     #entryInfo .detailInfo label {
