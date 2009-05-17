@@ -3,16 +3,17 @@
  * Theme Author: Apollo Coleone (Minjie Zhang)
  * Author Email: Ze.Apollo[at]Gmail.com
  * Author Blog: http://imapollo.blogbus.com
- * Version: 1.3
+ * Version: 1.06
  * Description: based on Punkid's sandbox
- * Last Modified: Mar 21, 2009
+ * Last Modified: May 17, 2009
  *
- * Revision 1.0, Nov 16, 2008, Author: Apollo
- * Revision 1.1, Dec 23, 2008, Author: Apollo
- * Revision 1.2, Mar 15, 2009, Author: Apollo
- * Revision 1.3, Mar 21, 2009, Author: Apollo
- * Revision 1.4, May 05, 2009, Author: Apollo
- * Revision 1.5, May 10, 2009, Author: Apollo
+ * Revision 1.00, Nov 16, 2008, Author: Apollo
+ * Revision 1.01, Dec 23, 2008, Author: Apollo
+ * Revision 1.02, Mar 15, 2009, Author: Apollo
+ * Revision 1.03, Mar 21, 2009, Author: Apollo
+ * Revision 1.04, May 05, 2009, Author: Apollo
+ * Revision 1.05, May 10, 2009, Author: Apollo
+ * Revision 1.06, May 17, 2009, Author: Apollo
  *
  * Encoding: UTF-8
  * Special thanks to Punkid
@@ -785,12 +786,11 @@ div.module {
         border-bottom: 1px solid #DDD;
         margin: 0;
         padding: 0;
-        overflow: hidden;
         display: block;
-        list-style:none;
-        line-height:23px;
-        overflow:hidden;
-        height:23px;
+        list-style: none;
+        line-height: 23px;
+        overflow: hidden;
+        height: 23px;
 
     }
 
@@ -805,6 +805,40 @@ div.module {
     div.modBody li a:hover {
         background-color: #F6F6F6;
         text-decoration: none;
+    }
+
+    div.modBodyFanfou ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+
+    div.modBodyFanfou li {
+        border-bottom: 1px solid #DDD;
+        margin: 0;
+        padding: 3px 0 3px 0;
+        display: block;
+        list-style:none;
+        line-height: 19px;
+    }
+
+    div.modBodyFanfou li:hover {
+        background-color: #F6F6F6;
+    }
+
+    div.modBodyFanfou li a {
+        font-family: Tahoma, Verdana, Arial;
+        display: block;
+        font-size: 12px;
+    }
+
+    div.modBodyFanfou li a:hover {
+        text-decoration: none;
+    }
+
+    div.modBodyFanfou img {
+        display: none;
     }
 
     div.modBottom { }
@@ -852,7 +886,8 @@ div.module {
 
 #tags ul li a {
     display: inline;
-    padding: 0 3px 0 0;
+    padding: 0;
+    margin-right: 3px;
 }
 
 #tags ul li span {
@@ -863,8 +898,12 @@ div.module {
 
 #nComments { }
 
-#nComments a{
+#nComments a {
     display: inline;
+}
+
+#nComments li:hover {
+    background-color: #F6F6F6;
 }
 
 #links { }
