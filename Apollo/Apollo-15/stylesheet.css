@@ -232,6 +232,7 @@ blockquote {
 
     h1#blogname {
         font-size: 20px;
+        line-height: 150px;
     }
 
     h1#blogname a {
@@ -269,6 +270,7 @@ blockquote {
         float: left;
         font-weight: bold;
         line-height: 41px;
+        height: 41px;
         padding: 0 20px;
     }
 
