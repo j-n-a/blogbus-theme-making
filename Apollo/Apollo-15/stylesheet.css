@@ -4,12 +4,13 @@
  * Theme URI: http://apollo-skin15.blogbus.com/
  * Author Email: Ze.Apollo[at]Gmail.com
  * Author Blog: http://imapollo.blogbus.com
- * Version: 1.0
+ * Version: 1.1
  * Description: http://www.freelayouts.com/templates/Beautiful-Day
- * Last Modified: May 01, 2009
+ * Last Modified: July 11, 2009
  * Encoding: UTF-8
  *
- * $Revision 1.0, Created: Apollo, May 01, 2009
+ * $Revision 1.0, Created:  Apollo, May  01, 2009
+ * $Revision 1.1, Modified: Apollo, July 11, 2009
  *
  * Based on Punkid's BlogBus Sandbox
  * (http://blog.punkid.cn/)
@@ -105,12 +106,12 @@ h1, h2, h3, h4 {
     }
 
 a {
-    color: #317B9E;
-    text-decoration: none;
+    color: #996633;
+    text-decoration: underline;
 }
 
 a:hover {
-    color: #408DB4;
+    color: #CC6600;
     text-decoration: none;
 }
 
@@ -122,7 +123,13 @@ acronym, abbr {
 
 input, textarea, select {
     font: 12px Verdana,'Lucida Grande',Helvetica,Sans-Serif;
+    margin: 5px 0 5px 0;
     background: #FFF;
+    border-color: #EEE #EEE #EEE #C1CAD3;
+    border-style: solid;
+    border-width: 1px 1px 1px 6px;
+    color: #666;
+    line-height: 120%;
 }
 
     input:focus, textarea:focus, input:hover, textarea:hover { }
@@ -237,6 +244,7 @@ blockquote {
 
     h1#blogname a {
         color: #FFF;
+        text-decoration: none;
     }
 
     h1#blogname a:hover {
@@ -272,6 +280,7 @@ blockquote {
         line-height: 41px;
         height: 41px;
         padding: 0 20px;
+        text-decoration: none;
     }
 
     #navigator a:hover {
@@ -298,8 +307,15 @@ blockquote {
     }
 
 #footer {
-    padding: 20px;
     clear: both;
+    -moz-background-clip: border;
+    -moz-background-inline-policy: continuous;
+    -moz-background-origin: padding;
+    -x-system-foot: none;
+    background: url(http://apollo-skin15.blogbus.com/files/12411613531.gif) repeat-x;
+    color: #FFF;
+    line-height: 39px;
+    text-align: center;
 }
 
     div#copyright {
@@ -398,6 +414,13 @@ div.entry a:hover {
 
         div.relpost { }
 
+        div.relpost h3 {
+            font-size: 13px;
+            margin: 0;
+            line-height: 120%;
+            color: #5A5A43;
+        }
+
         div.addfav { }
 
 
@@ -407,10 +430,22 @@ div.entry a:hover {
 
     #comments { }
 
-    #comments h2 { }
+    #comments h2 {
+        font-size: 13px;
+        margin: 0;
+        line-height: 120%;
+        color: #5A5A43;
+    }
 
     #comments li {
-        margin: 0 0 20px;
+        margin: 5px 0 5px 0;
+        background: #FFF;
+        border-color: #EEE #EEE #EEE #C1CAD3;
+        border-style: solid;
+        border-width: 1px 1px 1px 6px;
+        color: #666;
+        line-height: 120%;
+        padding: 8px 10px;
     }
 
         #comments li div.cmtBody { }
@@ -423,7 +458,16 @@ div.entry a:hover {
 
             #comments li span.reply { }
 
-            #comments li div.reCmtBody { }
+            #comments li div.reCmtBody {
+                margin: 5px 0 5px 0;
+                background: #FFF;
+                border-color: #EEE #EEE #EEE #C1CAD3;
+                border-style: solid;
+                border-width: 1px 1px 1px 6px;
+                color: #666;
+                line-height: 120%;
+                padding: 8px 10px;
+            }
 
             #comments li div.reCmtBody span.author { }
 
@@ -437,7 +481,12 @@ div.entry a:hover {
         margin: 20px 0;
     }
 
-    #commentForm h2 { }
+    #commentForm h2 {
+        font-size: 13px;
+        margin: 0;
+        line-height: 120%;
+        color: #5A5A43;
+    }
 
     #commentForm form {
         width: 80%;
@@ -449,7 +498,6 @@ div.entry a:hover {
 
     #commentForm form div input.textField {
         width: 200px;
-        border: 1px solid #555;
     }
 
     #commentForm form div label {
@@ -459,7 +507,6 @@ div.entry a:hover {
 
     #commentForm form div textarea {
         width: 400px;
-        border: 1px solid #555;
     }
 
     #commentForm form div span.emailnotice { }
@@ -477,17 +524,63 @@ div.entry a:hover {
 
 div.module { }
 
+div.module a {
+    color: #555544;
+    font-size: 12px;
+    text-decoration: none;
+}
+
     div.modTop { }
 
-        div.module h2 { }
+        div.module h2 {
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 30px;
+            color: #5A5A43;
+            margin: 0;
+            padding-left: 12px;
+            border-bottom: 1px solid #EAEADA;
+        }
 
     div.modBody { }
 
-    div.modBottom { }
+    div.modBody li {
+        border-bottom: 1px solid #EAEADA;
+        overflow: hidden;
+        height: 30px;
+        line-height: 30px;
+        padding-right: 12px;
+    }
 
-    #profile { }
+    div.modBody li a {
+        color: #555544;
+        display: block;
+        font-size: 12px;
+        text-decoration: none;
+        width: 95%;
+        padding-left: 12px;
+    }
 
-    #calendar { }
+    div.modBody li a:hover {
+        -moz-background-clip: border;
+        -moz-background-inline-policy: continuous;
+        -moz-background-origin: padding;
+        background: #F0F0EB none repeat scroll 0 0;
+        color: #665544;
+    }
+
+    div.modBottom {
+        margin-bottom: 10px;
+    }
+
+    #profile div.modBody {
+        padding-left: 12px;
+    }
+
+    #calendar div.modBody{
+        padding-top: 5px;
+        padding-left: 12px;
+    }
 
     #calendar table {
         text-align: center;
@@ -513,21 +606,74 @@ div.module { }
         font-weight: bold;
     }
 
-#search { }
+    #search div.modBody {
+        padding-top: 5px;
+        padding-left: 12px;
+    }
+
+    #login {}
+
+    #login li {
+        display: block;
+    }
+
+    #login li:hover {
+        background: #F0F0EB none repeat scroll 0 0;
+    }
+
+    #login a {
+        display: inline;
+        line-height: 30px;
+        text-decoration: none;
+        color: #665544;
+    }
+
+    #login a:hover {
+        background: none;
+        display: inline;
+    }
+
+    #nComments {}
+
+    #nComments a {
+        display: inline;
+        line-height: 30px;
+        text-decoration: none;
+        color: #665544;
+        padding-left: 0;
+    }
+
+    #nComments a:hover {
+        background: none;
+        display: inline;
+    }
+
+    #nComments li {
+        display: block;
+        padding-left: 12px;
+    }
+
+    #nComments li:hover {
+        background: #F0F0EB none repeat scroll 0 0;
+    }
+
+    #tags { }
+
+    #tags a {
+        padding-left: 12px;
+    }
+
+    #nPosts { }
+
+    #nPosts a {
+        padding-left: 12px;
+    }
 
 #cats { }
-
-#tags { }
-
-#nPosts { }
-
-#nComments { }
 
 #links { }
 
 #archives { }
-
-#login { }
 
 /* Hacks
  * read more (http://thomas.tanreisoftware.com/?p=11)
