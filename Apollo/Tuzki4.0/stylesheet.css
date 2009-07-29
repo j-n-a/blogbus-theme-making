@@ -151,6 +151,7 @@ code {
     line-height: 120%;
     padding: 8px 10px;
     white-space: pre;
+    overflow: scroll;
 }
 
 blockquote {
