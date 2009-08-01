@@ -4,12 +4,13 @@
  * Theme URI: http://apollo-skin16.blogbus.com/
  * Author Email: Ze.Apollo[at]Gmail.com
  * Author Blog: http://imapollo.blogbus.com
- * Version: 1.0
- * Description:
- * Last Modified: July 22, 2009
+ * Version: 1.1
+ * Description: http://templates.arcsin.se/demo/indigo-website-template/
+ * Last Modified: Aug 01, 2009
  * Encoding: UTF-8
  *
- * $Revision 1.0, Created: Apollo, 2009
+ * $Revision 1.0, Created: Apollo, Jul 25, 2009
+ * $Revision 1.1, Created: Apollo, Aug 01, 2009
  *
  * Based on Punkid's BlogBus Sandbox
  * (http://blog.punkid.cn/)
@@ -78,13 +79,14 @@ table {
 
 body {
     font: 12px Verdana,'Helvetica Neue',Helvetica,Sans-Serif;
-    background: #FFF;
-    color: #000;
+    background: #0094D6 url(http://apollo-skin16.blogbus.com/files/12491118800.gif) repeat-x 0 0;
+    color: #446666;
     text-align: left;
+    margin: 0;
 }
 
 p {
-    margin: 0 0 15px;
+    margin: 12px 0 12px;
 }
 
 h1, h2, h3, h4 {
@@ -132,12 +134,32 @@ code, var, pre {
     color: #555;
 }
 
+code {
+    background: url(http://apollo-skin16.blogbus.com/files/12491118801.gif) repeat 0 0;
+    border-color: #F0F0F0 #F0F0F0 #F0F0F0 #3399FF;
+    border-style: solid;
+    border-width: 1px 1px 1px 6px;
+    color: #555;
+    display: block;
+    font-family: "Lucida Sans Unicode", serif;
+    font-size: 11px;
+    margin-bottom: 12px;
+    padding: 8px 10px;
+    white-space: pre;
+}
+
 pre {
     overflow: auto;
 }
 
 blockquote {
-    margin: 32px 0 32px 32px;
+    background: url(http://apollo-skin16.blogbus.com/files/12491118806.gif) no-repeat 0 0;
+    color: #666;
+    display: block;
+    font-family: "Lucida Sans Unicode", serif;
+    font-size: 13px;
+    padding-left: 28px;
+    margin-bottom: 5px;
 }
 
 .center {
@@ -181,59 +203,110 @@ blockquote {
  * ------------------------------------------------------------------*/
 
 #wrapper {
-    width: 780px;
-    margin: 0 auto;
     font-size: 12px;
+    background: transparent url(http://apollo-skin16.blogbus.com/files/12491118807.gif) no-repeat 0 0;
 }
 
 #header {
-    padding: 20px;
+    height: 92px;
+}
+
+#header a {
+    color: #FFF;
+}
+
+#header a:hover {
+    color: #FFF;
 }
 
     h1#blogname {
         font-size: 20px;
+        float: left;
+        padding: 35px 0 0 76px;
     }
 
     div#description { }
 
+    div#navigator {
+        float: left;
+        height: 92px;
+        margin-left: 24px;
+        padding: 0 16px;
+    }
+
+    div#navigator a {
+        float: left;
+        font-family: "Trebuchet MS", sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: normal;
+        margin-top: 56px;
+        padding: 8px 18px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    div#navigator a:hover {
+        background-color: #4A91C3;
+        color: #FFF;
+    }
+
 #content {
     margin: 0;
+    background: #FFF url(http://apollo-skin16.blogbus.com/files/12491118803.gif) no-repeat 0 0;
+    clear: both;
+    padding: 12px 12px 0 52px;
 }
 
     #primary {
         float: left;
-        padding-left: 20px;
-        width: 500px;
+        margin-right: 4%;
+        width: 69%;
     }
 
     #secondary {
-        float: right;
-        padding-right: 20px;
-        width: 220px;
+        float: left;
+        width: 24%;
     }
 
 #footer {
-    padding: 20px;
-    clear: both;
+    background: #0096D6 url(http://apollo-skin16.blogbus.com/files/12491118802.gif) repeat-x 0 0;
+    color: #C1DEF0;
+    font-size: 11px;
+    line-height: 40px;
+    text-align: center;
 }
+
+    #footer a {
+        color: #C1DEF0;
+        text-decoration: none;
+    }
 
     div#copyright {
         text-align: center;
     }
-
-
 
 /* Styles
  * ------------------------------------------------------------------*/
 
 #pagenavi {
     text-align: center;
+    margin-bottom: 14px;
 }
 
     #pagenavi span { }
 
 #navigation {
     text-align: center;
+    color: #CC6600;
+}
+
+#navigation a {
+    color: #CC6600;
+}
+
+#navigation a:hover {
+    color: #FF7700;
 }
 
     span.pre { }
@@ -248,29 +321,54 @@ div.entry {
 
     div.entryhead { }
 
-        h2.entrytitle { }
+        h2.entrytitle {
+            color: #0066CC;
+            padding-top: 6px;
+            font-size: 15px;
+            line-height: 120%;
+        }
 
-        div.metadata { }
+        div.metadata {
+            color: #CC6600;
+            margin-bottom: 10px;
+        }
 
             div.metadata span.date { }
 
-            div.metadata a.author { }
+            div.metadata a.author {
+                color: #CC6600;
+            }
 
         div.entrybody { }
 
-        div.entrybody ul, div.entrybody ol {
-            margin: 32px 0 32px 32px;
+        div.entrybody a {
+            color: #FF7700;
+            text-decoration: underline;
         }
 
-        div.entrybody ul li {
-            list-style: outside square;
+        div.entrybody a:hover {
+            color: #CC6600;
         }
 
-        div.entrybody ol li {
-            list-style: outside decimal;
+        div.entrybody li {
+            list-style-image: url(http://apollo-skin16.blogbus.com/files/12491118804.gif);
+            list-style-position: outside;
+            list-style-type: disc;
+            margin-left: 18px;
         }
 
-        div.entryfoot { }
+        div.entryfoot {
+            color: #446666;
+        }
+
+        div.entryfoot a {
+            color: #446666;
+            text-decoration: underline;
+        }
+
+        div.entryfoot a:hover {
+            color: #FF7700;
+        }
 
         div.entryfoot span.tags { }
 
@@ -282,7 +380,23 @@ div.entry {
 
         p.cc-lisence { }
 
+        p.cc-lisence a {
+            color: #446666;
+        }
+
+        p.cc-lisence a:hover {
+            color: #446666;
+        }
+
         div.relpost { }
+
+        div.relpost a {
+            color: #446666;
+        }
+
+        div.relpost a:hover {
+            color: #446666;
+        }
 
         div.addfav { }
 
@@ -293,10 +407,30 @@ div.entry {
 
     #comments { }
 
-    #comments h2 { }
+    #comments a {
+        color: #446666;
+    }
+
+    #comments h2 {
+        color: #EE7733;
+        font-size: 13px;
+        height: 20px;
+        margin-top: 12px;
+        margin-bottom: 4px;
+        padding-top: 6px;
+    }
 
     #comments li {
-        margin: 0 0 20px;
+        background: url(http://apollo-skin16.blogbus.com/files/12491118801.gif) repeat 0 0;
+        border-color: #F0F0F0 #F0F0F0 #F0F0F0 #3399FF;
+        border-style: solid;
+        border-width: 1px 1px 1px 6px;
+        color: #555;
+        display: block;
+        font-family: "Lucida Sans Unicode", serif;
+        font-size: 11px;
+        margin-bottom: 12px;
+        padding: 8px 10px;
     }
 
         #comments li div.cmtBody { }
@@ -309,7 +443,14 @@ div.entry {
 
             #comments li span.reply { }
 
-            #comments li div.reCmtBody { }
+            #comments li div.reCmtBody {
+                background: #FCFCFC;
+                border: #F0F0F0 solid 1px;
+                display: block;
+                margin-top: 8px;
+                margin-bottom: 8px;
+                padding: 8px 8px 8px 20px;
+            }
 
             #comments li div.reCmtBody span.author { }
 
@@ -321,9 +462,17 @@ div.entry {
 
     #commentForm {
         margin: 20px 0;
+        color: #446666;
     }
 
-    #commentForm h2 { }
+    #commentForm h2 {
+        color: #EE7733;
+        font-size: 13px;
+        height: 20px;
+        margin-top: 12px;
+        margin-bottom: 4px;
+        padding-top: 6px;
+    }
 
     #commentForm form {
         width: 80%;
@@ -335,7 +484,11 @@ div.entry {
 
     #commentForm form div input.textField {
         width: 200px;
-        border: 1px solid #555;
+        color: #555;
+        font-family: "Lucida Sans Unicode", sans-serif;
+        font-size: 11px;
+        border: 3px double #E5E5E5;
+        padding: 2px 3px;
     }
 
     #commentForm form div label {
@@ -345,13 +498,29 @@ div.entry {
 
     #commentForm form div textarea {
         width: 400px;
-        border: 1px solid #555;
+        color: #555;
+        font-family: "Lucida Sans Unicode", sans-serif;
+        font-size: 11px;
+        border: 3px double #E5E5E5;
+        padding: 2px 3px;
     }
 
     #commentForm form div span.emailnotice { }
 
+    #commentForm form div span.emailnotice a {
+        color: #446666;
+    }
+
+    #commentForm form div span.emailnotice a:hover {
+        color: #446666;
+    }
+
     #commentForm form div.submit input.button {
-        padding: 3px 8px;
+        color: #555;
+        font-family: "Lucida Sans Unicode", sans-serif;
+        font-size: 11px;
+        border: 1px solid #AAA;
+        padding-top: 5px;
     }
 
     #commentForm form div.submit span.rememberBox input#cremember { }
@@ -365,9 +534,40 @@ div.module { }
 
     div.modTop { }
 
-        div.module h2 { }
+        div.module h2 {
+            border-bottom: 1px dashed #DDD;
+            color: #EE7733;
+            font-size: 12px;
+            height: 20px;
+            margin-top: 12px;
+            margin-bottom: 4px;
+            padding-top: 6px;
+        }
 
-    div.modBody { }
+    div.modBody {
+        color: #777;
+    }
+
+    div.modBody a {
+        font-size: 11px;
+        line-height: 120%;
+        color: #777;
+        text-decoration: none;
+    }
+
+    div.modBody a:hover {
+        color: #111;
+    }
+
+    div.modBody li {
+        border-bottom: 1px dashed #DDD;
+        padding-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    div.more {
+        margin-top: 5px;
+    }
 
     div.modBottom { }
 
@@ -400,6 +600,23 @@ div.module { }
     }
 
 #search { }
+
+#search input.textField {
+    color: #555;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 11px;
+    border: 3px double #E5E5E5;
+    padding: 2px 3px;
+}
+
+#search input.button {
+    color: #555;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 11px;
+    border: 1px solid #AAA;
+    margin-left: 5px;
+    padding: 2px 3px;
+}
 
 #cats { }
 
