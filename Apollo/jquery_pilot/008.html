@@ -1,18 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Pilot 001</title>
-  <link ref="stylesheet" href="css/001.css" type="text/css" />
+  <title>Pilot 008</title>
+  <link rel="stylesheet" href="css/001.css" type="text/css" />
   <script type="text/javascript" src="lib/jquery-1.3.2.min.js"></script>
   <script type="text/javascript">
     $(document).ready(function() {
-      $("a").click(function() {
-        alert("Hello JQuery!");
-      });
+      $("a[href*=blog]").append(" BLOG");
+      $("a[href*=link]").append(" LINKS");
+      $("a[href*=about]").append(" ABOUT");
     });
   </script>
 </head>
 <body>
-  <a href="">Click me</a>
+  <a href="#blog">link 1</a><br />
+  <a href="#links">link 2</a><br />
+  <a href="#about">link 3</a><br />
 </body>
 </html>

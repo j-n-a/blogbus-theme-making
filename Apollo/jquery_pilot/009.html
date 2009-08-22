@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Pilot 009</title>
+  <link rel="stylesheet" href="css/001.css" type="text/css" />
+  <script type="text/javascript" src="lib/jquery-1.3.2.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("#faq").find("dt").hide().end().find("dd").click(function() {
+        $(this).next().slideToggle();
+      });
+    });
+  </script>
+</head>
+<body>
+  <div id="faq">
+    <h3>faq</h3>
+    <dd>question 1</dd>
+    <dt>answer 1</dt>
+    <dd>question 2</dd>
+    <dt>answer 2</dt>
+    <dd>question 3</dd>
+    <dt>answer 3</dt>
+    <dd>question 4</dd>
+    <dt>answer 4</dt>
+    <dd>question 5</dd>
+    <dt>answer 5</dt>
+    <dd>question 6</dd>
+    <dt>answer 6</dt>
+  </div>
+</body>
+</html>
