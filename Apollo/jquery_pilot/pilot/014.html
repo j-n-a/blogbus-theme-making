@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Pilot 014</title>
+  <link rel="stylesheet" href="css/001.css" type="text/css" />
+  <script type="text/javascript" src="lib/jquery-1.3.2.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("#img1").hover(function() {
+        $("#img2").fadeIn("slow");
+      }, function() {
+        $("#img2").fadeOut("slow");
+      });
+    });
+  </script>
+</head>
+<body style="margin: 0; padding: 0;">
+  <img src="image/001.jpg" id="img1" />
+  <img src="image/002.jpg" id="img2" style="position: absolute; left: 0; top: 0; display: none;" />
+</body>
+</html>
