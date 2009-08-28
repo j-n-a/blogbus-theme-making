@@ -19,6 +19,35 @@
         var fontSize = fontSize + "px";
         var tag      = $("#wrapper > a:eq(" + i + ")");
         tag.css("font-size",fontSize);
+        tag.css("color",getColorByScale(i,totalTags));
+      }
+
+      function hex2dec(hex) {
+        return parseInt(hex,16);
+      }
+
+      function dec2hex(dec) {
+        return dec.toString(16);
+      }
+
+      function getColorByScale(i, totalCount) {
+        var minr = hex2dec(lowColor.substr(0,2));
+        var ming = hex2dec(lowColor.substr(2,2));
+        var minb = hex2dec(lowColor.substr(4,2));
+
+        var maxr = hex2dec(deepColor.substr(0,2));
+        var maxg = hex2dec(deepColor.substr(2,2));
+        var maxb = hex2dec(deepColor.substr(4,2));
+
+        var r = dec2hex(parseInt(maxr - (maxr - minr) * i / totalCount));
+        var g = dec2hex(parseInt(maxg - (maxg - ming) * i / totalCount));
+        var b = dec2hex(parseInt(maxb - (maxb - minb) * i / totalCount));
+
+        if (r.length == 1) r = "0" + r;
+        if (g.length == 1) g = "0" + g;
+        if (b.length == 1) b = "0" + b;
+
+        return "#" + r + g + b;
       }
     });
   </script>
