@@ -1,20 +1,13 @@
 /*
- * Theme Name: Tuzki4.0
+ * Theme Name: Tuzki5.0
  * Theme Author: Apollo Coleone (Minjie Zhang)
  * Author Email: Ze.Apollo[at]Gmail.com
  * Author Blog: http://imapollo.blogbus.com
- * Version: 1.07
- * Description: based on Punkid's sandbox
- * Last Modified: Jul 26, 2009
+ * Version: 1.00
+ * Description: based on Punkid's sandbox & Tuzki4.0
+ * Last Modified: Oct 31, 2009
  *
- * Revision 1.00, Nov 16, 2008, Author: Apollo
- * Revision 1.01, Dec 23, 2008, Author: Apollo
- * Revision 1.02, Mar 15, 2009, Author: Apollo
- * Revision 1.03, Mar 21, 2009, Author: Apollo
- * Revision 1.04, May 05, 2009, Author: Apollo
- * Revision 1.05, May 10, 2009, Author: Apollo
- * Revision 1.06, May 17, 2009, Author: Apollo
- * Revision 1.07, Jul 26, 2009, Author: Apollo
+ * Revision 1.00, Oct 31, 2009, Author: Apollo
  *
  * Encoding: UTF-8
  * Special thanks to Punkid
@@ -115,7 +108,7 @@ a {
 }
 
 a:hover {
-    color: #01AAEF;
+    color: #A7CACC;
     text-decoration: none;
 }
 
@@ -205,8 +198,8 @@ blockquote {
 }
 
 #header {
-    background: url(http://imapollo.blogbus.com/files/12264942490.gif) repeat-x top center;
-    height: 97px;
+    background: url(http://filer.blogbus.com/1390495/resource_13904951256971332m.jpg) repeat-x top center;
+    height: 80px;
 }
 
     #innerHeader {
@@ -219,16 +212,10 @@ blockquote {
         float: left;
     }
 
-    #tuzkiHead {
-        float: right;
-        margin-right: 80px;
-    }
-
 #navibar {
-    background: url(http://imapollo.blogbus.com/files/12266338260.gif) repeat-x top center;
+    padding-top: 45px;
     height: 30px;
     color: #FFF;
-    border-top: #323232 1px solid;
 }
 
 #innerNavibar {
@@ -240,17 +227,26 @@ blockquote {
 
 #navibarLeft {
     float: left;
+    display: inline;
 }
 
     #navibar a {
         font-size: 12px;
-        color: #AAA;
-        margin-right: 30px;
+        font-weight: bold;
+        color: #FFF;
+        width: 80px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin-left: 5px;
+        display: block;
+        float: left;
     }
 
     #navibar a:hover {
-        color: #FFF;
+        color: #97cbcc;
         text-decoration: none;
+        background: url(http://filer.blogbus.com/1390495/resource_13904951256973968h.jpg) no-repeat top left;
     }
 
     #navibar .navibarRss a {
@@ -285,11 +281,6 @@ blockquote {
     #navibar .searchBar input.searchButton {
         border: 1px solid #1B1B1B;
     }
-
-#shadow {
-    background: url(http://imapollo.blogbus.com/files/12266346310.gif) repeat-x top center;
-    height: 5px;
-}
 
 #content {
     margin: 0 auto;
@@ -485,7 +476,7 @@ div.entry {
 
         div.entrytitle {
             font-size: 14px;
-            border-bottom: 1px solid #DDD;
+            border-bottom: 1px dotted #CCDEDF;
         }
 
         div.entrytitle a {
@@ -493,7 +484,7 @@ div.entry {
         }
 
         div.entrytitle a:hover {
-            color: #01AAEF;
+            color: #A7CACC;
         }
 
         span.metadata {
@@ -582,10 +573,10 @@ div.entry {
         }
 
         div.entrybody .quote {
-            background: #FAFAFA url(http://imapollo.blogbus.com/files/12267498770.jpg) no-repeat 5px 5px;
-            border-top: 1px solid #DDD;
-            border-bottom: 1px solid #DDD;
-            padding: 5px 5px 5px 70px;
+            background: #E9F0F0 url(http://filer.blogbus.com/1390495/resource_13904951256975567t.jpg) no-repeat 5px 5px;
+            border-top: 1px dotted #AAA;
+            border-bottom: 1px dotted #AAA;
+            padding: 5px 5px 5px 54px;
         }
 
         div.entryfoot { }
