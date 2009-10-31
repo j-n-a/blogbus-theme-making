@@ -6,14 +6,22 @@
         <div id="navibar">
             <div id="innerNavibar">
                 <div id="navibarLeft">
-                    <a href="http://{#domain}">Home</a>
+                    <a href="http://{#domain}" id="navi_home">Home</a>
                     <a href="http://imapollo.bababian.com">Photos</a>
-                    <a href="http://imapollo.blogbus.com/logs/10408918.html">Works</a>
-                    <a href="http://imapollo.blogbus.com/logs/7915555.html">Links</a>
-                    <a href="http://imapollo.blogbus.com/logs/">Archives</a>
-                    <a href="http://imapollo.blogbus.com/logs/5829431.html">About</a>
+                    <a href="http://imapollo.blogbus.com/logs/10408918.html" id="navi_works">Works</a>
+                    <a href="http://imapollo.blogbus.com/logs/7915555.html" id="navi_links">Links</a>
+                    <a href="http://imapollo.blogbus.com/logs/" id="navi_archives">Archives</a>
+                    <a href="http://imapollo.blogbus.com/logs/5829431.html" id="navi_about">About</a>
                     <span class="navibarRss"><a href="http://feed.feedsky.com/imapollo">RSS</a></span>
                 </div>
+                <script type="text/javascript">
+/* if (url == "http://imapollo.blogbus.com/logs/10408918.html") document.getElementById("navi_works").className = "onhover";
+else if (url == "http://imapollo.blogbus.com/logs/7915555.html") document.getElementById("navi_links").className = "onhover";
+else if (url == "http://imapollo.blogbus.com/logs/") document.getElementById("navi_archives").className = "onhover";
+else if (url == "http://imapollo.blogbus.com/logs/5829431.html") document.getElementById("navi_about").className = "onhover";
+else*/ document.getElementById("navi_home").className = "onhover";
+                </script>
+                
                 <div class="searchBar">
                     <form action="http://www.google.com/cse" id="cse-search-box">
                         <span>
@@ -40,14 +48,12 @@
             </div>
         </div>
     </div>
-    <div id="downShadow" class="clear"></div>
     <div id="footer" class="clear">
-    <div id="footerBg">
         <div id="innerFooter">
             <div id="doubanContainer">
                 <div id="douban">
                     <div class="doubanTitle">Douban Show</div>
-                    <script type="text/javascript" src="http://www.douban.com/service/badge/apoollo/?show=collection&amp;n=9&amp;columns=3&amp;hidelogo=yes&amp;hideself=yes&amp;cat=movie|book|music" ></script>
+                    <script type="text/javascript" src="http://www.douban.com/service/badge/apoollo/?show=collection&amp;n=10&amp;columns=5&amp;hidelogo=yes&amp;hideself=yes&amp;cat=movie|book|music" ></script>
                     <a href="http://www.douban.com/people/apoollo/">More...</a>
                 </div>
             </div>
@@ -66,19 +72,17 @@
                                 <td>
                                     <a title="Apollo's Skin 10" href="http://apollo-skin10.blogbus.com/"><img border="0" src="http://imapollo.blogbus.com/files/12266663023.jpg" /></a>
                                 </td>
-                            </tr>
-                            <tr align="center">
                                 <td>
                                     <a title="Apollo's Skin 09" href="http://apollo-skin9.blogbus.com/"><img border="0" src="http://imapollo.blogbus.com/files/12266663022.jpg"/></a>
                                 </td>
                                 <td>
                                     <a title="Class JC-13" href="http://jessie-skin13.blogbus.com/"><img border="0" src="http://imapollo.blogbus.com/files/12266663026.jpg"/></a>
                                 </td>
+                            </tr>
+                            <tr align="center">
                                 <td>
                                     <a title="Class JC-12" href="http://jessie-skin12.blogbus.com/"><img border="0" src="http://imapollo.blogbus.com/files/12266663025.jpg"/></a>
                                 </td>
-                            </tr>
-                            <tr align="center">
                                 <td>
                                     <a title="Class JC-11" href="http://jessie-skin11.blogbus.com/"><img border="0" src="http://imapollo.blogbus.com/files/12266663024.jpg"/></a>
                                 </td>
@@ -88,6 +92,7 @@
                                 <td>
                                     <a title="Apollo's Skin 07" href="http://apollo-skin7.blogbus.com/"><img border="0" src="http://imapollo.blogbus.com/files/12266663020.jpg"/></a>
                                 </td>
+                                <td></td>
                             </tr>
                         </tbody>
                     </table>       
@@ -96,6 +101,5 @@
             </div>
             <div id="copyright" class="clear">Copyright (c) 2002-2008 <a href="http://blogbus.com">BlogBus.com</a>, All Rights Reserved.</div>
         </div>
-    </div>
     </div>
 </div>
