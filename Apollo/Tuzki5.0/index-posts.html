@@ -3,15 +3,16 @@
     <div class="entryhead">
         <div class="entrytitle">
             <a href="{#url}" title="{#title}">{#title}</a>
-            <span class="category"> - {#cat}</span>
         </div>
         <div>
-            <span class="metadata">Posted by <a href="{#profile_url}" class="author" title="{#author}">{#author}</a> at <span class="date">{#date}</span></span>
-            <span class="commentLink">{#menubar}</span>
+            <span class="metadata">Posted <span class="date">{#date}</span> by <a href="{#profile_url}" class="author" title="{#author}">{#author}</a>. Filed under {#cat}</span>
         </div>
     </div>
     <div class="entrybody clearfix clear">
         {#content}
+    </div>
+    <div class="entryfoot">
+        <span class="commentLink">{#menubar}</span>
     </div>
 </div>
 <!--/list-->

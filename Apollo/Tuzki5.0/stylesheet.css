@@ -3,11 +3,12 @@
  * Theme Author: Apollo Coleone (Minjie Zhang)
  * Author Email: Ze.Apollo[at]Gmail.com
  * Author Blog: http://imapollo.blogbus.com
- * Version: 1.00
+ * Version: 1.01
  * Description: based on Punkid's sandbox & Tuzki4.0
- * Last Modified: Oct 31, 2009
+ * Last Modified: Nov 07, 2009
  *
  * Revision 1.00, Oct 31, 2009, Author: Apollo
+ * Revision 1.01, Nov 07, 2009, Author: Apollo
  *
  * Encoding: UTF-8
  * Special thanks to Punkid
@@ -103,12 +104,12 @@ h1, h2, h3, h4 {
     }
 
 a {
-    color: #555;
+    color: #8DC1C2;
     text-decoration: none;
 }
 
 a:hover {
-    color: #7DCDCE;
+    color: #333;
     text-decoration: none;
 }
 
@@ -244,13 +245,13 @@ blockquote {
     }
 
     #navibarLeft a:hover {
-        color: #97cbcc;
+        color: #8DC1C2;
         text-decoration: none;
         background: url(http://filer.blogbus.com/1390495/resource_13904951256973968h.jpg) no-repeat top left;
     }
 
     #navibarLeft a.onhover {
-        color: #97cbcc;
+        color: #8DC1C2;
         text-decoration: none;
         background: url(http://filer.blogbus.com/1390495/resource_13904951256973968h.jpg) no-repeat top left;
     }
@@ -265,7 +266,7 @@ blockquote {
 
     #navibar .searchBar {
         float: right;
-        display: inline;
+        display: none;
         padding-right: 20px;
     }
 
@@ -371,9 +372,17 @@ blockquote {
     float: left;
     width: 200px;
     margin-left: 20px;
-    margin-top: 32px;
-    border-top: 1px dotted #CCDEDF;
+    margin-top: 60px;
 }
+
+    #entryInfo a {
+        color: #555;
+    }
+
+    #entryInfo a:hover {
+        color: #333;
+        text-decoration: underline;
+    }
 
     #entryInfo .detailInfo ul {
         list-style: none;
@@ -383,7 +392,6 @@ blockquote {
     }
 
     #entryInfo .detailInfo li {
-        border-bottom: 1px dotted #CCDEDF;
         margin: 0;
         padding: 0;
         overflow: hidden;
@@ -400,7 +408,7 @@ blockquote {
     }
 
     #entryInfo .detailInfo label {
-        color: #7DCDCE;
+        color: #8DC1C2;
     }
 
 #entryContent {
@@ -416,19 +424,6 @@ blockquote {
     text-align: center;
     margin-bottom: 10px;
 }
-
-    #pagenavi span {
-        color: #01AAEF;
-        border: #CCC solid 1px;
-        background: #EEE;
-        padding: 2px;
-    }
-
-    #pagenavi a {
-        border: #CCC solid 1px;
-        background: #EEE;
-        padding: 2px;
-    }
 
 #navigation {
     text-align: center;
@@ -480,26 +475,22 @@ div.entry {
 
         div.entrytitle {
             font-size: 14px;
-            border-bottom: 1px dotted #CCDEDF;
-        }
-
-        div.entrytitle a {
-            color: #555;
-        }
-
-        div.entrytitle a:hover {
-            color: #7DCDCE;
         }
 
         span.metadata {
             float: left;
+            color: #777;
         }
 
-            span.metadata span.date { }
+            span.metadata a {
+                border-bottom: 1px solid #DFDFDF;
+                color: #777;
+            }
 
-            span.metadata a.author { }
-
-            span.metadata a:hover.author { }
+            span.metadata a:hover {
+                border-bottom-color: #333;
+                color: #333;
+            }
 
         span.commentLink {
             float: right;
@@ -518,11 +509,11 @@ div.entry {
         }
 
         div.entrybody a {
-            border-bottom: dotted #555 1px;
+            border-bottom: 1px solid #DFDFDF;
         }
 
         div.entrybody a:hover {
-            border-bottom: dotted #01AAEF 1px;
+            border-bottom: 1px solid #333;
         }
 
         div.entrybody p.cc-lisence {
@@ -578,17 +569,16 @@ div.entry {
         }
 
         div.entrybody .quote {
-            background: #E9F0F0 url(http://filer.blogbus.com/1390495/resource_13904951256975567t.jpg) no-repeat 5px 5px;
-            border-top: 1px dotted #CCDEDF;
-            border-bottom: 1px dotted #CCDEDF;
+            background: #E4F2FD url(http://filer.blogbus.com/1390495/resource_13904951256975567t.jpg) no-repeat 5px 5px;
+            border-top: 1px solid #C6D9E9;
+            border-bottom: 1px solid #C6D9E9;
             padding: 5px 5px 5px 54px;
         }
 
-        div.entryfoot { }
-
-        div.entryfoot span.tags { }
-
-        div.entryfoot span.trackback { }
+        div.entryfoot {
+            border-bottom: 1px solid #DADADA;
+            height: 21px;
+        }
 
         .commentLink {
             width: 100px;
@@ -776,11 +766,12 @@ div.module {
     div.modTop { }
 
         div.module h2 {
+            color: #8DC1C2;
             margin: 5px 0 0 0;
             font-size: 14px;
             font-weight: normal;
             line-height: 120%;
-            border-bottom: 1px dotted #CCDEDF;
+            border-bottom: 1px solid #DADADA;
         }
 
     div.modBody { }
@@ -793,62 +784,21 @@ div.module {
     }
 
     div.modBody li{
-        border-bottom: 1px dotted #CCDEDF;
         margin: 0;
         padding: 0;
-        display: block;
         list-style: none;
         line-height: 23px;
         overflow: hidden;
         height: 23px;
-
     }
 
     div.modBody li a {
-        font-family: Tahoma, Verdana, Arial;
-        display: block;
-        font-size: 12px;
-        line-height: normal;
-        padding: 5px 5px 5px 0;
+        color: #555;
     }
 
     div.modBody li a:hover {
-        background-color: #E9F0F0;
-        text-decoration: none;
-    }
-
-    div.modBodyFanfou ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        border: none;
-    }
-
-    div.modBodyFanfou li {
-        border-bottom: 1px solid #DDD;
-        margin: 0;
-        padding: 3px 0 3px 0;
-        display: block;
-        list-style:none;
-        line-height: 19px;
-    }
-
-    div.modBodyFanfou li:hover {
-        background-color: #F6F6F6;
-    }
-
-    div.modBodyFanfou li a {
-        font-family: Tahoma, Verdana, Arial;
-        display: block;
-        font-size: 12px;
-    }
-
-    div.modBodyFanfou li a:hover {
-        text-decoration: none;
-    }
-
-    div.modBodyFanfou img {
-        display: none;
+        color: #333;
+        text-decoration: underline;
     }
 
     div.modBottom { }
@@ -907,14 +857,6 @@ div.module {
 #nPosts { }
 
 #nComments { }
-
-#nComments a {
-    display: inline;
-}
-
-#nComments li:hover {
-    background-color: #E9F0F0;
-}
 
 #links { }
 
