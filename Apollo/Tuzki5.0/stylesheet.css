@@ -1,14 +1,20 @@
 /*
- * Theme Name: Tuzki5.0
+ * Theme Name: Tuzki4.0
  * Theme Author: Apollo Coleone (Minjie Zhang)
  * Author Email: Ze.Apollo[at]Gmail.com
  * Author Blog: http://imapollo.blogbus.com
- * Version: 1.01
- * Description: based on Punkid's sandbox & Tuzki4.0
- * Last Modified: Nov 07, 2009
+ * Version: 1.07
+ * Description: based on Punkid's sandbox
+ * Last Modified: Jul 26, 2009
  *
- * Revision 1.00, Oct 31, 2009, Author: Apollo
- * Revision 1.01, Nov 07, 2009, Author: Apollo
+ * Revision 1.00, Nov 16, 2008, Author: Apollo
+ * Revision 1.01, Dec 23, 2008, Author: Apollo
+ * Revision 1.02, Mar 15, 2009, Author: Apollo
+ * Revision 1.03, Mar 21, 2009, Author: Apollo
+ * Revision 1.04, May 05, 2009, Author: Apollo
+ * Revision 1.05, May 10, 2009, Author: Apollo
+ * Revision 1.06, May 17, 2009, Author: Apollo
+ * Revision 1.07, Jul 26, 2009, Author: Apollo
  *
  * Encoding: UTF-8
  * Special thanks to Punkid
@@ -104,12 +110,12 @@ h1, h2, h3, h4 {
     }
 
 a {
-    color: #8DC1C2;
+    color: #555;
     text-decoration: none;
 }
 
 a:hover {
-    color: #333;
+    color: #01AAEF;
     text-decoration: none;
 }
 
@@ -199,8 +205,8 @@ blockquote {
 }
 
 #header {
-    background: url(http://filer.blogbus.com/1390495/resource_13904951256971332m.jpg) repeat-x top center;
-    height: 80px;
+    background: url(http://imapollo.blogbus.com/files/12264942490.gif) repeat-x top center;
+    height: 97px;
 }
 
     #innerHeader {
@@ -213,10 +219,16 @@ blockquote {
         float: left;
     }
 
+    #tuzkiHead {
+        float: right;
+        margin-right: 80px;
+    }
+
 #navibar {
-    padding-top: 45px;
+    background: url(http://imapollo.blogbus.com/files/12266338260.gif) repeat-x top center;
     height: 30px;
     color: #FFF;
+    border-top: #323232 1px solid;
 }
 
 #innerNavibar {
@@ -228,32 +240,17 @@ blockquote {
 
 #navibarLeft {
     float: left;
-    display: inline;
 }
 
-    #navibarLeft a {
+    #navibar a {
         font-size: 12px;
-        font-weight: bold;
-        width: 80px;
-        height: 30px;
+        color: #AAA;
+        margin-right: 30px;
+    }
+
+    #navibar a:hover {
         color: #FFF;
-        line-height: 30px;
-        text-align: center;
-        margin-left: 5px;
-        display: block;
-        float: left;
-    }
-
-    #navibarLeft a:hover {
-        color: #8DC1C2;
         text-decoration: none;
-        background: url(http://filer.blogbus.com/1390495/resource_13904951256973968h.jpg) no-repeat top left;
-    }
-
-    #navibarLeft a.onhover {
-        color: #8DC1C2;
-        text-decoration: none;
-        background: url(http://filer.blogbus.com/1390495/resource_13904951256973968h.jpg) no-repeat top left;
     }
 
     #navibar .navibarRss a {
@@ -266,7 +263,7 @@ blockquote {
 
     #navibar .searchBar {
         float: right;
-        display: none;
+        display: inline;
         padding-right: 20px;
     }
 
@@ -288,6 +285,11 @@ blockquote {
     #navibar .searchBar input.searchButton {
         border: 1px solid #1B1B1B;
     }
+
+#shadow {
+    background: url(http://imapollo.blogbus.com/files/12266346310.gif) repeat-x top center;
+    height: 5px;
+}
 
 #content {
     margin: 0 auto;
@@ -316,30 +318,31 @@ blockquote {
         padding-right: 20px;
     }
 
+#downShadow {
+    background: url(http://imapollo.blogbus.com/files/12266532150.gif) repeat-x bottom left;
+    height: 5px;
+    margin: 0;
+    padding: 0;
+}
+
 #footer {
     width: 100%;
     clear: both;
     margin: 0;
     padding: 0;
-    background: url(http://filer.blogbus.com/1390495/resource_13904951256994551j.jpg) repeat-x top center;
-    height: 300px;
-    color: #FFF;
-}
-
-#footer a {
-    color: #FFF;
-    border-bottom: #FFF dotted 1px;
-}
-
-#footer a:hover {
-    color: #FFF;
-    border-bottom: none;
+    background: url(http://imapollo.blogbus.com/files/12266530030.png) repeat top center;
 }
 
 #detailFooter {
     width: 100%;
     clear: both;
     margin: 10px 0 0 0;
+}
+
+#footerBg {
+    background: url(http://imapollo.blogbus.com/files/12266713710.jpg) no-repeat right bottom;
+    width: 960px;
+    margin: 0 auto;
 }
 
 #detailCopyright {
@@ -351,8 +354,9 @@ blockquote {
 }
 
 #innerFooter {
-    width: 920px;
+    width: 520px;
     margin: 0 auto;
+    padding-right: 440px;
 }
 
     div#copyright {
@@ -372,17 +376,9 @@ blockquote {
     float: left;
     width: 200px;
     margin-left: 20px;
-    margin-top: 60px;
+    margin-top: 32px;
+    border-top: 1px solid #DDD;
 }
-
-    #entryInfo a {
-        color: #555;
-    }
-
-    #entryInfo a:hover {
-        color: #333;
-        text-decoration: underline;
-    }
 
     #entryInfo .detailInfo ul {
         list-style: none;
@@ -392,6 +388,7 @@ blockquote {
     }
 
     #entryInfo .detailInfo li {
+        border-bottom: 1px solid #DDD;
         margin: 0;
         padding: 0;
         overflow: hidden;
@@ -408,7 +405,7 @@ blockquote {
     }
 
     #entryInfo .detailInfo label {
-        color: #8DC1C2;
+        color: #01AAEF;
     }
 
 #entryContent {
@@ -424,6 +421,19 @@ blockquote {
     text-align: center;
     margin-bottom: 10px;
 }
+
+    #pagenavi span {
+        color: #01AAEF;
+        border: #CCC solid 1px;
+        background: #EEE;
+        padding: 2px;
+    }
+
+    #pagenavi a {
+        border: #CCC solid 1px;
+        background: #EEE;
+        padding: 2px;
+    }
 
 #navigation {
     text-align: center;
@@ -475,22 +485,26 @@ div.entry {
 
         div.entrytitle {
             font-size: 14px;
+            border-bottom: 1px solid #DDD;
+        }
+
+        div.entrytitle a {
+            color: #555;
+        }
+
+        div.entrytitle a:hover {
+            color: #01AAEF;
         }
 
         span.metadata {
             float: left;
-            color: #777;
         }
 
-            span.metadata a {
-                border-bottom: 1px solid #DFDFDF;
-                color: #777;
-            }
+            span.metadata span.date { }
 
-            span.metadata a:hover {
-                border-bottom-color: #333;
-                color: #333;
-            }
+            span.metadata a.author { }
+
+            span.metadata a:hover.author { }
 
         span.commentLink {
             float: right;
@@ -509,17 +523,16 @@ div.entry {
         }
 
         div.entrybody a {
-            border-bottom: 1px solid #DFDFDF;
+            border-bottom: dotted #555 1px;
         }
 
         div.entrybody a:hover {
-            border-bottom: 1px solid #333;
+            border-bottom: dotted #01AAEF 1px;
         }
 
         div.entrybody p.cc-lisence {
-            background: #E9F0F0 url(http://filer.blogbus.com/1390495/resource_13904951256975567t.jpg) no-repeat right 5px;
-            border-top: 1px dotted #CCDEDF;
-            border-bottom: 1px dotted #CCDEDF;
+            background: #FAFAFA;
+            border: 1px solid #DDD;
             padding: 5px;
             line-height: 120%;
         }
@@ -569,16 +582,17 @@ div.entry {
         }
 
         div.entrybody .quote {
-            background: #E4F2FD url(http://filer.blogbus.com/1390495/resource_13904951256975567t.jpg) no-repeat 5px 5px;
-            border-top: 1px solid #C6D9E9;
-            border-bottom: 1px solid #C6D9E9;
-            padding: 5px 5px 5px 54px;
+            background: #FAFAFA url(http://imapollo.blogbus.com/files/12267498770.jpg) no-repeat 5px 5px;
+            border-top: 1px solid #DDD;
+            border-bottom: 1px solid #DDD;
+            padding: 5px 5px 5px 70px;
         }
 
-        div.entryfoot {
-            border-bottom: 1px solid #DADADA;
-            height: 21px;
-        }
+        div.entryfoot { }
+
+        div.entryfoot span.tags { }
+
+        div.entryfoot span.trackback { }
 
         .commentLink {
             width: 100px;
@@ -616,7 +630,7 @@ div.entry {
     #comments h2 {
         padding: 0 0 2px 0;
         margin-bottom: 5px;
-        border-bottom: 1px dotted #CCDEDF;
+        border-bottom: 1px solid #DDD;
         font-size: 14px;
         font-weight: normal;
         line-height: 120%;
@@ -624,10 +638,10 @@ div.entry {
 
     #comments li {
         margin-top: 10px;
-        background: #E9F0F0;
+        background: #FAFAFA;
         position: relative;
-        border-top: 1px dotted #CCDEDF;
-        border-bottom: 1px dotted #CCDEDF;
+        border-top: 1px solid #DDD;
+        border-bottom: 1px solid #DDD;
         padding: 5px;
     }
 
@@ -766,12 +780,11 @@ div.module {
     div.modTop { }
 
         div.module h2 {
-            color: #8DC1C2;
             margin: 5px 0 0 0;
             font-size: 14px;
             font-weight: normal;
             line-height: 120%;
-            border-bottom: 1px solid #DADADA;
+            border-bottom: #DDD solid 1px;
         }
 
     div.modBody { }
@@ -784,21 +797,62 @@ div.module {
     }
 
     div.modBody li{
+        border-bottom: 1px solid #DDD;
         margin: 0;
         padding: 0;
+        display: block;
         list-style: none;
         line-height: 23px;
         overflow: hidden;
         height: 23px;
+
     }
 
     div.modBody li a {
-        color: #555;
+        font-family: Tahoma, Verdana, Arial;
+        display: block;
+        font-size: 12px;
+        line-height: normal;
+        padding: 5px 5px 5px 0;
     }
 
     div.modBody li a:hover {
-        color: #333;
-        text-decoration: underline;
+        background-color: #F6F6F6;
+        text-decoration: none;
+    }
+
+    div.modBodyFanfou ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+
+    div.modBodyFanfou li {
+        border-bottom: 1px solid #DDD;
+        margin: 0;
+        padding: 3px 0 3px 0;
+        display: block;
+        list-style:none;
+        line-height: 19px;
+    }
+
+    div.modBodyFanfou li:hover {
+        background-color: #F6F6F6;
+    }
+
+    div.modBodyFanfou li a {
+        font-family: Tahoma, Verdana, Arial;
+        display: block;
+        font-size: 12px;
+    }
+
+    div.modBodyFanfou li a:hover {
+        text-decoration: none;
+    }
+
+    div.modBodyFanfou img {
+        display: none;
     }
 
     div.modBottom { }
@@ -858,6 +912,14 @@ div.module {
 
 #nComments { }
 
+#nComments a {
+    display: inline;
+}
+
+#nComments li:hover {
+    background-color: #F6F6F6;
+}
+
 #links { }
 
 #archives { }
@@ -872,25 +934,27 @@ div.module {
  * -------------------------------------------------------------------*/
 
 #douban div.doubanTitle {
-    color: #FFF;
+    color: #999;
     margin: 0;
     padding: 0;
     line-height: 120%;
-    font-size: 13px;
+    font-size: 14px;
     padding-left: 2px;
     font-weight: bold;
 }
 
 #douban td {
-    padding: 5px;
+    padding: 3px;
 }
 #douban td a {
     display: block;
-    border: 4px solid #FFF;
+    padding: 3px;
+    background-color: #222;
+    border: 1px solid #444;
 }
 #douban td a:hover {
-    display: block;
-    border: none;
+    background-color: #222;
+    border: 1px solid #01AAEF;
 }
 #douban td img {
     width: 65px;
@@ -898,14 +962,15 @@ div.module {
 }
 #doubanContainer {
     padding-top: 5px;
-    width: 450px;
+    padding-left: 16px;
+    width: 250px;
     float: left;
 }
 
 #worksContainer {
     float: right;
     padding-top: 5px;
-    width: 450px;
+    width: 250px;
 }
 
 /* Entries
