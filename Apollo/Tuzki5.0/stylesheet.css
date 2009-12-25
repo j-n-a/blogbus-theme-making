@@ -511,14 +511,6 @@ div.entry {
       text-align: center;
     }
 
-    div.entrybody table a {
-      border-bottom: none;
-    }
-
-    div.entrybody table a:hover {
-      border-bottom: none;
-    }
-
     div.entrybody table.mustshow a img {
       text-decoration: none;
       padding: 5px;
