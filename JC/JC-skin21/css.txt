@@ -1,0 +1,180 @@
+ * {margin: 0;padding: 0;}
+body {margin: 0 auto;padding-bottom: 0px;font-family: "Trebuchet MS", Verdana,Arial;font-size: 12px;text-align: left;color: #27509d;background: #d5dbcc }
+
+li {list-style: none;}
+
+a {color: #e5181e;text-decoration: none;}
+a:hover {color: #e5181e;border-bottom:1px dotted #e5181e;}
+
+img {border: none;}
+
+input {padding: 1px;font-family: "Trebuchet MS", Verdana,Arial;font-size: 100%;color: #444;border: 1px solid #D9D9D9;background: none;}
+
+textarea {padding: 2px 3px;font-family: "Trebuchet MS", Verdana,Arial;font-size: 100%;color: #444;border: 1px solid #D9D9D9;background: none;overflow: auto;}
+
+.button {width: 48px;height: 22px;padding: 0 0 2px 7px;#padding: 3px 0 2px 3px !important;#padding: 0 0 2px 3px;font-size: 100%;font-weight: bold;letter-spacing: 0.5em;text-align: center;color: #444;border: 1px solid #b5c5cc;background: #C6D5DC;cursor: pointer;}
+
+.time {font-size: 90%;}
+
+.clear {clear: both;}
+
+
+#header {height:90px;margin-top:20px;background:url(http://jessie-skin21.blogbus.com/files/12466352330.png) left top no-repeat;}
+
+.blogName {padding: 20px 0 0 80px;font-size: 20px;font-weight:bold;color: #bf0006;}
+.blogName a {color: #bf0006;text-align:left;}
+.blogName a:hover {color: #bf0006;}
+
+.description {padding: 5px 0 0 80px;line-height: 120%;color: #bf0006;}
+
+
+#container { width:980px;text-align:left;margin:0 auto;}
+#containerleft{width:816px;float:left;}
+#containerright{width:140px;color:#343449;float:right;}
+#containerright a {color:#343449;border-bottom:none;}
+#containerright a:hover {color:#ba000b;border-bottom:none;}
+#containerright h2 {background: url(http://jessie-skin21.blogbus.com/files/12474037850.png) left no-repeat;padding:3px 0 3px 15px;font-size:12px;font-weight:bold;width:125px; border-top:3px solid #343449;border-bottom:1px solid #343449;}
+#containerright li{width:140px;border-bottom:1px dotted #343449;padding:2px 0px;height:20px;line-height:20px;overflow:hidden;}
+#containerright li:hover{background:#c6cbbd;width:140px;height:20px;}
+#profile img {width: 96px;height: 96px;padding: 2px;border: 1px solid #343449;overflow: hidden;}
+
+#wrapleft{width: 816px;float:left;}
+#wrapheader{width: 815px;height:40px;background: url(http://jessie-skin21.blogbus.com/files/s/12466288192.png) center right no-repeat;}
+#wrapbody{width: 816px;background: url(http://jessie-skin21.blogbus.com/files/s/12466288190.png) center top repeat-y;}
+#wrapfooter{width: 816px;margin-left:-1px;margin-bottom:20px;height:164px;background: url(http://files.blogbus.com/jessie-skin21.blogbus.com/files/s/12474067300.jpg) center left no-repeat;}
+
+#posts li {margin:0px 35px 0 35px;}
+.postHeader {padding-bottom:5px;width:520px;}
+.postHeader h2 {float: left;margin:0px 15px 10px 15px;padding:0 3px;font-size: 20PX;font-weight: bold;line-height: 130%;color: #e5181e;overflow: hidden;}
+.postHeader h2 a {color: #e5181e;}
+.postHeader h2 a:hover {color: #e5181e;}
+.postHeader h3 {text-align:left;margin-left:20px;font-size: 11PX;font-weight: normal;color: #27509d;}
+.postHeader h3 a {color: #e5181e;}
+.postHeader h3 a:hover {color: #e5181e;}
+.postHeader h2 .category {display: none;}
+.postBody {line-height: 160%;padding:15px 20px 0px 20px;}
+.postBody p {margin: 0 0 10px;}
+.postBody table {margin: 0 auto;}
+.postBody img {border:1px solid #cccccc;}
+.postBody table a:hover {border: none;}
+.postFooter {width:700px;margin-left:15px;margin-bottom:20px;padding-top:5px;text-align:right;}
+.postFooter a, {color:#e5181e;border-bottom:none;}
+.postFooter a :hover {color:#27509d;border-bottom:none;}
+.menubar{border-bottom:2px solid #27509d;text-align:right;}
+
+#calendar table {width: 90%;font-size:11px;margin: 0 0 0 10px;}
+#calendar a {border: none;}
+#calendar a:active {outline:none;}
+#calendar td { text-align: center; line-height: 150%; word-break: keep-all; text-transform: lowercase; }
+#calendar td a { font-weight: bold; text-decoration: none;background: none; }
+#calendar td a:hover {border: none;}
+#calendar td a:active {outline:none;}
+#calendar .calendarHead td {font-weight: bold;}
+#calendar .week td {padding: 5px 2px 2px;font-size: 90%;text-align: center;white-space: nowrap;}
+.day {text-align: center;white-space: nowrap;}
+#calendar td.today {color: #ba000b;}
+#calendar td.today a {color: #27509d;}
+
+.tags {width:110px; }
+.tags a {margin: 0 1px;}
+.tags a:hover {height:20px;}
+
+.pageNavi {margin-top:30px;margin-left:50px;padding:3px 0px;border-top:2px solid #27509d;width:700px;text-align:right;}
+.pageNavi a {color:#5f666f;}
+.pageNavi a:hover {color:#ff8400;}
+
+.module {padding:10px 0 15px 10px;}
+.modBody {width:150px;}
+
+#profile img {width: 96px;height: 96px;padding: 2px;border: 1px solid #D9D9D9;overflow: hidden;}
+#profile h3 {margin: 5px 0 2px;#margin: 2px 0 2px;font-size: 100%;}
+.about {}
+#login ul {text-align: left;}
+#login li span {margin-right: 10px;}
+#calendar table {width: 100%;margin: 0 0 0 -6px; padding: 0; }
+#calendar a {border: none;}
+#calendar a:active {outline:none;}
+#calendar td { text-align: center; line-height: 150%; word-break: keep-all; text-transform: lowercase; }
+#calendar td a { font-weight: bold; text-decoration: none;background: none; }
+#calendar td a:hover {border: none;}
+#calendar td a:active {outline:none;}
+#calendar .calendarHead td {font-weight: bold;}
+#calendar .week td {padding: 5px 2px 2px;font-size: 90%;text-align: center;white-space: nowrap;}
+.day {text-align: center;white-space: nowrap;}
+#calendar td.today {color: #5f666f;background: #eaeae1;}
+#calendar td.today a {color: #5f666f;}
+#tags {line-height: 160%;}
+#tags .count {display: none;}
+#tags li {display: inline;margin: 0 5px 0 0;}
+#tags .more {margin: 5px 5px 20px 0;}
+
+#login .modBody {text-align: right;}
+#login .uid {margin-bottom: 5px;}
+
+.uid #username,.pwd #password {margin-left: 5px;}
+.uid input,.pwd input {width: 135px;}
+
+#login .button {margin-top: 5px;}
+
+#search .textField {width: 100px;margin-left: 3px;}
+
+#nComments .modBody {}
+#nComments .author {}
+
+#custom {margin-bottom: 20px;}
+
+#statistics {margin: 20px;border-bottom:none;}
+.subscribe {margin-bottom: 20px;}
+
+
+.copyright {padding:110px 0 0 40px;color:#343449;font-size:11px;}
+.copyright a {color:#343449;}
+.copyright a:hover {color:#27509d;}
+
+
+.tb_url {margin: 5px 0;}
+.tb_url input {width: 280px;color: #666;border: 1px solid #D9D9D9;}
+
+#trackbacks {margin: 0 0 20px;}
+#trackbacks .desc {margin: 0 0 15px 0;}
+#trackbacks h2 {font-size: 110%;margin-bottom: 20px;}
+#trackbacks h3 {font-size: 100%;font-weight: normal;}
+#trackbacks .blogName {margin: 2px 0;padding: 0;font-size: 100%;font-weight: normal;text-align: left;}
+#trackbacks .blogName span {font-weight: bold;}
+#trackbacks .time {font-size: 80%;}
+#trackbacks li {margin: 0 0 20px;border-bottom: 1px solid #D9D9D9;}
+#trackbacks .content {}
+
+.context {width:700px;margin:0 0 30px 50px;border-bottom:2px solid #27509d;text-align:center;font-size: 100%;text-align:center;color: #27509d;}
+
+#comments {margin: 20px 0 20px 50px;width:500px;}
+*+html #comments {margin: 50px 0 20px 20px;width:500px;}
+*html #comments {margin: 50px 0 20px 20px;width:500px;}
+#comments h2 {font-size: 110%;margin-bottom: 30px;}
+#comments li {margin: 0 0 20px;padding:10px 20px 10px 20px;border: 1px dotted #343449;}
+#comments .menubar {margin-top: 10px;}
+.reCmtBody {margin: 5px 0 0 50px;padding: 10px 20px;color: #5f666f;}
+.cmtBody p {margin: 10px 0;}
+.reply {}
+#commentForm {margin: 10px 0 0 50px;}
+#commentForm h2 {font-size: 110%;margin-bottom: 20px;}
+#commentForm form {}
+#commentForm label {display: block;}
+#commentForm textarea {width: 400px;margin: 5px 0;}
+
+#cats a:active {outline:none}
+
+#nPosts a:active {outline:none}
+
+#nComments a:active {outline:none}
+
+#links a:active {outline:none}
+
+#tags a:active {outline:none}
+
+#archives a:active {outline:none}
+
+#content #posts li .postBody ul,ol { margin:0; padding:0; margin-left:20px; }
+#content #posts li .postBody li { margin:0; padding:0; padding:0 2px;list-style-position:inside; }
+#content #posts li .postBody ul li { list-style:disc; }
+#content #posts li .postBody ol li { list-style:decimal; }

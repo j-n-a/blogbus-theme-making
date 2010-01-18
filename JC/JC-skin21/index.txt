@@ -1,0 +1,31 @@
+<div id="index">
+      <div id="container">  
+        <div id="containerleft">
+              
+              <div id="header">
+			<h1 class="blogName"><a href="http://{#domain}" title="http://{#domain}">{#blog_name}</a></h1>
+			<div class="description">{#blog_desc}</div>
+			<div class="clear"></div>
+               </div>
+	       <div id="wrapleft">
+	             <div id="wrapheader"></div>
+                     <div id="wrapbody">{c:0}</div>
+                     <div id="wrapfooter">
+                            <div class="copyright">
+                                powered by <a href="http://www.blogbus.com" target="_blank">BlogBus</a>,&nbsp;skinned by <a href="http://jessie0426.blogbus.com" target="_blank">class JC</a></div>
+                           
+                     </div>
+               </div>
+              
+         </div>
+         <div id="containerright">
+<a href="http://www.blogbus.com/user"  target="_blank" title="µÇÂ½"><img src="http://files.blogbus.com/jessie-skin21.blogbus.com/files/12474682110.jpg" ></a><br><br><br>
+{c:1}
+          <div class="subscribe" style="line-height:180%;">{#feed_info}</div>
+         <div id="statistics">Total£º<span class="count">{#counter}</div>
+         </div>
+       </div>
+            
+        
+		<div class="clear"></div>
+</div>

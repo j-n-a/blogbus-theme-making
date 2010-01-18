@@ -1,0 +1,42 @@
+<div id="index">
+      <div id="container">  
+        <div id="containerleft">
+              
+              <div id="header">
+			<h1 class="blogName"><a href="http://{#domain}" title="http://{#domain}">{#blog_name}</a></h1>
+			<div class="description">{#blog_desc}</div>
+			<div class="clear"></div>
+               </div>
+	       <div id="wrapleft">
+	             <div id="wrapheader"></div>
+                     <div id="wrapbody">{c:0}</div>
+                     <div id="wrapfooter">
+                            <div class="copyright">
+                                powered by <a href="http://www.blogbus.com" target="_blank">BlogBus</a>,&nbsp;skinned by <a href="http://jessie0426.blogbus.com" target="_blank">class JC</a></div>
+                           
+                     </div>
+               </div>
+              
+         </div>
+               <script type="text/javascript">
+                  var enCmtForm=document.getElementById("comments");
+                  enCmtForm.innerHTML = enCmtForm.innerHTML.replace("评论","Comment");
+                  var enCmtForm=document.getElementById("commentForm");
+                  enCmtForm.innerHTML = enCmtForm.innerHTML.replace("发表评论","Leave a comment");
+                  enCmtForm.innerHTML = enCmtForm.innerHTML.replace("姓　名","Name");
+                  enCmtForm.innerHTML = enCmtForm.innerHTML.replace("E-Mail","E-mail");
+                  enCmtForm.innerHTML = enCmtForm.innerHTML.replace("地　址","Blog");
+                  enCmtForm.innerHTML = enCmtForm.innerHTML.replace("提交","OK ");
+                  enCmtForm.innerHTML = enCmtForm.innerHTML.replace("记住我","Remember me!");
+                  </script>
+            <div id="containerright">
+<a href="http://www.blogbus.com/user"  target="_blank" title="登陆"><img src="http://files.blogbus.com/jessie-skin21.blogbus.com/files/12474702810.jpg" ></a><br><br><br>
+{c:1}
+          <div class="subscribe" style="line-height:180%;">{#feed_info}</div>
+         <div id="statistics">Total：<span class="count">{#counter}</div>
+         </div>
+       </div>
+            
+        
+		<div class="clear"></div>
+</div>
