@@ -3,11 +3,12 @@
  * Theme Author: Apollo (Minjie Zhang)
  * Author Email: Ze.Apollo[at]Gmail.com
  * Author Blog: http://imapollo.blogbus.com
- * Version: 1.00
+ * Version: 1.01
  * Description: based on Punkid's sandbox & Tuzki4.0
  * Last Modified: Nov 14, 2009
  *
  * Revision 1.00, Nov 14, 2009, Author: Apollo
+ * Revision 1.01, Jan 24, 2010, Author: Apollo
  *
  * Encoding: UTF-8
  * Special thanks to Punkid
@@ -214,7 +215,7 @@ blockquote {
 
   #tuzkiHead {
     float: right;
-    margin-right: 80px;
+    margin-right: 40px;
   }
 
 #navibar {
