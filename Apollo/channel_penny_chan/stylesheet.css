@@ -4,12 +4,13 @@
  * Theme URI: http://ruyirabbit.blogbus.com/
  * Author Email: ze.apollo[at]gmail.com
  * Author Blog: http://imapollo.blogbus.com
- * Version: 0.1
+ * Version: 0.2
  * Description: Channel Penny Chan
- * Last Modified: Mar 06, 2010
+ * Last Modified: Mar 07, 2010
  * Encoding: UTF-8
  *
- * $Revision 0.1, Created: Apollo, Date: Mar 06, 2010
+ * $Revision 0.1, Created:  Apollo, Date: Mar 06, 2010
+ * $Revision 0.2, Modified: Apollo, Date: Mar 07, 2010
  *
  * Based on Punkid's BlogBus Sandbox
  * (http://blog.punkid.cn/)
@@ -34,7 +35,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 
 body {
-  line-height: 1;
+  line-height: 120%;
 }
 
 ol, ul {
@@ -78,8 +79,8 @@ table {
 
 body {
   font: 12px Verdana,'Helvetica Neue',Helvetica,Sans-Serif;
-  background: #F5F1E8;
-  color: #000;
+  background: #FFF url(http://filer.blogbus.com/1390495/resource_13904951267941930.jpg) repeat top left;
+  color: #444;
   text-align: left;
 }
 
@@ -105,12 +106,12 @@ h1, h2, h3, h4 {
   }
 
 a {
-  color: #317B9E;
+  color: #9D5555;
   text-decoration: none;
 }
 
 a:hover {
-  color: #408DB4;
+  color: #FF8B8B;
   text-decoration: none;
 }
 
@@ -181,20 +182,42 @@ blockquote {
  * ------------------------------------------------------------------*/
 
 #wrapper {
-  width: 780px;
-  margin: 0 auto;
+  width: 960px;
+  margin: 0;
   font-size: 12px;
 }
 
 #header {
-  padding: 20px;
+  margin-top: 40px;
+  height: 63px;
 }
 
   h1#blogname {
     font-size: 20px;
+    width: 220px;
+    height: 63px;
+    line-height: 63px;
+    margin-right: 10px;
+    border-top: solid 1px #CCC;
+    border-bottom: solid 1px #CCC;
   }
 
   div#description { }
+
+  div.naviitem {
+    width: 175px;
+    display: block;
+    padding-top:40px;
+    height: 23px;
+    margin-right: 10px;
+    border-top: solid 1px #CCC;
+    border-bottom: solid 1px #CCC;
+  }
+
+  div.naviitem:hover {
+    height: 20px;
+    border-bottom: solid 4px #CCC;
+  }
 
 #content {
   margin: 0;
@@ -202,14 +225,12 @@ blockquote {
 
   #primary {
     float: left;
-    padding-left: 20px;
-    width: 500px;
+    width: 770px;
   }
 
   #secondary {
     float: right;
-    padding-right: 20px;
-    width: 220px;
+    width: 175px;
   }
 
 #footer {
@@ -233,7 +254,8 @@ blockquote {
   #pagenavi span { }
 
 #navigation {
-  text-align: center;
+  text-align: left;
+  margin: 0 0 15px 230px;
 }
 
   span.pre { }
@@ -243,18 +265,75 @@ blockquote {
   span.next { }
 
 div.entry {
-  margin: 0 0 20px 0;
+  margin: 0;
 }
 
-  div.entryhead { }
+div.entrymeta {
+  float: left;
+  text-align: right;
+  width: 220px;
+  color: #666;
+}
 
-    h2.entrytitle { }
+div.entrymeta div {
+  padding-bottom: 4px;
+}
 
-    div.metadata { }
+div.entrymeta a {
+  color: #666;
+}
 
-      div.metadata span.date { }
+div.entrymeta a:hover {
+  color: #FF8B8B;
+  text-decoration: none;
+}
 
-      div.metadata a.author { }
+  div.entrymeta div.metahead {
+    font-size: 13px;
+    color: #9D5555;
+  }
+
+  div.entrymeta div.metadate { }
+
+  div.entrymeta div.metacomment {
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    width: 100px;
+    float: right;
+  }
+
+  div.entrymeta div.metacomment .readmore {
+    margin-top: -36px;
+  }
+
+  div.entrymeta div.metacomment a {
+    display: block;
+  }
+
+div.entrycontent {
+  float: right;
+  width: 540px;
+  line-height: 160%;
+}
+
+div.entryfooter {
+  clear: both;
+  border-bottom: solid 1px #CCC;
+  margin-bottom: 10px;
+  padding-left: 230px;
+  padding-bottom: 10px;
+}
+
+  div.entryhead {
+    margin-left: 230px;
+    margin-bottom: 10px;
+  }
+
+    h2.entrytitle {
+      font-size: 14px;
+      font-weight: normal;
+    }
 
     div.entrybody { }
 
@@ -270,19 +349,14 @@ div.entry {
       list-style: outside decimal;
     }
 
-    div.entryfoot { }
-
-    div.entryfoot span.tags { }
-
-    div.entryfoot span.category { }
-
-    div.entryfoot span.trackback { }
-
-    div.entryfoot span.menubar { }
-
     p.cc-lisence { }
 
     div.relpost { }
+
+    div.relpost h3 {
+      font-size: 13px;
+      font-weight: normal;
+    }
 
     div.addfav { }
 
@@ -291,9 +365,17 @@ div.entry {
 /* Commentfield
  * ------------------------------------------------------------------*/
 
-  #comments { }
+  #comments {
+    padding-left: 230px; 
+    padding-bottom: 10px;
+    border-bottom: 1px solid #999;
+  }
 
-  #comments h2 { }
+  #comments h2 {
+    font-size: 14px;
+    color: #9D5555;
+    font-weight: normal;
+  }
 
   #comments li {
     margin: 0 0 20px;
@@ -320,10 +402,16 @@ div.entry {
       #comments li div.cmtPagenav { }
 
   #commentForm {
-    margin: 20px 0;
+    margin-top: 20px;
+    padding: 0 0 10px 230px;
+    border-bottom: 1px solid #999;
   }
 
-  #commentForm h2 { }
+  #commentForm h2 {
+    font-size: 14px;
+    color: #9D5555;
+    font-weight: normal;
+  }
 
   #commentForm form {
     width: 80%;
@@ -361,11 +449,28 @@ div.entry {
 /* Modules
  * ------------------------------------------------------------------*/
 
-div.module { }
+div.module {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+div.module a {
+  color: #666;
+}
+
+div.module a:hover {
+  color: #FF8B8B;
+  text-decoration: none;
+}
 
   div.modTop { }
 
-    div.module h2 { }
+    div.module h2 {
+      font-weight: normal;
+      font-size: 13px;
+      color: #9D5555;
+      margin-bottom: 10px;
+    }
 
   div.modBody { }
 
