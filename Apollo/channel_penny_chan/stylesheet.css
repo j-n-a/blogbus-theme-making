@@ -195,20 +195,26 @@ blockquote {
   height: 63px;
 }
 
-  div#blogname {
-    font-size: 20px;
+  h1#blogname {
+    margin-right: 10px;
+  }
+
+  h1#blogname a {
+    margin: 0;
+    padding: 0;
     width: 220px;
     height: 63px;
+    text-indent: -2010px;
     line-height: 63px;
-    margin-right: 10px;
     border-top: solid 1px #CCC;
     border-bottom: solid 1px #CCC;
     overflow: hidden;
+    display: block;
+    background: url(http://filer.blogbus.com/1390495/resource_13904951268477968x.jpg) no-repeat top left;
   }
 
-  div#blogname a:hover {
-    position: relative;
-    top: -63px;
+  h1#blogname a:hover {
+    background: url(http://filer.blogbus.com/1390495/resource_13904951268477968x.jpg) no-repeat bottom left;
   }
 
   div#description { }
