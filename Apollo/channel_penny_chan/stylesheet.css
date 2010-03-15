@@ -4,14 +4,15 @@
  * Theme URI: http://ruyirabbit.blogbus.com/
  * Author Email: ze.apollo[at]gmail.com
  * Author Blog: http://imapollo.blogbus.com
- * Version: 0.3
+ * Version: 1.0
  * Description: Channel Penny Chan
- * Last Modified: Mar 13, 2010
+ * Last Modified: Mar 15, 2010
  * Encoding: UTF-8
  *
  * $Revision 0.1, Created:  Apollo, Date: Mar 06, 2010
  * $Revision 0.2, Modified: Apollo, Date: Mar 07, 2010
  * $Revision 0.3, Modified: Apollo, Date: Mar 13, 2010
+ * $Revision 1.0, Modified: Apollo, Date: Mar 15, 2010
  *
  * Based on Punkid's BlogBus Sandbox
  * (http://blog.punkid.cn/)
@@ -241,9 +242,10 @@ blockquote {
 
 #content {
   margin: 0;
+  padding-top: 10px;
 }
 
-  #primary {
+  #posts {
     float: left;
     width: 770px;
   }
@@ -284,7 +286,7 @@ blockquote {
 
   span.next { }
 
-div.entry {
+div.posts {
   margin: 0;
 }
 
@@ -357,7 +359,10 @@ div.entryfooter {
       font-weight: normal;
     }
 
-    div.entrybody { }
+    div.entrybody {
+        position: relative;
+        vertical-align: baseline;
+    }
 
     div.entrybody ul, div.entrybody ol {
       margin: 32px 0 32px 32px;
