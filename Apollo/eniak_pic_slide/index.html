@@ -1,0 +1,127 @@
+<div id="container">
+	<div id="header">
+		<div class="blogName">
+			<a href="http://{#domain}" title="http://{#domain}">{#blog_name}</a>
+		</div>
+		<div class="blogDes">
+			{#blog_desc}
+		</div>
+	</div>
+	<div id="content">
+		<div id="index">
+                     <div id="nav_container">
+			<ul>
+				<li>				
+					<a href="http://video.blogbus.com/">首页</a>
+				</li>
+				<li>				
+					<a target=_blank href="http://www.theworld.cn/my.php">收藏夹</a>
+				</li>
+				<li>				
+					<a href="http://video.blogbus.com/">下载教程</a>
+				</li>
+				<li>				
+					<a href="http://video.blogbus.com/">视频技术</a>
+				</li>
+				<li>				
+					<a target=_blank href="http://www.blogbus.com/user/?blogid=4331723&mm=Post">LOGIN</a>
+				</li>
+			</ul>
+		    </div>
+		</div>
+
+
+<table style="margin-left:80px"><tr><td>
+<!-- 公告板 -->
+<div style=" font-family: Microsoft YaHei, 新宋体, Helvetica, sans-serif;
+font-size: 8px; color:#000000; font-weight; ">
+<div id="bulletinBoard" style="line-height:19px;overflow:hidden;height:18px"
+onmouseout="changeID=setInterval('ChangeBulletin()', changeDelay)"
+onmouseover="clearInterval(changeID)"></div>
+<script>
+var bulletinContent = new Array();    // 1
+var bulletinIndex = 0;                // 0
+var changeDelay = 5000;               // 2500
+var scrollDelay = 20;                 // 20
+var changeID;                         // 切换定时器
+var scrollID;                         // 滚动定时器
+var maxLines = 3;	// 1
+
+// 初始化公告板
+function InitBulletin()
+{
+    // 公告内容，在这里用户可以写自己的公告内容，每一行为一个公告
+
+      bulletinContent[0] = "<img src=http://eniak.blogbus.com/files/12252639770.gif>   博客装修中，<span style='color:#FF0066'> 海量MV等着你~";
+          // 设置公告板初始化内容
+    bulletinBoard.innerHTML = bulletinContent[bulletinIndex % bulletinContent.length] + "<br />" 
+    bulletinBoard.innerHTML += bulletinContent[(bulletinIndex + 1)  % bulletinContent.length];
+    // 启动切换定时器
+    changeID = setInterval("ChangeBulletin()",changeDelay);
+}
+
+// 切换公告内容
+function ChangeBulletin()
+{
+    // 更新公告板内容
+    bulletinBoard.innerHTML = bulletinContent[bulletinIndex] + "<br />";
+    bulletinBoard.innerHTML += bulletinContent[(bulletinIndex + 1)  % bulletinContent.length] 
+    bulletinIndex++;
+    bulletinIndex %= bulletinContent.length;
+    // 滚动公告板
+    bulletinBoard.scrollTop = 0;
+    clearInterval(scrollID);
+    scrollID = setInterval("ScrollBulletin()",scrollDelay);        
+}
+
+// 滚动公告
+function ScrollBulletin()
+{
+    bulletinBoard.scrollTop++;
+    if (bulletinBoard.scrollTop == 20)
+    {
+        clearInterval(scrollID);
+    }
+}
+
+// 调用公告板初始化函数
+InitBulletin();
+</script>
+</td></tr></table>
+
+
+
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH ="550" HEIGHT="150">
+<PARAM NAME="movie" VALUE="http://www.bababian.com/slide.swf?uid=&amp;sid=5A67F2E4145EBC9F5A159C3732B730D5DS&amp;gid=&amp;tag=&amp;count=50&amp;host=http://www.bababian.com/"/>
+<PARAM NAME="quality" VALUE="high"/>
+<EMBED quality="high" WIDTH="550" height="150" NAME="photo" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" src="http://www.bababian.com/slide.swf?uid=&amp;sid=5A67F2E4145EBC9F5A159C3732B730D5DS&amp;gid=&amp;tag=&amp;count=50&amp;host=http://www.bababian.com/">
+</EMBED></OBJECT>
+
+
+<script type="text/javascript">
+var Month = ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+var div, date, year, month, day;
+</script>
+		{c:0}
+	</div>
+	<div id="sidebar">
+<div class="clear"></div>
+		<div id="sidebarLeft">
+			{c:1}
+			<br>访问统计：{#counter}
+		</div>
+		<div id="sidebarRight">
+			{c:2}
+
+		</div>
+	</div>
+	<div id="footer">
+
+ 
+..
+</iframe><div align="center">Special thanks to <a target=_blank href="http://imapollo.blogbus.com">Apollo</a> & <a target=_blank href="http://zuile.blogbus.com/">Zuile</a>  & <a target=_blank href="http://iamzxx.blogbus.com">Iamzxx</a>  & <a target=_blank href="http://usi-i.blogbus.com">usi-i  </a> </a>
+
+<script src="http://s11.cnzz.com/stat.php?id=2108342&web_id=2108342&show=pic1" language="JavaScript"></script>
+<script type="text/javascript" language="JavaScript" src="http://www.nasboq.com/stat?id=9219&sid=i1"></script>
+</div>
+</div>

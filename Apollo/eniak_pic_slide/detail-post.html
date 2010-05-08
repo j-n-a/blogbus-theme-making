@@ -1,0 +1,66 @@
+<ul id="posts">
+	<div id="pageNavi">
+		{#pre} | <a href="http://{#domain}">Index</a> | {#next}
+	</div><br>
+	<!--list-->
+	<li>
+
+
+                <div id="entryHeader">
+                    <h3>{#date}</h3>
+                    <h2><a href="{#url}">{#title}</a></h2>
+            	    <div class="cat_tag">{#cat} <img src="http://filer.blogbus.com/4153314/resource_41533141272043755v.png" align="absmiddle"> {#tags}</div>
+		</div>
+		<div id="entryContent">
+			{#content}
+                        Trackback:<input type="text" value="{#tb_url}"/>
+		</div>
+		<div id="entryFooter">
+			{#author} ·¢±íÓÚ {#time} | {#menubar}
+		</div>
+
+	</li>
+	<!--/list-->
+</ul>
+
+
+
+
+
+
+
+..
+
+<SCRIPT LANGUAGE="JAVASCRIPT">
+var obj=document.getElementsByTagName("SCRIPT");
+for(i=0;i<obj.length;i++){
+ if( obj[i].src.search(/http:\/\/www\.blogbus\.com\/ads/gi)!=-1 ){
+    var p=obj[i].parentNode;
+    if( p ){
+        if( p.nodeName=="TD" ){
+            while( p.nodeName!="TABLE" ){
+                p=p.parentNode;
+            }
+			
+            var pb=p.previousSibling;
+            while(pb.tagName=='BR'){
+                var pbt=pb.previousSibling;
+                //pb.parentNode.removeChild(pb);
+	       pb.style.display = "none";
+                pb=pbt;
+            }
+   
+            var pn=p.nextSibling;
+            while(pn.tagName=='BR'){
+                var pnt=pn.previousSibling;
+                //pn.parentNode.removeChild(pn);
+	       pn.style.display = "none";
+                pn=pnt;
+            }
+            //p.parentNode.removeChild(p); 
+	   p.style.display = "none";
+       }
+    }
+ }
+}
+</SCRIPT>

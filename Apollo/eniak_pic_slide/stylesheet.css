@@ -1,0 +1,596 @@
+/* 
+	Style: Apollo's Skin 07
+	Version: 1.0
+	Author: Apollo
+	Email: ze.apollo@gmail.com
+
+	Optimal Configuation: Best view in at least 1024*768 dpi, Ture color, Javascript Enabled.
+	Browser Support: MS-IE 7+/Mozilla FireFox 2.0+
+	(c) Copyright 2007-2050 J&A. All Rights Reserved.
+*/
+
+/***** Global Settings *****/
+ 
+html, body {
+border:0;
+margin:0;
+padding:0;
+line-height:130%;
+}
+
+body {
+background:url(http://files.blogbus.com/apollo-skin7.blogbus.com/files/12021213160.gif) repeat-x top left;
+font:14px "黑体",Verdana,Arial, Helvetica, sans-serif;
+}
+ 
+/***** Headings *****/
+ 
+h1, h2, h3, h4, h5, h6 {
+margin:0;
+padding:0;
+font-weight:normal;
+}
+ 
+h1 {
+padding:30px 0 25px 0;
+letter-spacing:-1px;
+font-size:2em;
+}
+ 
+h2 {
+padding:20px 0;
+letter-spacing:-1px;
+font-size:1.5em;
+}
+ 
+h3 {
+font-size:1em;
+font-weight:bold;
+}
+ 
+/***** Common Formatting *****/
+ 
+p, ul, ol, li {
+list-style:none;
+margin:0;
+padding:0;
+}
+
+p{
+margin: 0 auto 18px;
+}
+
+ul, ol, li {
+padding:0;
+}
+ 
+blockquote {
+margin:1.25em;
+padding:1.25em 1.25em 0 1.25em;
+}
+ 
+small {
+font-size:0.85em;
+}
+ 
+img {
+border:0;
+}
+ 
+sup {
+position:relative;
+bottom:0.3em;
+vertical-align:baseline;
+}
+ 
+sub {
+position:relative;
+bottom:-0.2em;
+vertical-align:baseline;
+}
+ 
+acronym, abbr {
+cursor:help;
+letter-spacing:1px;
+border-bottom:1px dashed;
+}
+ 
+/***** Links *****/
+
+a,
+a:link,
+a:visited,
+a:hover {
+text-decoration:none;
+}
+ 
+/***** Forms *****/
+ 
+form {
+margin:0;
+padding:0;
+display:inline;
+}
+ 
+input, select, textarea {
+font:1em "黑体",Arial, Helvetica, sans-serif;
+}
+ 
+textarea {
+width:100%;
+line-height:1.25;
+}
+ 
+label {
+}
+ 
+/***** Tables *****/
+ 
+table {
+border:0;
+margin:0 0 1.25em 0;
+padding:0;
+}
+ 
+table tr td {
+padding:2px;
+}
+ 
+/***** Wrapper *****/
+ 
+#wrap {
+width:960px;
+margin:0 auto;
+}
+
+/*****Structure*****/
+
+#container{
+width:920px;
+margin:0 auto;
+}
+
+#header{
+background:url(http://files.blogbus.com/eniak.blogbus.com/files/12095348480.jpg) no-repeat top left;
+height:75px;
+}
+
+#index{
+height:30px;
+background:url(http://files.blogbus.com/apollo-skin7.blogbus.com/files/12021213163.jpg) no-repeat top left;
+font-size:13px;
+padding: 12px 0 0 82px;
+}
+
+#index a, #index a:visited{
+color:#8fa2c0;
+}
+
+#index a:hover{
+color:#333;
+}
+
+#content{
+width:560px;
+margin:0;
+float:left;
+}
+
+#detailContent{
+width:730px;
+margin:0;
+float:left;
+}
+
+#detailSidebar{
+width:170px;
+margin:0;
+float:right;
+overflow:hidden;
+font-size:12px;
+color:#999;
+}
+
+#sidebar{
+overflow:hidden;
+width:350px;
+margin:0;
+float:right;
+font-size:12px;
+color:#999;
+}
+
+#sidebarLeft{
+width:170px;
+margin:0;
+float:left;
+}
+
+#sidebarRight{
+width:170px;
+margin:0;
+float:right;
+}
+
+#footer{
+clear:both;
+padding: 10px 0 10px 0;
+text-align:center;
+font-size:12px;
+color:#999;
+}
+
+#footer a{
+color: #90a3c1;
+}
+
+#footer a:hover{
+color:#ff4f42;
+text-decoration:underline;
+}
+
+.blogName{
+color:#fff;
+padding:20px 10px 0 100px;
+font-weight:bold;
+}
+
+.blogName a{
+color:#fff;
+}
+
+.blogDes{
+font-size:12px;
+color:#90a3c1;
+padding:0 10px 0 100px;
+}
+
+/*index-posts*/
+
+#entryHeader{
+/*background:url(http://files.blogbus.com/apollo-skin7.blogbus.com/files/12029760620.gif) repeat-x bottom left;*/
+margin-bottom:5px;
+padding-left:10px;
+border-left:4px solid #FF3E96;
+}
+
+#entryHeader h3 {
+margin-left:0px;
+padding:2px 0 0;
+font-weight: normal; 
+color: #666; 
+font-size: 12px;
+height:16px; 
+font-family:"黑体",Verdana, Arial, Helvetica, sans-serif; 
+}
+
+#entryHeader h2 { padding-top:0px; padding-bottom:2px; }
+
+#entryHeader h2 a { color:#666; text-decoration:none; font-size:17px; font-weight:bold;}
+
+
+#entryHeader .cat_tag {
+margin-left:0px;padding-top:2px;color:#666;padding-bottom:5px;padding-left:20px;
+background:url(http://filer.blogbus.com/4153314/resource_415331412720436424.png) no-repeat left center;
+}
+
+#entryHeader .cat_tag a{
+color:#666;
+text-decoration:underline;
+}
+
+
+#entryContent{
+font-size:13px;
+padding-bottom:10px;
+color: #555;
+}
+
+#entryContent input{
+width:560px;
+}
+
+#entryFooter{
+background:url(http://files.blogbus.com/apollo-skin7.blogbus.com/files/12021213166.gif) repeat top left;
+color:#666;
+font-size:13px;
+line-height:100%;
+height:22px;
+padding: 6px 10px 0 2px;
+margin-bottom:30px;
+}
+
+#entryFooter a, #entryFooter a:visited{
+color:#666;
+text-decoration:underline;
+}
+
+#entryFooter a:hover{
+color:#666;
+text-decoration:underline;
+}
+
+#pageNavi{
+font-size:12px;
+color:#333;
+}
+
+#pageNavi a, #pageNavi a:visited{
+color:#90a3c1;
+}
+
+#pageNavi a:hover{
+color:#ff4f42;
+text-decoration:underline;
+}
+
+#entryContent a, #entryContent a:visited{
+color:#90a3c1;
+}
+
+#entryContent a:hover{
+color:#ff4f42;
+text-decoration:underline;
+}
+
+/*****sidebar*****/
+
+.module{
+font-size:12px;
+}
+
+.module h2{
+text-align:left;
+font-size:13px;
+font-weight:bold;
+color:#aaa;
+line-height:100%;
+padding:0 0 3px 0;
+margin:20px 0 5px 0;
+border-bottom:5px #eee solid; 
+}
+
+.module a{
+color:#90a3c1;
+}
+
+.module a:hover{
+color:#ff4f42;
+text-decoration:underline;
+}
+
+.modBody li{
+margin-bottom:5px;
+padding-bottom:1px;
+border-bottom:#eee 1px solid;
+}
+
+#profile img{
+border:1px #ccc solid;
+padding:2px;
+}
+
+#calendar{
+text-align:center;
+}
+
+#tags li, #links li, #cats li{
+background:url(http://files.blogbus.com/apollo-skin7.blogbus.com/files/12029958560.jpg) no-repeat 0 2px;
+padding-left:15px;
+}
+
+#tags li a {
+font-family:Verdana,Arial,Helvetica,sans-serif;
+}
+
+/*****Comments Form*****/
+
+#comments{
+color:#333;
+font-size:13px;
+}
+
+#comments h2{
+border-bottom: 5px #eee solid;
+color:#333;
+line-height:100%;
+padding: 0 0 3px 0;
+margin-bottom:5px;
+font-size:14px;
+}
+
+#comments a, #comments a:visited{
+color:#90a3c1;
+}
+
+#comments a:hover{
+color:#ff4f42;
+text-decoration:underline;
+}
+
+#comments li{
+background:url(http://files.blogbus.com/apollo-skin7.blogbus.com/files/12021213166.gif) repeat top left;
+margin:10px 0 15px 0;
+padding:5px;
+border:1px solid #ccc;
+}
+
+.reCmtBody{
+border:1px solid #ddd;
+background:#fcfcfc;
+margin:5px;
+padding:5px;
+}
+
+#commentForm{
+color:#333;
+font-size:13px;
+}
+
+#commentForm h2{
+border-bottom: 5px #eee solid;
+color:#333;
+line-height:100%;
+padding: 0 0 3px 0;
+margin-bottom:5px;
+font-size:14px;
+}
+
+input{
+background:url(http://files.blogbus.com/apollo-skin7.blogbus.com/files/12021213166.gif) repeat top left;
+border:#ccc solid 1px;
+}
+
+textarea{
+background:url(http://files.blogbus.com/apollo-skin7.blogbus.com/files/12021213166.gif) repeat top left;
+border:#ccc solid 1px;
+}
+
+#commentForm label {
+	display: block;
+}
+
+/***** Global Classes *****/
+ 
+.clear         { clear:both; }
+.float-left    { float:left; }
+.float-right   { float:right; }
+ 
+.text-left     { text-align:left; }
+.text-right    { text-align:right; }
+.text-center   { text-align:center; }
+.text-justify  { text-align:justify; }
+ 
+.bold          { font-weight:bold; }
+.italic        { font-style:italic; }
+.underline     { border-bottom:1px solid; }
+.highlight     { background:#ffc; }
+ 
+.wrap          { width:960px;margin:0 auto; }
+ 
+.img-left      { float:left;margin:4px 10px 4px 0; }
+.img-right     { float:right;margin:4px 0 4px 10px; }
+ 
+.nopadding     { padding:0; }
+.noindent      { margin-left:0;padding-left:0; }
+.nobullet      { list-style:none;list-style-image:none; }
+
+.mydate {float:left; display:inline; background: url('http://eniak.blogbus.com/files/12257159100.png') top center no-repeat; margin:5px; padding-top:2px; width:47px; height:47px; text-align: center;  font-size:13px; line-height:normal; font-family:Comic Sans MS; color:#888; visibility:hidden; }
+
+.mydate  strong {display:block; color:#FFF;  font-size:18px; }
+
+#posts {margin-top:10px; }
+
+
+
+#nav_container{
+	float:left;
+	}
+	#nav_container li{
+	padding:0px;
+	margin-bottom:1px;
+	float:left;
+	border-right:1px solid #ccc;
+	border-left: 1px solid #888;
+	}
+	#nav_container a:link,#nav_container a:visited,#nav_container a:active{
+	width:90px;
+	background: url('http://filer.blogbus.com/4153314/resource_41533141271336517u.gif') 0px -70px repeat-x;
+	font-weight:bold;
+	height:20px;
+	padding-top:5px;
+	display:block;
+	text-align:center;
+	border-bottom:1px solid #777;
+	text-decoration:none;
+	color:#333;
+	}
+	#nav_container a:hover{
+	color:#000;
+	background: url('http://filer.blogbus.com/4153314/resource_41533141271336517u.gif')  0px 0px repeat-x;
+	}
+
+#about {
+margin: 5px 0; 
+padding: 5px; 
+border-left: 2px solid #000; 
+border-right: 2px solid #000; 
+border-top: 2px solid #000; 
+border-bottom: 2px solid #000; 
+word-wrap: break-word;
+}
+
+
+.topact {
+	padding: 0px 0px; 
+	margin: 0px 0px 0px 0px;
+	background-color: none;
+}
+
+.topact img {
+	padding: 2px;
+	margin: 1px;
+	background-color: #BABA85;
+}
+.topact a:hover img {
+	background-color: #ff9999;
+}
+
+
+
+/* lytebox
+----------------------------------------------- */
+
+#lbOverlay { position: fixed; top: 0; left: 0; z-index: 99998; width: 100%; height: 500px; }
+	#lbOverlay.grey { background-color: #000000; }
+
+#lbMain { position: absolute; left: 0; width: 100%; z-index: 99999; text-align: center; line-height: 0; }
+#lbMain a img { border: none; }
+
+#lbOuterContainer { position: relative; background-color: #fff; width: 200px; height: 200px; margin: 0 auto; }
+	#lbOuterContainer.grey { border: 0px solid #888888; }
+
+#lbDetailsContainer {	font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; width: 100%; line-height: 1.4em;	overflow: auto; margin: 0 auto; }
+	#lbDetailsContainer.grey { border: 0px solid #888888; border-top: none; }
+
+#lbImageContainer, #lbIframeContainer { padding: 10px; }
+#lbLoading {
+	position: absolute; top: 45%; left: 0%; height: 32px; width: 100%; text-align: center; line-height: 0; background: url(http://wuhuiyu1983.blogbus.com/files/12421909842.gif) center no-repeat;
+}
+
+#lbHoverNav { position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#lbImageContainer>#lbHoverNav { left: 0; }
+#lbHoverNav a { outline: none; }
+
+#lbPrev { width: 49%; height: 100%; background: transparent url(http://wuhuiyu1983.blogbus.com/files/12421909840.gif) no-repeat; display: block; left: 0; float: left; }
+	#lbPrev.grey:hover, #lbPrev.grey:visited:hover { background: url(http://wuhuiyu1983.blogbus.com/files/12421909846.gif) left 15% no-repeat; }
+	
+#lbNext { width: 49%; height: 100%; background: transparent url(http://wuhuiyu1983.blogbus.com/files/12421909840.gif) no-repeat; display: block; right: 0; float: right; }
+	#lbNext.grey:hover, #lbNext.grey:visited:hover { background: url(http://wuhuiyu1983.blogbus.com/files/12421909843.gif) right 15% no-repeat; }
+
+#lbPrev2, #lbNext2 { text-decoration: none; font-weight: bold; }
+	#lbPrev2.grey, #lbNext2.grey, #lbSpacer.grey { color: #333333; }
+	
+#lbPrev2_Off, #lbNext2_Off { font-weight: bold; }
+	#lbPrev2_Off.grey, #lbNext2_Off.grey { color: #CCCCCC; }
+
+#lbDetailsData { padding: 0 10px; }
+	#lbDetailsData.grey { color: #333333; }
+
+#lbDetails { width: 60%; float: left; text-align: left; }
+#lbCaption { display: block; font-weight: bold; }
+#lbNumberDisplay { float: left; display: block; padding-bottom: 1.0em; }
+#lbNavDisplay { float: left; display: block; padding-bottom: 1.0em; }
+
+#lbClose { width: 64px; height: 28px; float: right; margin-bottom: 1px; }
+	#lbClose.grey { background: url(http://wuhuiyu1983.blogbus.com/files/12421909841.png) no-repeat; }
+
+#lbPlay { width: 64px; height: 28px; float: right; margin-bottom: 1px; }
+	#lbPlay.grey { background: url(http://wuhuiyu1983.blogbus.com/files/12421909845.png) no-repeat; }
+	
+#lbPause { width: 64px; height: 28px; float: right; margin-bottom: 1px; }
+	#lbPause.grey { background: url(http://wuhuiyu1983.blogbus.com/files/12421909844.png) no-repeat; }
+
+#nPosts, #nComments, #pageNavi a {
+font-family:Verdana,Arial,Helvetica,"宋体",sans-serif;
+}
