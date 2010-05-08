@@ -1,0 +1,69 @@
+<div class="side-sec">
+	     <h3>TagCloud</h3>
+<script type='text/javascript'>
+cloudEmbed_id='tagcloud';
+cloudEmbed_name='tagcloud';
+cloudEmbed_bgcolor='#ffffff'; //背景顏色
+cloudEmbed_quality='high';
+cloudEmbed_width='170';
+cloudEmbed_height='200';
+//cloudEmbed_wmode='transparent'; //背景設為透明
+cloudEmbed_tcolor="333333"; //Tag 的顏色
+cloudEmbed_tspeed="100";
+
+addCloudTagsURL('http://video.blogbus.com/tag/480P', '480P');
+addCloudTagsURL('http://video.blogbus.com/c1898833', 'Chinese');
+addCloudTagsURL('http://video.blogbus.com/tag/MP4', 'MP4');
+addCloudTagsURL('http://video.blogbus.com/tag/LIVE', 'LIVE');
+addCloudTagsURL('http://video.blogbus.com/tag/MV', 'MV');
+addCloudTagsURL('http://video.blogbus.com/tag/Adam-Lambert/', 'Adam-Lambert');
+addCloudTagsURL('http://video.blogbus.com/c1898834', 'Japanese');
+addCloudTagsURL('http://video.blogbus.com/c1898835', 'Korea');
+
+genEmbedCloudTag();
+</script>
+</div>
+
+
+
+
+
+
+
+<script language="JavaScript1.2">
+var clickmessage="对不起，图片不能右击!"
+function disableclick(e) {
+if (document.all) {
+if (event.button==2||event.button==3) {
+if (event.srcElement.tagName=="IMG"){
+alert(clickmessage);
+return false;
+}
+}
+}
+else if (document.layers) {
+if (e.which == 3) {
+alert(clickmessage);
+return false;
+}
+}
+else if (document.getElementById){
+if (e.which==3&&e.target.tagName=="IMG"){
+alert(clickmessage)
+return false
+}
+}
+}
+
+function associateimages(){
+for(i=0;i<document.images.length;i++)
+document.images[i].onmousedown=disableclick;
+}
+
+if (document.all)
+document.onmousedown=disableclick
+else if (document.getElementById)
+document.onmouseup=disableclick
+else if (document.layers)
+associateimages()
+</script>

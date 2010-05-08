@@ -594,3 +594,24 @@ word-wrap: break-word;
 #nPosts, #nComments, #pageNavi a {
 font-family:Verdana,Arial,Helvetica,"ËÎÌו",sans-serif;
 }
+
+/* slide show */
+#slide_border {
+  -moz-background-clip: -moz-initial;
+  -moz-background-origin: -moz-initial;
+  -moz-background-inline-policy: -moz-initial;
+}
+
+#slide_screen span {
+  position:absolute;
+  overflow:hidden;
+  border:#FFF solid 1px;
+  background:#FFF;
+}
+
+#slide_screen img {
+  position:absolute;
+  left:-32px;
+  top:-32px;
+  cursor: pointer;
+}
