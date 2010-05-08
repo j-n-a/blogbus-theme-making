@@ -39,7 +39,7 @@ var Nx = 4; //size grid x
 var Ny = 2; //size grid y
 var Tx = 2; // image width TODO: what is Tx & Ty
 var Ty = 2; // image height
-var Mg = 40; // margin
+var Mg = 70; // margin
 var SP = 1; // speed
 //////////////////////////////////////////////////////////
 
