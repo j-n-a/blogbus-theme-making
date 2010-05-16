@@ -1,12 +1,12 @@
 /* 
-	Style: Apollo's Skin 07
-	Version: 1.0
-	Author: Apollo
-	Email: ze.apollo@gmail.com
+    Style: Apollo's Skin 07
+    Version: 1.0
+    Author: Apollo
+    Email: ze.apollo@gmail.com
 
-	Optimal Configuation: Best view in at least 1024*768 dpi, Ture color, Javascript Enabled.
-	Browser Support: MS-IE 7+/Mozilla FireFox 2.0+
-	(c) Copyright 2007-2050 J&A. All Rights Reserved.
+    Optimal Configuration: Best view in at least 1024*768 dpi, Ture color, Javascript Enabled.
+    Browser Support: MS-IE 7+/Mozilla FireFox 2.0+
+    (c) Copyright 2007-2050 J&A. All Rights Reserved.
 */
 
 /***** Global Settings *****/
@@ -447,7 +447,7 @@ border:#ccc solid 1px;
 }
 
 #commentForm label {
-	display: block;
+    display: block;
 }
 
 /***** Global Classes *****/
@@ -484,31 +484,31 @@ border:#ccc solid 1px;
 
 
 #nav_container{
-	float:left;
-	}
-	#nav_container li{
-	padding:0px;
-	margin-bottom:1px;
-	float:left;
-	border-right:1px solid #ccc;
-	border-left: 1px solid #888;
-	}
-	#nav_container a:link,#nav_container a:visited,#nav_container a:active{
-	width:90px;
-	background: url('http://filer.blogbus.com/4153314/resource_41533141271336517u.gif') 0px -70px repeat-x;
-	font-weight:bold;
-	height:20px;
-	padding-top:5px;
-	display:block;
-	text-align:center;
-	border-bottom:1px solid #777;
-	text-decoration:none;
-	color:#333;
-	}
-	#nav_container a:hover{
-	color:#000;
-	background: url('http://filer.blogbus.com/4153314/resource_41533141271336517u.gif')  0px 0px repeat-x;
-	}
+    float:left;
+    }
+    #nav_container li{
+    padding:0px;
+    margin-bottom:1px;
+    float:left;
+    border-right:1px solid #ccc;
+    border-left: 1px solid #888;
+    }
+    #nav_container a:link,#nav_container a:visited,#nav_container a:active{
+    width:90px;
+    background: url('http://filer.blogbus.com/4153314/resource_41533141271336517u.gif') 0px -70px repeat-x;
+    font-weight:bold;
+    height:20px;
+    padding-top:5px;
+    display:block;
+    text-align:center;
+    border-bottom:1px solid #777;
+    text-decoration:none;
+    color:#333;
+    }
+    #nav_container a:hover{
+    color:#000;
+    background: url('http://filer.blogbus.com/4153314/resource_41533141271336517u.gif')  0px 0px repeat-x;
+    }
 
 #about {
 margin: 5px 0; 
@@ -522,18 +522,18 @@ word-wrap: break-word;
 
 
 .topact {
-	padding: 0px 0px; 
-	margin: 0px 0px 0px 0px;
-	background-color: none;
+    padding: 0px 0px; 
+    margin: 0px 0px 0px 0px;
+    background-color: none;
 }
 
 .topact img {
-	padding: 2px;
-	margin: 1px;
-	background-color: #BABA85;
+    padding: 2px;
+    margin: 1px;
+    background-color: #BABA85;
 }
 .topact a:hover img {
-	background-color: #ff9999;
+    background-color: #ff9999;
 }
 
 
@@ -542,20 +542,20 @@ word-wrap: break-word;
 ----------------------------------------------- */
 
 #lbOverlay { position: fixed; top: 0; left: 0; z-index: 99998; width: 100%; height: 500px; }
-	#lbOverlay.grey { background-color: #000000; }
+    #lbOverlay.grey { background-color: #000000; }
 
 #lbMain { position: absolute; left: 0; width: 100%; z-index: 99999; text-align: center; line-height: 0; }
 #lbMain a img { border: none; }
 
 #lbOuterContainer { position: relative; background-color: #fff; width: 200px; height: 200px; margin: 0 auto; }
-	#lbOuterContainer.grey { border: 0px solid #888888; }
+    #lbOuterContainer.grey { border: 0px solid #888888; }
 
-#lbDetailsContainer {	font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; width: 100%; line-height: 1.4em;	overflow: auto; margin: 0 auto; }
-	#lbDetailsContainer.grey { border: 0px solid #888888; border-top: none; }
+#lbDetailsContainer {    font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; width: 100%; line-height: 1.4em;    overflow: auto; margin: 0 auto; }
+    #lbDetailsContainer.grey { border: 0px solid #888888; border-top: none; }
 
 #lbImageContainer, #lbIframeContainer { padding: 10px; }
 #lbLoading {
-	position: absolute; top: 45%; left: 0%; height: 32px; width: 100%; text-align: center; line-height: 0; background: url(http://wuhuiyu1983.blogbus.com/files/12421909842.gif) center no-repeat;
+    position: absolute; top: 45%; left: 0%; height: 32px; width: 100%; text-align: center; line-height: 0; background: url(http://wuhuiyu1983.blogbus.com/files/12421909842.gif) center no-repeat;
 }
 
 #lbHoverNav { position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
@@ -563,19 +563,19 @@ word-wrap: break-word;
 #lbHoverNav a { outline: none; }
 
 #lbPrev { width: 49%; height: 100%; background: transparent url(http://wuhuiyu1983.blogbus.com/files/12421909840.gif) no-repeat; display: block; left: 0; float: left; }
-	#lbPrev.grey:hover, #lbPrev.grey:visited:hover { background: url(http://wuhuiyu1983.blogbus.com/files/12421909846.gif) left 15% no-repeat; }
-	
+    #lbPrev.grey:hover, #lbPrev.grey:visited:hover { background: url(http://wuhuiyu1983.blogbus.com/files/12421909846.gif) left 15% no-repeat; }
+    
 #lbNext { width: 49%; height: 100%; background: transparent url(http://wuhuiyu1983.blogbus.com/files/12421909840.gif) no-repeat; display: block; right: 0; float: right; }
-	#lbNext.grey:hover, #lbNext.grey:visited:hover { background: url(http://wuhuiyu1983.blogbus.com/files/12421909843.gif) right 15% no-repeat; }
+    #lbNext.grey:hover, #lbNext.grey:visited:hover { background: url(http://wuhuiyu1983.blogbus.com/files/12421909843.gif) right 15% no-repeat; }
 
 #lbPrev2, #lbNext2 { text-decoration: none; font-weight: bold; }
-	#lbPrev2.grey, #lbNext2.grey, #lbSpacer.grey { color: #333333; }
-	
+    #lbPrev2.grey, #lbNext2.grey, #lbSpacer.grey { color: #333333; }
+    
 #lbPrev2_Off, #lbNext2_Off { font-weight: bold; }
-	#lbPrev2_Off.grey, #lbNext2_Off.grey { color: #CCCCCC; }
+    #lbPrev2_Off.grey, #lbNext2_Off.grey { color: #CCCCCC; }
 
 #lbDetailsData { padding: 0 10px; }
-	#lbDetailsData.grey { color: #333333; }
+    #lbDetailsData.grey { color: #333333; }
 
 #lbDetails { width: 60%; float: left; text-align: left; }
 #lbCaption { display: block; font-weight: bold; }
@@ -583,35 +583,49 @@ word-wrap: break-word;
 #lbNavDisplay { float: left; display: block; padding-bottom: 1.0em; }
 
 #lbClose { width: 64px; height: 28px; float: right; margin-bottom: 1px; }
-	#lbClose.grey { background: url(http://wuhuiyu1983.blogbus.com/files/12421909841.png) no-repeat; }
+    #lbClose.grey { background: url(http://wuhuiyu1983.blogbus.com/files/12421909841.png) no-repeat; }
 
 #lbPlay { width: 64px; height: 28px; float: right; margin-bottom: 1px; }
-	#lbPlay.grey { background: url(http://wuhuiyu1983.blogbus.com/files/12421909845.png) no-repeat; }
-	
+    #lbPlay.grey { background: url(http://wuhuiyu1983.blogbus.com/files/12421909845.png) no-repeat; }
+    
 #lbPause { width: 64px; height: 28px; float: right; margin-bottom: 1px; }
-	#lbPause.grey { background: url(http://wuhuiyu1983.blogbus.com/files/12421909844.png) no-repeat; }
+    #lbPause.grey { background: url(http://wuhuiyu1983.blogbus.com/files/12421909844.png) no-repeat; }
 
 #nPosts, #nComments, #pageNavi a {
 font-family:Verdana,Arial,Helvetica,"ËÎÌו",sans-serif;
 }
 
 /* slide show */
-#slide_border {
-  -moz-background-clip: -moz-initial;
-  -moz-background-origin: -moz-initial;
-  -moz-background-inline-policy: -moz-initial;
+.newsMain {
+  WIDTH: 550px 
 }
-
-#slide_screen span {
-  position:absolute;
-  overflow:hidden;
-  border:#FFF solid 1px;
-  background:#FFF;
+.topNewsBox {
+  WIDTH: 550px; POSITION: relative; HEIGHT: 220px
 }
-
-#slide_screen img {
-  position:absolute;
-  left:-32px;
-  top:-32px;
-  cursor: pointer;
+.topNews {
+  BORDER-RIGHT: #b7b7b7 1px solid; BORDER-TOP: #b7b7b7 1px solid; Z-INDEX: 90; BACKGROUND: #f0f0f0; LEFT: 0px; BORDER-LEFT: #b7b7b7 1px solid; WIDTH: 550px; BORDER-BOTTOM: #b7b7b7 1px solid; POSITION: absolute; TOP: 0px; HEIGHT: 220px
+}
+.topNewsPic {
+  FLOAT: left; MARGIN: 7px 10px 0px 5px; OVERFLOW: hidden; WIDTH: 300; HEIGHT: 200px; 
+}
+.topNewsPic IMG {
+  WIDTH: 300px; HEIGHT: 200px;
+}
+.topNewsList {
+  MARGIN-TOP: 7px; FLOAT: left; OVERFLOW: hidden; WIDTH: 220px; HEIGHT: 200; text-align:left
+}
+.topNewsList UL {
+  MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 220px; HEIGHT: 200px
+}
+.topNewsList UL LI {
+  FONT-SIZE: 14px; OVERFLOW: hidden; WIDTH: 220px; LINE-HEIGHT: 27px; BORDER-BOTTOM: #dbdbdb 1px solid; HEIGHT: 27px
+}
+.topNewsList UL LI A {
+  PADDING-RIGHT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; FONT-SIZE: 13px; COLOR: #90A3C1
+}
+.topNewsList UL LI A.up {
+  FONT-WEIGHT: bold; COLOR: #FF4F42
+}
+.topNewsBg {
+  Z-INDEX: 80; BACKGROUND: #dedede; LEFT: 4px; WIDTH: 550px; POSITION: absolute; TOP: 4px; HEIGHT: 220px
 }

@@ -1,17 +1,109 @@
-<div style="position: relative">
-  <div id="slide_border"></div>
-  <div id="slide_screen" style="background: #FFF none repeat scroll 0%; width: 550px; height: 202px; left: -229px; top: -101px; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;">
-    <span style="left: 0px; top: 0px; width: 133px; height: 96px; z-index: 93;"><img style="left: -11px; top: -9px;" src="http://filer.blogbus.com/4153314/41533141273317389i.jpg" alt=""></span>
-    <span style="left: 141px; top: 0px; width: 133px; height: 96px; z-index: 93;"><img style="left: -11px; top: -9px;" src="http://filer.blogbus.com/4153314/41533141273317399b.jpg" alt=""></span>
-    <span style="left: 282px; top: 0px; width: 133px; height: 96px; z-index: 93;"><img style="left: -11px; top: -9px;" src="http://filer.blogbus.com/4153314/415331412733174096.jpg" alt=""></span>
-    <span style="left: 423px; top: 0px; width: 133px; height: 96px; z-index: 93;"><img style="left: -11px; top: -9px;" src="http://filer.blogbus.com/4153314/41533141273317418q.jpg" alt=""></span>
-    <span style="left: 0px; top: 104px; width: 93px; height: 68px; z-index: 93;"><img style="left: -11px; top: -9px;" src="http://filer.blogbus.com/4153314/415331412733174277.jpg " alt=""></span>
-    <span style="left: 141px; top: 104px; width: 93px; height: 68px; z-index: 93;"><img style="left: -11px; top: -9px;" src="http://filer.blogbus.com/4153314/41533141273317435l.jpg" alt=""></span>
-    <span style="left: 282; top: 104px; width: 93px; height: 68px; z-index: 93;"><img style="left: -11px; top: -9px;" src="http://filer.blogbus.com/4153314/415331412733174441.jpg" alt=""></span>
-    <span style="left: 423; top: 104px; width: 93px; height: 68px; z-index: 93;"><img style="left: -11px; top: -9px;" src="http://filer.blogbus.com/4153314/41533141273317451k.jpg" alt=""></span>
-  </div>
-</div>
+<div align="center">
+<SCRIPT language=javascript>
+var CurrentHotScreen = 0 ;
+function setHotQueryList(screen){
+  var Vmotion = "forward" ;
+  var MaxScreen = 7 ;
+  if (screen >= MaxScreen) {
+    screen = 0 ;
+    Vmotion = "reverse" ;
+  }
+  cleanallstyle();
+  document.getElementById("focus_"+screen).className = "up" ;
 
-<script type="text/javascript">
-load();
-</script>
+  if(null!=hot_query_td.filters){
+  hot_query_td.filters[0].apply();
+  hot_query_td.filters[0].motion = Vmotion;
+  }
+  for (i=0;i<MaxScreen;i++) {
+  document.getElementById("switch_"+i).style.display = "none" ;
+  }
+  document.getElementById("switch_"+screen).style.display = "block" ;
+  if(null!=hot_query_td.filters){
+  hot_query_td.filters[0].play();
+  }
+  CurrentHotScreen = screen ;
+}
+function refreshHotQuery(){
+  refreshHotQueryTimer = null;
+  setHotQueryList(CurrentHotScreen+1);
+  refreshHotQueryTimer = setTimeout('refreshHotQuery();', 5000);
+}
+</SCRIPT>
+
+<DIV class=newsMain>
+<DIV class=topNewsBox>
+<DIV class=topNews>
+<DIV class=topNewsPic>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD id=HotSearchList
+    style="FILTER: progid:DXImageTransform.Microsoft.GradientWipe(GradientSize=0.25,wipestyle=0,motion=forward)">
+<DIV id=switch_0><A onclick=setClick(); href="http://www.5icool.org/"
+blockid="931" target="_blank"><IMG src="http://filer.blogbus.com/4153314/41533141273317389i.jpg"></A></DIV>
+<DIV id=switch_1><A onclick=setClick(); href="http://www.5icool.org/"
+blockid="931" target="_blank"><IMG src="http://filer.blogbus.com/4153314/41533141273317399b.jpg"></A></DIV>
+<DIV id=switch_2><A onclick=setClick(); href="http://www.5icool.org/"
+blockid="931" target="_blank"><IMG src="http://filer.blogbus.com/4153314/415331412733174096.jpg"></A></DIV>
+<DIV id=switch_3><A onclick=setClick(); href="http://www.5icool.org/"
+blockid="931" target="_blank"><IMG src="http://filer.blogbus.com/4153314/41533141273317418q.jpg"></A></DIV>
+<DIV id=switch_4><A onclick=setClick(); href="http://www.5icool.org/"
+blockid="931" target="_blank"><IMG src="http://filer.blogbus.com/4153314/415331412733174277.jpg"></A></DIV>
+<DIV id=switch_5><A onclick=setClick(); href="http://www.5icool.org/"
+blockid="931" target="_blank"><IMG src="http://filer.blogbus.com/4153314/41533141273317435l.jpg"></A></DIV>
+<DIV id=switch_6><A onclick=setClick(); href="http://www.5icool.org/"
+blockid="931" target="_blank"><IMG src="http://filer.blogbus.com/4153314/415331412733174441.jpg"></A></DIV>
+    </TD>
+  </TR>
+  </TBODY>
+  </TABLE>
+</DIV>
+<DIV class=topNewsList>
+<UL>
+  <LI><A class=up id=focus_0 onmouseover=show_focus_image(0);
+  onclick=setClick(); href="http://www.5icool.org/" target="_blank"
+  blockid="931">信宣传新专辑 与徐静蕾合作很紧张</A></LI>
+  <LI><A id=focus_1 onmouseover=show_focus_image(1);
+  onclick=setClick(); href="http://www.5icool.org/" target="_blank"
+  blockid="931">蒲巴甲北京录新歌 首张EP杀青在即</A></LI>
+  <LI><A id=focus_2 onmouseover=show_focus_image(2);
+  onclick=setClick(); href="http://www.5icool.org/" target="_blank"
+  blockid="931">尚雯婕为演唱会携天价古董拍海报</A></LI>
+  <LI><A id=focus_3 onmouseover=show_focus_image(3);
+  onclick=setClick(); href="http://www.5icool.org/" target="_blank"
+  blockid="931">曹格穿透明装与辣妹热舞　爸妈齐助阵</A></LI>
+  <LI><A id=focus_4 onmouseover=show_focus_image(4);
+  onclick=setClick(); href="http://www.5icool.org/" target="_blank"
+  blockid="931">周杰伦女友江语晨拍MV 邀小朋友助阵</A></LI>
+  <LI><A id=focus_5 onmouseover=show_focus_image(5);
+  onclick=setClick(); href="http://www.5icool.org/" target="_blank"
+  blockid="931">阿朵唱功遭质疑 撩裙露臀卖肉博眼球</A></LI>
+  <LI><A id=focus_6 onmouseover=show_focus_image(6);
+  onclick=setClick(); href="http://www.5icool.org/" target="_blank"
+  blockid="931">林俊杰MV中惨遭意外车祸痛失女友</A></LI>
+</UL></DIV></DIV>
+<DIV class=topNewsBg></DIV></DIV>
+<SCRIPT>
+function cleanallstyle() {
+  for (i=0;i<7;i++) {
+    document.getElementById("focus_"+i).className = "" ;
+  }
+}
+function show_focus_image(index) {
+  clearTimeout(refreshHotQueryTimer);
+  setHotQueryList(index);
+  refreshHotQueryTimer = setTimeout('refreshHotQuery();', 5000);
+}
+function setClick() {
+  clearTimeout(refreshHotQueryTimer);
+}
+var refreshHotQueryTimer = null ;
+var hot_query_td =  document.getElementById('HotSearchList');
+setHotQueryList(CurrentHotScreen);
+refreshHotQueryTimer = setTimeout('refreshHotQuery();', 5000);
+
+</SCRIPT>
+</DIV>
+
+</div>
