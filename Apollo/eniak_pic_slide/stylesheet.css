@@ -618,14 +618,17 @@ font-family:Verdana,Arial,Helvetica,"ËÎÌו",sans-serif;
   MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 220px; HEIGHT: 200px
 }
 .topNewsList UL LI {
-  FONT-SIZE: 14px; OVERFLOW: hidden; WIDTH: 220px; LINE-HEIGHT: 27px; BORDER-BOTTOM: #dbdbdb 1px solid; HEIGHT: 27px
+  FONT-SIZE: 14px; OVERFLOW: hidden; WIDTH: 220px; LINE-HEIGHT: 24px; BORDER-BOTTOM: #dbdbdb 1px solid; HEIGHT: 24px
 }
 .topNewsList UL LI A {
-  PADDING-RIGHT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; FONT-SIZE: 13px; COLOR: #90A3C1
+  PADDING-RIGHT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; FONT-SIZE: 13px; COLOR: #444
 }
 .topNewsList UL LI A.up {
-  FONT-WEIGHT: bold; COLOR: #FF4F42
+  FONT-WEIGHT: BOLD; COLOR: #FF4F42
 }
 .topNewsBg {
   Z-INDEX: 80; BACKGROUND: #dedede; LEFT: 4px; WIDTH: 550px; POSITION: absolute; TOP: 4px; HEIGHT: 220px
+}
+#topNewsTitle {
+ COLOR: #90A3C1; FONT-SIZE: 14px; MARGIN-TOP: 3px; MARGIN-BOTTOM: 6px
 }
