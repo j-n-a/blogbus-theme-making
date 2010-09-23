@@ -1,17 +1,18 @@
 /*
- * Theme Name: Tuzki5.0
- * Theme Author: Apollo (Minjie Zhang)
- * Author Email: Ze.Apollo[at]Gmail.com
- * Author Blog: http://imapollo.blogbus.com
- * Version: 1.01
- * Description: based on Punkid's sandbox & Tuzki4.0
- * Last Modified: Nov 14, 2009
+ * theme name: tuzki5.0
+ * theme author: apollo (minjie zhang)
+ * author email: ze.apollo[at]gmail.com
+ * author blog: http://imapollo.blogbus.com
+ * version: 1.02
+ * description: based on punkid's sandbox & tuzki4.0
+ * last modified: sep 23, 2010
  *
- * Revision 1.00, Nov 14, 2009, Author: Apollo
- * Revision 1.01, Jan 24, 2010, Author: Apollo
+ * revision 1.00, nov 14, 2009, author: apollo
+ * revision 1.01, jan 24, 2010, author: apollo
+ * revision 1.02, sep 23, 2010, author: apollo
  *
- * Encoding: UTF-8
- * Special thanks to Punkid
+ * encoding: utf-8
+ * special thanks to punkid
  * (http://blog.punkid.cn/)
  */
 
@@ -712,7 +713,7 @@ div.module {
     border: none;
   }
 
-  div.modBody li{
+  div.modBody li {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -727,6 +728,24 @@ div.module {
   }
 
   div.modBody li a:hover {
+    color: #000;
+    border-bottom: 1px solid #000;
+  }
+
+  div#twitterwidget li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    line-height: 23px;
+  }
+
+  div#twitterwidget li a {
+    font-size: 12px;
+    color: #555;
+  }
+
+  div#twitterwidget li a:hover {
     color: #000;
     border-bottom: 1px solid #000;
   }

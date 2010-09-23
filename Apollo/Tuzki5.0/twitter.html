@@ -1,0 +1,20 @@
+<div id="twitterwidget" class="module">Loading...</div>
+<script>
+function showitems (data) {
+  var items = data.query.results.item;
+  var tlist = '<h2>Twitter</h2>';
+  for (var i = 0; i < items.length; i++) {
+    tlist += '<li class="tmsg">';
+    tlist += '<a href="';
+    tlist += items[i]['link'];
+    tlist += '">';
+    tlist += items[i]['title'].replace("imapollo: ", "");
+    tlist += '</a>';
+    tlist += '</li>';
+  }
+  document.getElementById("twitterwidget").innerHTML = tlist;
+}
+var userName = "imapollo";
+var limit = 5;
+document.write('<script src="https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20rss%20where%20url%3D\'https%3A%2F%2Ftwitter.com%2Fstatuses%2Fuser_timeline%2F'+userName+'.rss\'%20limit%20'+limit+'&format=json&callback=showitems"><\/script>');
+</script>
