@@ -10,6 +10,7 @@
  * revision 1.00, nov 14, 2009, author: apollo
  * revision 1.01, jan 24, 2010, author: apollo
  * revision 1.02, sep 23, 2010, author: apollo
+ * revision 1.03, jan 31, 2011, author: apollo
  *
  * encoding: utf-8
  * special thanks to punkid
@@ -216,7 +217,7 @@ blockquote {
 
   #tuzkiHead {
     float: right;
-    margin-right: 40px;
+    margin-right: 80px;
   }
 
 #navibar {
